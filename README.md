@@ -28,10 +28,15 @@ This repo has a working prototype of the agents, built on the
 
 ## Setup
 
-Requires Python 3.10+ and an OpenAI API key.
+Requires Python 3.10+ and an OpenAI API key (the key is only needed for chat).
+
+**Mac users:** the `python3` that comes with macOS is 3.9, which is too old. With it, setup
+fails with a confusing message about `setup.py`. Install Python 3.12 from
+[python.org](https://www.python.org/downloads/) or with `brew install python@3.12`, then use
+`python3.12` as below. Check with `python3.12 --version`.
 
 ```bash
-python3 -m venv .venv
+python3.12 -m venv .venv
 source .venv/bin/activate
 pip install -e ".[dev]"
 cp .env.example .env   # then put your OPENAI_API_KEY in .env
