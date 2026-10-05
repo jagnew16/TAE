@@ -11,10 +11,11 @@ from datetime import datetime
 from .. import store
 
 
-def send(rep_id: str, kind: str, text: str, link: str | None = None) -> dict:
+def send(rep_id: str, kind: str, text: str, link: str | None = None, data: dict | None = None) -> dict:
     outbox = store.load("outbox")
     msg = {"id": store.next_id("MSG", outbox), "rep": rep_id, "kind": kind, "text": text,
-           "link": link, "sent_at": datetime.now().isoformat(timespec="seconds"), "delivered": False}
+           "link": link, "data": data or {}, "sent_at": datetime.now().isoformat(timespec="seconds"),
+           "delivered": False}
     outbox.append(msg)
     store.save("outbox", outbox)
     return msg

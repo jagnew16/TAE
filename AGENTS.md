@@ -22,9 +22,10 @@ No real BDSA, ZoomInfo, CRM, or Teams connection exists yet.
 | Done | Not done yet |
 |---|---|
 | All 7 requirements implemented against mock data | Never run against a real OpenAI model (needs an API key) |
-| 37 automated tests pass, no API key needed | No Microsoft Teams connection; a CLI chat stands in |
+| 45 automated tests pass, no API key needed | No Microsoft Teams connection; a CLI chat stands in |
 | Agent chain tested end to end with a scripted stand-in model | No real BDSA, ZoomInfo, or CRM APIs |
 | Design doc with requirement coverage and open questions | Business rules (territories, manager access) are assumptions to confirm |
+| Web dashboard (`index.html`) loads live data; its chat runs the real agents | Dashboard identity is a demo dropdown, not real sign-in |
 
 ## How the agents fit together
 
@@ -47,6 +48,24 @@ the next step).
 
 A specialist only sees the request AAA writes for it, not the chat history, so AAA passes along
 names, states, record IDs, and dates.
+
+## Web dashboard
+
+`index.html` is the rep's dashboard (Christina's design). `aaa/web.py` serves it plus a JSON API:
+
+| Endpoint | Feeds |
+|---|---|
+| `GET /api/dashboard?rep=` | Home: attention items, metrics, AAA's recommendation, top tasks and launches |
+| `GET /api/pipeline?rep=` | Pipeline page |
+| `GET /api/market?rep=&state=&period=` | Market Intel page: top brands with CRM flags, category trends |
+| `GET /api/tasks?rep=`, `POST /api/tasks/{id}/complete` | Follow-ups page; completing logs the outcome to the CRM |
+| `GET /api/launches?rep=` | Launch Monitor page |
+| `POST /api/chat` | Ask AAA: runs the real orchestrator (needs `OPENAI_API_KEY`) |
+
+The API calls the same `aaa/services/` functions the agents' tools use, so the same privacy rules
+apply. `rep=` stands in for sign-in. In Teams, identity would come from the signed-in user's
+token, and the browser couldn't choose it. The CLI and web chat share each rep's conversation
+history.
 
 Two scheduled jobs live in `aaa/jobs.py`:
 - **Reminders:** one message per rep listing follow-ups due today or overdue.
@@ -83,6 +102,7 @@ cp .env.example .env          # put OPENAI_API_KEY in .env
 
 | Command | What it does |
 |---|---|
+| `python -m aaa serve` | Web dashboard at http://127.0.0.1:8000/?rep=alice |
 | `python -m aaa reps` | List demo reps |
 | `python -m aaa chat --rep alice` | Private chat as Alice |
 | `python -m aaa chat --rep alice "your message"` | Send one message and exit |
@@ -142,6 +162,7 @@ BDSA covers CA, MI, IL, MA, CO, NV: 50 brands each, Oct 2025 to Sep 2026.
 | Connect a real API | Replace the internals of `aaa/services/bdsa.py`, `zoominfo.py`, or `crm.py`. Keep the function signatures so the agents don't change |
 | Change the mock data | Edit and rerun `scripts/generate_mock_data.py`; don't hand-edit `aaa/seed/*.json` |
 | Pick a model | Set `AAA_MODEL` in `.env` (blank uses the SDK default) |
+| Change the dashboard | `index.html` for layout, `aaa/web.py` for the data each page gets. Escape any data inserted into the page with `esc()` |
 
 Run `pytest` after any change.
 

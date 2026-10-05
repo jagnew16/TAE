@@ -13,14 +13,16 @@ This repo has a working prototype of the agents, built on the
 - [`docs/business-requirements.md`](docs/business-requirements.md): what we're building.
 - [`docs/agent-design.md`](docs/agent-design.md): how the agents are split up, what each one does,
   which rules are enforced in code, and the path to production.
+- `index.html`: the rep dashboard (Christina's design), served by `python -m aaa serve` with live data.
 - `aaa/`: the prototype.
   - `orchestrator.py`: AAA, the agent each rep chats with.
   - `specialists/`: Market Intel, Contacts, CRM & Leads, Follow-ups, Launch Monitor.
   - `services/`: the business rules and data access the tools call (testable without a model).
   - `jobs.py`: scheduled reminder and launch-monitoring jobs.
+  - `web.py`: the web server and JSON API behind `index.html`.
   - `seed/`: mock BDSA, ZoomInfo, and CRM data (all fictional).
 - `scripts/generate_mock_data.py`: regenerates the mock data.
-- `tests/`: 37 tests, none of which need an API key.
+- `tests/`: 45 tests, none of which need an API key.
 - [`access-test/`](access-test/README.md): a check that each collaborator (and their AI tools) can
   read and write to this repo.
 
@@ -36,6 +38,20 @@ cp .env.example .env   # then put your OPENAI_API_KEY in .env
 ```
 
 ## Try it
+
+### Web dashboard
+
+```bash
+python -m aaa serve
+```
+
+Then open http://127.0.0.1:8000/?rep=alice. Every page shows live data from the same services the
+agents use. Switch reps from the dropdown under the name (bottom left) to see the privacy rules: Ben
+sees only his own work, and Dana (manager) sees everyone's. **Ask AAA**, and buttons like Review,
+Prospect, and Prepare outreach, run the real agents and need `OPENAI_API_KEY` in `.env`. The
+other pages work without it.
+
+### Command line
 
 Chat as one of the demo reps (`python -m aaa reps` lists them):
 

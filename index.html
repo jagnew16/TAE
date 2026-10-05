@@ -13,82 +13,239 @@ main{margin-left:235px;padding:28px 38px 60px;max-width:1500px;flex:1}.top{displ
 .sectionTitle{font-size:22px;margin:0 0 18px}.toolbar{display:flex;gap:7px;margin-bottom:14px}.toolbar button{background:#fff;border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:10px;font-weight:700}.table{width:100%;border-collapse:collapse;font-size:11px}.table th{padding:9px;text-align:left;color:var(--muted);font-size:9px;text-transform:uppercase;border-bottom:1px solid var(--line)}.table td{padding:12px 9px;border-bottom:1px solid var(--line)}.status{padding:4px 7px;border-radius:999px;font-size:9px;font-weight:800}.customer{background:#eaf8f2;color:var(--green)}.working{background:var(--cyanSoft);color:#087e81}.blocked{background:#f1f2f2;color:#6b777b}
 .toast{position:fixed;right:25px;bottom:25px;background:var(--ink);color:#fff;padding:11px 14px;border-radius:9px;font-size:11px;display:none}.toast.show{display:block}
 @media(max-width:900px){.side{width:190px}main{margin-left:190px;padding:22px}.grid{grid-template-columns:1fr}.search{width:220px}}@media(max-width:650px){.side{position:static;width:100%;border:0;border-bottom:1px solid var(--line)}.profile{position:static;margin-top:18px}.app{display:block}main{margin:0}.top{display:block}.search{width:100%;margin-top:12px}.nav{grid-template-columns:repeat(3,1fr)}}
+/* Added to connect the page to the AAA API */
+.profile select{display:block;margin-top:5px;border:1px solid var(--line);border-radius:6px;font-size:10px;padding:3px 4px;background:#fff;color:var(--muted);max-width:150px}
+.dot.cyan{background:var(--cyan)}.due.late{background:#fdeeee;color:var(--red)}.status.new{background:#fff7e6;color:var(--amber)}
+.empty{font-size:11px;color:var(--muted);padding:10px 0}.check{cursor:pointer}.check:hover{border-color:var(--cyanDark)}
+.toolbar{flex-wrap:wrap}.toolbar button.on{background:var(--cyanSoft);border-color:#cceff0;color:#087e81}.toolbar .sep{width:1px;background:var(--line);margin:0 4px}
+.num{text-align:right;font-variant-numeric:tabular-nums}.up{color:var(--green)}.down{color:var(--red)}
+tr.attn td:first-child{box-shadow:inset 3px 0 0 var(--red)}.tablewrap{overflow-x:auto}
+#chat{max-height:62vh;overflow:auto}.bubble table{border-collapse:collapse;margin:6px 0;font-size:10.5px}.bubble th,.bubble td{border:1px solid var(--line);padding:4px 6px;text-align:left}.bubble p{margin:0 0 6px}.bubble p:last-child{margin:0}.bubble ul,.bubble ol{margin:4px 0;padding-left:18px}.bubble h1,.bubble h2,.bubble h3,.bubble h4{font-size:12px;margin:8px 0 4px}.bubble a{color:var(--cyanDark)}
+.used{font-size:9px;color:var(--muted);margin-top:6px}.notice{font-size:10px;color:var(--amber);margin-top:8px;line-height:1.5}
 </style>
+<script defer src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js"></script>
 </head>
 <body>
 <div class="app">
 <aside class="side">
   <div class="logo">iK<span>rusher</span></div><div class="tag">AAA SALES INTELLIGENCE</div>
   <nav class="nav">
-    <button class="active" onclick="page('home')">⌂ &nbsp; Home</button>
-    <button onclick="page('pipeline')">▣ &nbsp; Pipeline</button>
-    <button onclick="page('market')">◈ &nbsp; Market Intel</button>
-    <button onclick="page('tasks')">✓ &nbsp; Follow-ups</button>
-    <button onclick="page('launches')">◉ &nbsp; Launch Monitor</button>
-    <button onclick="page('ask')">✦ &nbsp; Ask AAA</button>
+    <button class="active" data-page="home">⌂ &nbsp; Home</button>
+    <button data-page="pipeline">▣ &nbsp; Pipeline</button>
+    <button data-page="market">◈ &nbsp; Market Intel</button>
+    <button data-page="tasks">✓ &nbsp; Follow-ups</button>
+    <button data-page="launches">◉ &nbsp; Launch Monitor</button>
+    <button data-page="ask">✦ &nbsp; Ask AAA</button>
   </nav>
-  <div class="profile"><div class="avatar">AM</div><div><b>Alice Moreno</b><small>CA · NV</small></div></div>
+  <div class="profile"><div class="avatar" id="avatar"></div><div><b id="repName">Loading…</b><small id="repTerritory"></small><select id="repSelect" aria-label="Signed in as (demo)"></select></div></div>
 </aside>
 <main>
-<div class="top"><div><div class="eyebrow">Sales intelligence</div><h1 id="title">Good morning, Alice</h1><div class="date">Thursday, October 5, 2026 · 3 things need your attention</div></div><input class="search" placeholder="Search accounts, contacts, products…"></div>
+<div class="top"><div><div class="eyebrow">Sales intelligence</div><h1 id="title">AAA</h1><div class="date" id="dateLine"></div></div><input class="search" id="search" placeholder="Ask AAA about accounts, contacts, products…"></div>
 
 <section id="home" class="page active">
 <div class="grid">
 <div class="stack">
-<div class="card"><div class="head"><div><h2>What needs your attention</h2><div class="sub">AAA has already sorted these by urgency.</div></div><button class="link" onclick="page('tasks')">View all →</button></div>
-<div class="attention">
-<div class="row"><span class="dot red"></span><div><strong>Copper Gardens · declining orders</strong><p>Flower packaging purchases are trending down. AAA found a cross-sell opportunity.</p></div><button class="btn primary" onclick="page('pipeline')">Review</button></div>
-<div class="row"><span class="dot amber"></span><div><strong>Follow up on samples</strong><p>Copper Gardens · due tomorrow</p></div><button class="btn" onclick="done(this)">Mark done</button></div>
-<div class="row"><span class="dot"></span><div><strong>Sierra Pine launched a new product</strong><p>Gelato Live Rosin · detected Oct 2 · monitored account</p></div><button class="btn" onclick="page('launches')">See alert</button></div>
-</div></div>
-<div class="card"><div class="head"><div><h2>Today at a glance</h2><div class="sub">Your workload, without the CRM noise.</div></div></div><div class="metrics"><div class="metric"><b>1</b><span>Overdue follow-up</span></div><div class="metric"><b>2</b><span>Due this week</span></div><div class="metric"><b>3</b><span>Launch alerts</span></div></div></div>
-<div class="card"><div class="head"><div><h2>AAA's recommendation</h2><div class="sub">Based on CRM activity + purchasing patterns.</div></div><span class="pill">AI insight</span></div><div class="insight"><h3>Start with Copper Gardens</h3><p>The account is active, but flower-packaging purchases are declining. AAA also sees a whitespace opportunity: the brand sells edibles but currently buys no edible packaging from you.</p><div class="actions"><button class="btn primary" onclick="page('ask')">Prepare outreach</button><button class="btn" onclick="page('pipeline')">View account</button></div></div></div>
+<div class="card"><div class="head"><div><h2>What needs your attention</h2><div class="sub">AAA has already sorted these by urgency.</div></div><button class="link" data-goto="tasks">View all →</button></div>
+<div class="attention" id="attention"></div></div>
+<div class="card"><div class="head"><div><h2>Today at a glance</h2><div class="sub">Your workload, without the CRM noise.</div></div></div><div class="metrics" id="metrics"></div></div>
+<div class="card" id="recCard"><div class="head"><div><h2>AAA's recommendation</h2><div class="sub">Based on CRM activity + purchasing patterns.</div></div><span class="pill">AI insight</span></div><div class="insight" id="rec"></div></div>
 </div>
 <div class="stack">
-<div class="card"><div class="head"><div><h2>Follow-ups</h2><div class="sub">Only what needs action.</div></div><button class="link" onclick="page('tasks')">Open →</button></div>
-<div class="task"><span class="check"></span><div><strong>Follow up on samples</strong><small>Copper Gardens</small></div><span class="due">Tomorrow</span></div>
-<div class="task"><span class="check"></span><div><strong>Book intro meeting</strong><small>North Fork Provisions</small></div><span class="due">Oct 19</span></div></div>
-<div class="card"><div class="head"><div><h2>Launch monitor</h2><div class="sub">Recent activity from watched accounts.</div></div><button class="link" onclick="page('launches')">All alerts →</button></div>
-<div class="launch"><div class="launchIcon">✦</div><div><strong>Copper Gelato Reserve Eighth</strong><p>Copper Gardens · new flower product</p><a href="#" onclick="return false">View source →</a></div></div>
-<div class="launch"><div class="launchIcon">✦</div><div><strong>North Fork Blue Dream Diamonds</strong><p>North Fork Provisions · new concentrate</p><a href="#" onclick="return false">View source →</a></div></div>
-<div class="launch"><div class="launchIcon">✦</div><div><strong>Sierra Pine Gelato Live Rosin</strong><p>Sierra Pine Supply · new concentrate</p><a href="#" onclick="return false">View source →</a></div></div></div>
-<div class="card"><div class="head"><div><h2>Ask AAA</h2><div class="sub">Research, draft, or take a sales action.</div></div></div><div class="chatbox"><div class="bubble"><b>AAA</b><br>What can I help you move forward today?</div></div><div class="inputrow"><input id="quick" placeholder="e.g. Which CA brands should I prioritize?"><button onclick="ask('quick')">Ask</button></div></div>
+<div class="card"><div class="head"><div><h2>Follow-ups</h2><div class="sub">Only what needs action.</div></div><button class="link" data-goto="tasks">Open →</button></div><div id="homeTasks"></div></div>
+<div class="card"><div class="head"><div><h2>Launch monitor</h2><div class="sub">Recent activity from watched accounts.</div></div><button class="link" data-goto="launches">All alerts →</button></div><div id="homeLaunches"></div></div>
+<div class="card"><div class="head"><div><h2>Ask AAA</h2><div class="sub">Research, draft, or take a sales action.</div></div></div><div class="chatbox"><div class="bubble"><b>AAA</b><br>What can I help you move forward today?</div></div><div class="inputrow"><input id="quick" placeholder="e.g. Which CA brands should I prioritize?"><button data-ask="quick">Ask</button></div></div>
 </div></div></section>
 
-<section id="pipeline" class="page"><h2 class="sectionTitle">My pipeline</h2><div class="card"><div class="toolbar"><button>All accounts</button><button>Customers</button><button>Prospects</button><button>Needs attention</button></div><table class="table"><thead><tr><th>Account</th><th>Type</th><th>Status</th><th>Next step</th></tr></thead><tbody>
-<tr><td><b>Copper Gardens</b><br><span class="sub">ACC-1002 · CA</span></td><td>Customer</td><td><span class="status customer">Active customer</span></td><td><button class="btn" onclick="page('ask')">Review insight</button></td></tr>
-<tr><td><b>North Fork Provisions</b><br><span class="sub">ACC-1003 · CA</span></td><td>Customer</td><td><span class="status customer">Active customer</span></td><td><button class="btn" onclick="page('tasks')">Book meeting</button></td></tr>
-<tr><td><b>Maplewood Farms</b><br><span class="sub">ACC-1004 · CA</span></td><td>Prospect</td><td><span class="status working">Working</span></td><td><button class="btn" onclick="page('market')">Research</button></td></tr>
-<tr><td><b>Bramble Botanicals</b><br><span class="sub">LEAD-2001 · CA</span></td><td>Lead</td><td><span class="status working">Contacted</span></td><td><button class="btn" onclick="page('tasks')">Follow up</button></td></tr>
-</tbody></table></div></section>
+<section id="pipeline" class="page"><h2 class="sectionTitle">My pipeline</h2><div class="card"><div class="toolbar" id="pipeFilters"><button data-filter="all" class="on">All accounts</button><button data-filter="customers">Customers</button><button data-filter="prospects">Prospects</button><button data-filter="attention">Needs attention</button></div><div class="tablewrap"><table class="table" id="pipeTable"></table></div></div></section>
 
-<section id="market" class="page"><h2 class="sectionTitle">Market intelligence</h2><div class="card"><div class="head"><div><h2>California prospecting</h2><div class="sub">BDSA research + CRM ownership checks before outreach.</div></div><span class="pill">BDSA + CRM</span></div><div class="insight"><h3>Find the best prospects without the manual research</h3><p>AAA combines market revenue, product/category trends, and CRM status so you don't waste time researching accounts you cannot pursue.</p><div class="actions"><button class="btn primary" onclick="askWith('Which CA brands should I prioritize for prospecting this quarter?')">Find prospects</button></div></div><br><table class="table"><thead><tr><th>Account</th><th>CRM check</th><th>Action</th></tr></thead><tbody>
-<tr><td><b>Maplewood Farms</b></td><td><span class="status working">Working · Alice</span></td><td>Continue outreach</td></tr>
-<tr><td><b>Sierra Pine Supply</b></td><td><span class="status customer">Customer · Alice</span></td><td>Not a new prospect</td></tr>
-<tr><td><b>Ember Labs LLC</b></td><td><span class="status blocked">Lead · Ben</span></td><td>Coordinate with owner</td></tr>
-</tbody></table></div></section>
+<section id="market" class="page"><h2 class="sectionTitle">Market intelligence</h2><div class="card"><div class="head"><div><h2 id="marketTitle">Prospecting</h2><div class="sub" id="marketSub">BDSA research + CRM ownership checks before outreach.</div></div><span class="pill">BDSA + CRM</span></div><div class="insight"><h3>Find the best prospects without the manual research</h3><p>AAA combines market revenue, product/category trends, and CRM status so you don't waste time researching accounts you cannot pursue.</p><div class="actions"><button class="btn primary" id="findProspects">Find prospects</button></div></div><br><div class="toolbar" id="marketControls"></div><div class="tablewrap"><table class="table" id="marketTable"></table></div></div>
+<div class="card" style="margin-top:20px"><div class="head"><div><h2>Category trends</h2><div class="sub" id="trendSub"></div></div></div><div class="tablewrap"><table class="table" id="trendTable"></table></div></div></section>
 
-<section id="tasks" class="page"><h2 class="sectionTitle">Follow-ups</h2><div class="card"><div class="head"><div><h2>Your open tasks</h2><div class="sub">AAA keeps overdue work at the top.</div></div><button class="btn primary" onclick="toast('New follow-up flow ready')">+ New follow-up</button></div>
-<div class="task"><span class="check"></span><div><strong>Follow up on samples</strong><small>Copper Gardens · TASK-5001</small></div><span class="due">Due Oct 6</span></div>
-<div class="task"><span class="check"></span><div><strong>Book intro meeting</strong><small>North Fork Provisions · TASK-5002</small></div><span class="due">Due Oct 19</span></div>
-<div class="task"><span class="check"></span><div><strong>Send updated pricing</strong><small>Ember Labs · owned by Ben</small></div><span class="due">Not yours</span></div></div></section>
+<section id="tasks" class="page"><h2 class="sectionTitle">Follow-ups</h2><div class="card"><div class="head"><div><h2>Your open tasks</h2><div class="sub">AAA keeps overdue work at the top. Tick a box to complete a task; the outcome is logged to the CRM.</div></div><button class="btn primary" id="newFollowup">+ New follow-up</button></div><div id="taskList"></div></div></section>
 
-<section id="launches" class="page"><h2 class="sectionTitle">Launch monitor</h2><div class="card"><div class="head"><div><h2>Recent launch alerts</h2><div class="sub">AAA classifies monitored posts and surfaces likely product launches.</div></div><span class="pill">Monitoring</span></div>
-<div class="launch"><div class="launchIcon">✦</div><div><strong>Copper Gelato Reserve Eighth</strong><p>Copper Gardens · Instagram · Oct 3</p><a href="#" onclick="return false">Open source →</a></div></div>
-<div class="launch"><div class="launchIcon">✦</div><div><strong>North Fork Blue Dream Diamonds</strong><p>North Fork Provisions · Instagram · Oct 3</p><a href="#" onclick="return false">Open source →</a></div></div>
-<div class="launch"><div class="launchIcon">✦</div><div><strong>Sierra Pine Gelato Live Rosin</strong><p>Sierra Pine Supply · Website + Instagram · Oct 2</p><a href="#" onclick="return false">Open source →</a></div></div>
-</div></section>
+<section id="launches" class="page"><h2 class="sectionTitle">Launch monitor</h2><div class="card"><div class="head"><div><h2>Recent launch alerts</h2><div class="sub">AAA classifies monitored posts and surfaces likely product launches.</div></div><span class="pill">Monitoring</span></div><div id="launchList"></div></div></section>
 
-<section id="ask" class="page"><h2 class="sectionTitle">Ask AAA</h2><div class="card"><div class="head"><div><h2>Your sales copilot</h2><div class="sub">AAA routes the request to the right specialist automatically.</div></div><span class="pill">AAA</span></div><div class="chatbox" id="chat"><div class="bubble"><b>AAA</b><br>Ask me to research a market, check an account, find a contact, manage a follow-up, monitor a launch, or draft a message.</div></div><div class="inputrow"><input id="big" placeholder="What do you want to accomplish?"><button onclick="ask('big')">Ask AAA</button></div></div></section>
+<section id="ask" class="page"><h2 class="sectionTitle">Ask AAA</h2><div class="card"><div class="head"><div><h2>Your sales copilot</h2><div class="sub">AAA routes the request to the right specialist automatically.</div></div><span class="pill">AAA</span></div><div class="chatbox" id="chat"></div><div class="inputrow"><input id="big" placeholder="What do you want to accomplish?"><button data-ask="big">Ask AAA</button></div><div class="notice" id="chatNotice" hidden></div></div></section>
 </main></div><div class="toast" id="toast"></div>
 <script>
-const names={home:'Good morning, Alice',pipeline:'My pipeline',market:'Market intelligence',tasks:'Follow-ups',launches:'Launch monitor',ask:'Ask AAA'};
-function page(id){document.querySelectorAll('.page').forEach(x=>x.classList.remove('active'));document.getElementById(id).classList.add('active');document.getElementById('title').textContent=names[id];document.querySelectorAll('.nav button').forEach((b,i)=>b.classList.toggle('active',Object.keys(names)[i]===id));scrollTo({top:0,behavior:'smooth'})}
-function done(b){b.textContent='Done';b.disabled=true;b.parentElement.style.opacity=.5;toast('Follow-up marked complete')}
-function toast(x){let t=document.getElementById('toast');t.textContent=x;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),2000)}
-function askWith(x){page('ask');document.getElementById('big').value=x;ask('big')}
-function ask(id){let i=document.getElementById(id),q=i.value.trim();if(!q)return;page('ask');let w=document.getElementById('chat');w.insertAdjacentHTML('beforeend','<div style="display:flex;justify-content:flex-end;margin-top:9px"><div class="bubble" style="background:#e8fbfb;border-radius:10px 10px 3px 10px">'+esc(q)+'</div></div>');let a='I can help with that. In the live app, AAA will route this request to the right specialist and return the next action.';if(/overdue|follow.?up|task/i.test(q))a='<b>AAA</b><br>You have 1 overdue follow-up and 2 upcoming tasks. Start with overdue work, then handle Copper Gardens because its account insight also needs attention.';else if(/prospect|brand|market|california|\\bCA\\b/i.test(q))a='<b>AAA</b><br>I will combine BDSA rankings with CRM ownership. Maplewood Farms is an active CA prospect; Sierra Pine is already a customer; Ember Labs is Ben’s lead.';else if(/copper/i.test(q))a='<b>AAA</b><br>Copper Gardens is active, but flower-packaging purchases are declining. There is also a whitespace opportunity in edible packaging. Best next step: prepare targeted outreach.';else if(/launch/i.test(q))a='<b>AAA</b><br>Three monitored accounts have recent launch alerts: Copper Gardens, North Fork Provisions, and Sierra Pine Supply.';w.insertAdjacentHTML('beforeend','<div style="margin-top:9px"><div class="bubble">'+a+'</div></div>');i.value='';w.scrollTop=w.scrollHeight}
-function esc(s){return s.replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]))}
+// Data comes from the AAA API (aaa/web.py). Run `python -m aaa serve`, then open http://127.0.0.1:8000/?rep=alice
+const TITLES={pipeline:'My pipeline',market:'Market intelligence',tasks:'Follow-ups',launches:'Launch monitor',ask:'Ask AAA'};
+const INTRO='<b>AAA</b><br>Ask me to research a market, check an account, find a contact, manage a follow-up, monitor a launch, or draft a message.';
+let REP=new URLSearchParams(location.search).get('rep')||'alice',ME=null,TODAY=null,ATTENTION=0,CURRENT='home';
+let market={state:null,period:'quarter'},pipeFilter='all',pipeRows=[];
+const $=id=>document.getElementById(id);
+function esc(s){return String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]))}
+const money=n=>n>=1e6?'$'+(n/1e6).toFixed(1)+'M':n>=1e3?'$'+Math.round(n/1e3)+'K':'$'+n;
+const pct=n=>n==null?'—':(n>0?'+':'')+n+'%';
+const fmtDay=iso=>new Date(iso.slice(0,10)+'T12:00').toLocaleDateString('en-US',{month:'short',day:'numeric'});
+const first=name=>String(name||'').split(' ')[0];
+
+async function api(path,body){
+  const url=body?path:path+(path.includes('?')?'&':'?')+'rep='+encodeURIComponent(REP);
+  const r=await fetch(url,body?{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({rep:REP,...body})}:{});
+  const data=await r.json().catch(()=>({}));
+  if(!r.ok)throw new Error(data.detail||r.statusText);
+  return data;
+}
+
+function greeting(){const h=new Date().getHours();return(h<12?'Good morning':h<18?'Good afternoon':'Good evening')+(ME?', '+first(ME.name):'')}
+function page(id){
+  CURRENT=id;
+  document.querySelectorAll('.page').forEach(x=>x.classList.toggle('active',x.id===id));
+  document.querySelectorAll('.nav button').forEach(b=>b.classList.toggle('active',b.dataset.page===id));
+  $('title').textContent=id==='home'?greeting():TITLES[id];
+  scrollTo({top:0,behavior:'smooth'});
+}
+function toast(x){const t=$('toast');t.textContent=x;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),2200)}
+
+// ---- Rendering ----------------------------------------------------------------
+function taskHTML(t){
+  return `<div class="task"><span class="check" data-complete="${esc(t.id)}" title="Mark done"></span><div><strong>${esc(t.title)}</strong><small>${esc(t.record_name||'No CRM record')} · ${esc(t.id)}</small></div><span class="due ${t.overdue?'late':''}">${esc(t.due_label)}</span></div>`;
+}
+function launchHTML(a,full){
+  const d=a.data||{},srcs=(d.sources||[]).map(s=>s.source==='instagram'?'Instagram':'Website').join(' + ');
+  return `<div class="launch"><div class="launchIcon">✦</div><div><strong>${esc(d.product||d.company)}</strong><p>${esc(d.company)} · ${esc(srcs)} · ${esc(fmtDay(d.observed_at||a.sent_at))}</p>${full?`<p>${esc(d.summary)}</p>`:''}<a href="${esc(a.link)}" target="_blank" rel="noopener">${full?'Open source':'View source'} →</a></div></div>`;
+}
+const empty=t=>`<div class="empty">${esc(t)}</div>`;
+
+function renderDashboard(d){
+  ME=d.rep;TODAY=d.today;ATTENTION=d.attention.length;
+  $('repName').textContent=ME.name;
+  $('repTerritory').textContent=ME.role==='manager'?'Manager · all territories':ME.territory.join(' · ');
+  $('avatar').textContent=ME.name.split(' ').map(w=>w[0]).join('');
+  const day=new Date(TODAY+'T12:00').toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric',year:'numeric'});
+  $('dateLine').textContent=`${day} · ${ATTENTION?ATTENTION+(ATTENTION===1?' thing needs':' things need')+' your attention':'nothing urgent'}`;
+  if(CURRENT==='home')$('title').textContent=greeting();
+
+  $('attention').innerHTML=d.attention.map(a=>{
+    const btn=a.action==='review'?`<button class="btn primary" data-prompt="${esc(`How is ${a.account} (${a.record_id}) doing? Any opportunities?`)}">Review</button>`
+      :a.action==='complete'?`<button class="btn" data-complete="${esc(a.task_id)}">Mark done</button>`
+      :`<button class="btn" data-goto="launches">See alert</button>`;
+    return `<div class="row"><span class="dot ${a.level==='cyan'?'':a.level}"></span><div><strong>${esc(a.title)}</strong><p>${esc(a.detail)}</p></div>${btn}</div>`;
+  }).join('')||empty('Nothing urgent. Nice work.');
+
+  const m=d.metrics;
+  $('metrics').innerHTML=[[m.overdue,'Overdue follow-up'+(m.overdue===1?'':'s')],[m.due_this_week,'Due this week'],[m.launch_alerts,'Launch alert'+(m.launch_alerts===1?'':'s')]]
+    .map(([n,l])=>`<div class="metric"><b>${n}</b><span>${l}</span></div>`).join('');
+
+  const r=d.recommendation;
+  $('recCard').hidden=!r;
+  if(r)$('rec').innerHTML=`<h3>${esc(r.headline)}</h3><p>${esc(r.body)}</p><div class="actions"><button class="btn primary" data-prompt="${esc(r.prompt)}">Prepare outreach</button><button class="btn" data-goto="pipeline">View account</button></div>`;
+
+  $('homeTasks').innerHTML=d.tasks.slice(0,3).map(taskHTML).join('')||empty('No open follow-ups.');
+  $('homeLaunches').innerHTML=d.launches.map(a=>launchHTML(a,false)).join('')||empty('No launch alerts yet.');
+}
+
+function renderPipeline(){
+  const manager=ME&&ME.role==='manager';
+  const rows=pipeRows.filter(r=>pipeFilter==='all'||(pipeFilter==='customers'&&r.is_customer)||(pipeFilter==='prospects'&&!r.is_customer)||(pipeFilter==='attention'&&r.needs_attention));
+  $('pipeTable').innerHTML=`<thead><tr><th>Account</th><th>Type</th><th>Status</th>${manager?'<th>Owner</th>':''}<th>Next step</th></tr></thead><tbody>`+
+    (rows.map(r=>`<tr class="${r.needs_attention?'attn':''}"><td><b>${esc(r.name)}</b><br><span class="sub">${esc(r.id)} · ${esc(r.state)}</span></td><td>${esc(r.kind)}</td><td><span class="status ${r.is_customer?'customer':'working'}">${esc(r.status)}</span></td>${manager?`<td>${esc(r.owner)}</td>`:''}<td>${r.next_task?`${esc(r.next_task.title)}<br><span class="sub">${esc(r.next_task.due_label)}</span>`:`<button class="btn" data-prompt="${esc(`What should my next step be with ${r.name} (${r.id})?`)}">Ask AAA</button>`}</td></tr>`).join('')
+    ||`<tr><td colspan="5">${empty('Nothing here.')}</td></tr>`)+'</tbody>';
+  document.querySelectorAll('#pipeFilters button').forEach(b=>b.classList.toggle('on',b.dataset.filter===pipeFilter));
+}
+
+function crmShort(b){
+  if(b.crm==='Not in CRM')return 'Not in CRM';
+  const owner=(b.crm.match(/owner (\S+)/)||[])[1]||'';
+  return `${b.crm.split(' ')[0]} · ${owner}`;
+}
+function renderMarket(m){
+  market.state=m.state;
+  const mine=ME&&ME.territory.length?ME.territory:[];
+  const states=[...mine,...m.states.filter(s=>!mine.includes(s))];
+  $('marketTitle').textContent=`${m.state} prospecting`;
+  $('marketSub').textContent=`Top ${m.brands.length} brands by revenue · ${m.covering} · ${m.source}, with CRM ownership checks.`;
+  $('marketControls').innerHTML=states.map(s=>`<button data-state="${s}" class="${s===m.state?'on':''}">${s}</button>`).join('')+'<span class="sep"></span>'+
+    ['month','quarter','year'].map(p=>`<button data-period="${p}" class="${p===m.period?'on':''}">${p[0].toUpperCase()+p.slice(1)}</button>`).join('');
+  const action=b=>b.action==='prospect'?`<button class="btn primary" data-prompt="${esc(`Check the CRM for ${b.brand} (${m.state}), then get me the purchasing contacts.`)}">Prospect →</button>`
+    :b.action==='continue'?'Continue outreach':b.action==='customer'?'Not a new prospect':'Coordinate with owner';
+  $('marketTable').innerHTML='<thead><tr><th>#</th><th>Brand</th><th class="num">Revenue</th><th class="num">Growth</th><th>Top category</th><th>CRM check</th><th>Action</th></tr></thead><tbody>'+
+    m.brands.map(b=>`<tr><td>${b.rank}</td><td><b>${esc(b.brand)}</b></td><td class="num">${money(b.revenue)}</td><td class="num ${b.growth_vs_prior_period_pct>0?'up':'down'}">${pct(b.growth_vs_prior_period_pct)}</td><td>${esc(b.top_category)}</td><td><span class="status ${b.tone}">${esc(crmShort(b))}</span></td><td>${action(b)}</td></tr>`).join('')+'</tbody>';
+  $('trendSub').textContent=`${m.state} · ${m.trends.length?'quarter ending '+m.covering.split(' to ').pop():''} · share of tracked brands' revenue`;
+  $('trendTable').innerHTML='<thead><tr><th>Category</th><th class="num">Share</th><th class="num">Last quarter</th><th class="num">vs prior quarter</th></tr></thead><tbody>'+
+    m.trends.map(t=>`<tr><td>${esc(t.category)}</td><td class="num">${t.share_pct}%</td><td class="num">${money(t.last_quarter_revenue)}</td><td class="num ${t.qoq_growth_pct>0?'up':'down'}">${pct(t.qoq_growth_pct)}</td></tr>`).join('')+'</tbody>';
+}
+
+// ---- Data loading ---------------------------------------------------------------
+async function loadMarket(){
+  const q=new URLSearchParams({period:market.period});if(market.state)q.set('state',market.state);
+  renderMarket(await api('/api/market?'+q));
+}
+async function refresh(){
+  try{
+    renderDashboard(await api('/api/dashboard'));
+    const [p,t,l]=await Promise.all([api('/api/pipeline'),api('/api/tasks'),api('/api/launches')]);
+    pipeRows=p.records;renderPipeline();
+    $('taskList').innerHTML=t.tasks.map(taskHTML).join('')||empty('No open follow-ups.');
+    $('launchList').innerHTML=l.alerts.map(a=>launchHTML(a,true)).join('')||empty('No launch alerts yet. Alerts appear when the monitor job finds a launch on a watched account.');
+    await loadMarket();
+  }catch(e){toast('Could not load data: '+e.message)}
+}
+
+// ---- Actions ----------------------------------------------------------------
+async function complete(id){
+  const outcome=prompt('What happened? This is logged to the CRM.','Done');
+  if(outcome===null)return;
+  try{await api('/api/tasks/'+encodeURIComponent(id)+'/complete',{outcome});toast('Follow-up completed and logged to the CRM');refresh()}
+  catch(e){toast(e.message)}
+}
+function md(text){
+  if(window.marked&&window.DOMPurify)return DOMPurify.sanitize(marked.parse(String(text)));
+  return '<p>'+esc(text).replace(/\n/g,'<br>')+'</p>';
+}
+function addBubble(html,me){
+  const w=$('chat'),row=document.createElement('div');
+  row.style.cssText=me?'display:flex;justify-content:flex-end;margin-top:9px':'margin-top:9px';
+  row.innerHTML=`<div class="bubble"${me?' style="background:#e8fbfb;border-radius:10px 10px 3px 10px"':''}>${html}</div>`;
+  w.appendChild(row);w.scrollTop=w.scrollHeight;return row.firstChild;
+}
+function askWith(q){$('big').value=q;ask('big')}
+async function ask(id){
+  const i=$(id),q=i.value.trim();if(!q)return;
+  i.value='';page('ask');addBubble(esc(q),true);
+  const reply=addBubble('<b>AAA</b><br><span class="sub">Working on it…</span>');
+  try{
+    const r=await api('/api/chat',{message:q});
+    reply.innerHTML='<b>AAA</b>'+md(r.reply)+(r.used.length?`<div class="used">Asked: ${r.used.map(esc).join(', ')}</div>`:'');
+    refresh();  // AAA may have created a lead or task
+  }catch(e){reply.innerHTML='<b>AAA</b><br>'+esc(e.message)}
+  $('chat').scrollTop=$('chat').scrollHeight;
+}
+
+document.addEventListener('click',e=>{
+  const el=e.target.closest('[data-page],[data-goto],[data-ask],[data-prompt],[data-complete],[data-filter],[data-state],[data-period]');
+  if(!el)return;
+  const d=el.dataset;
+  if(d.page||d.goto)page(d.page||d.goto);
+  else if(d.ask)ask(d.ask);
+  else if(d.prompt)askWith(d.prompt);
+  else if(d.complete)complete(d.complete);
+  else if(d.filter){pipeFilter=d.filter;renderPipeline()}
+  else if(d.state){market.state=d.state;loadMarket().catch(e=>toast(e.message))}
+  else if(d.period){market.period=d.period;loadMarket().catch(e=>toast(e.message))}
+});
+['quick','big'].forEach(id=>$(id).addEventListener('keydown',e=>{if(e.key==='Enter')ask(id)}));
+$('search').addEventListener('keydown',e=>{if(e.key==='Enter'&&e.target.value.trim()){askWith(e.target.value.trim());e.target.value=''}});
+$('findProspects').addEventListener('click',()=>askWith(`Which ${market.state} brands should I prioritize for prospecting this ${market.period}?`));
+$('newFollowup').addEventListener('click',()=>{page('ask');$('big').value='Remind me to ';$('big').focus()});
+$('repSelect').addEventListener('change',e=>{
+  REP=e.target.value;market.state=null;
+  history.replaceState(null,'','?rep='+encodeURIComponent(REP));
+  $('chat').innerHTML=`<div class="bubble">${INTRO}</div>`;
+  refresh();
+});
+
+(async function init(){
+  $('chat').innerHTML=`<div class="bubble">${INTRO}</div>`;
+  try{
+    const [status,reps]=await Promise.all([api('/api/status'),api('/api/reps')]);
+    $('repSelect').innerHTML=reps.map(r=>`<option value="${esc(r.rep_id)}"${r.rep_id===REP?' selected':''}>${esc(r.name)} (${r.role==='manager'?'manager':esc(r.territory.join('/'))})</option>`).join('');
+    if(!status.chat_enabled){$('chatNotice').hidden=false;$('chatNotice').textContent='Ask AAA is offline: the server has no OPENAI_API_KEY. Add it to .env and restart `python -m aaa serve`. All other pages use live data without it.'}
+  }catch(e){toast('Start the server with `python -m aaa serve` and open http://127.0.0.1:8000')}
+  refresh();
+})();
 </script>
 </body>
 </html>

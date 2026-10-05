@@ -3,10 +3,10 @@ name = "aaa-sales-assistant"
 version = "0.1.0"
 description = "AAA: an AI sales assistant prototype built on the OpenAI Agents SDK"
 requires-python = ">=3.10"
-dependencies = ["openai-agents==0.23.1"]
+dependencies = ["openai-agents==0.23.1", "fastapi>=0.115", "uvicorn>=0.30"]
 
 [project.optional-dependencies]
-dev = ["pytest"]
+dev = ["pytest", "httpx"]
 
 [tool.setuptools.packages.find]
 include = ["aaa*"]
