@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>iKrusher — AAA Sales Intelligence</title>
+<style>
+:root{--ink:#12191c;--muted:#6b777b;--line:#e5eaeb;--soft:#f6f8f8;--cyan:#16c7c9;--cyanDark:#079da0;--cyanSoft:#e8fbfb;--green:#1b9b6f;--amber:#c88a18;--red:#d65353;--shadow:0 10px 30px rgba(18,25,28,.06)}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,-apple-system,sans-serif;color:var(--ink);background:#f8faf9}button,input{font:inherit;cursor:pointer}
+.app{display:flex;min-height:100vh}.side{width:235px;position:fixed;inset:0 auto 0 0;background:#fff;border-right:1px solid var(--line);padding:24px 16px}.logo{font-size:23px;font-weight:800}.logo span{color:var(--cyanDark)}.tag{font-size:10px;color:var(--muted);letter-spacing:1.2px;margin:4px 10px 28px}.nav{display:grid;gap:5px}.nav button{border:0;background:none;text-align:left;padding:11px 12px;border-radius:9px;color:#586467;font-size:13px;font-weight:650}.nav button.active{background:var(--cyanSoft);color:#087e81}.profile{position:absolute;bottom:22px;border-top:1px solid var(--line);padding-top:17px;left:20px;right:20px;display:flex;gap:10px;align-items:center;font-size:12px}.avatar{width:34px;height:34px;border-radius:50%;background:#dff7f7;color:#087e81;display:grid;place-items:center;font-weight:800}.profile small{display:block;color:var(--muted)}
+main{margin-left:235px;padding:28px 38px 60px;max-width:1500px;flex:1}.top{display:flex;justify-content:space-between;align-items:center;margin-bottom:26px}.eyebrow{text-transform:uppercase;color:var(--cyanDark);font-size:11px;font-weight:800;letter-spacing:1.3px}.top h1{margin:4px 0;font-size:28px;letter-spacing:-1px}.date{font-size:12px;color:var(--muted)}.search{width:300px;padding:10px 13px;border:1px solid var(--line);border-radius:9px;background:#fff;outline:0}
+.page{display:none}.page.active{display:block}.grid{display:grid;grid-template-columns:1.6fr .9fr;gap:20px}.stack{display:grid;gap:20px}.card{background:#fff;border:1px solid var(--line);border-radius:15px;padding:20px;box-shadow:var(--shadow)}.head{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px}.card h2{font-size:16px;margin:0}.sub{font-size:11px;color:var(--muted);margin-top:4px}.link{border:0;background:none;color:var(--cyanDark);font-size:11px;font-weight:750}.attention{display:grid;gap:10px}.row{display:grid;grid-template-columns:9px 1fr auto;gap:12px;align-items:center;border:1px solid var(--line);border-radius:10px;padding:13px}.dot{width:8px;height:8px;border-radius:50%;background:var(--cyan)}.dot.red{background:var(--red)}.dot.amber{background:#e0a52d}.row strong{font-size:12px}.row p{margin:4px 0 0;color:var(--muted);font-size:11px;line-height:1.45}.btn{border:1px solid var(--line);background:#fff;border-radius:8px;padding:8px 10px;font-size:10px;font-weight:750;color:#435053}.btn.primary{background:var(--ink);border-color:var(--ink);color:#fff}.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.metric{background:var(--soft);border-radius:10px;padding:13px}.metric b{font-size:22px}.metric span{display:block;font-size:10px;color:var(--muted);margin-top:3px}.insight{background:linear-gradient(135deg,#f1ffff,#fff);border:1px solid #cceff0;border-radius:11px;padding:15px}.pill{display:inline-block;padding:4px 8px;border-radius:999px;background:var(--cyanSoft);color:#087e81;font-size:9px;font-weight:800;text-transform:uppercase}.insight h3{font-size:14px;margin:9px 0 5px}.insight p{font-size:11px;line-height:1.55;color:#536063;margin:0}.actions{display:flex;gap:7px;margin-top:12px}.task,.launch{display:flex;gap:11px;align-items:center;padding:12px 0;border-bottom:1px solid var(--line)}.task:last-child,.launch:last-child{border:0}.check{width:17px;height:17px;border:1.5px solid #bbc5c7;border-radius:5px}.task strong,.launch strong{font-size:11px}.task small,.launch p{display:block;color:var(--muted);font-size:10px;margin-top:3px}.due{margin-left:auto;padding:4px 7px;border-radius:6px;background:#fff7e6;color:var(--amber);font-size:9px;font-weight:800}.launchIcon{width:34px;height:34px;border-radius:9px;background:#f0f3f3;display:grid;place-items:center}.launch a{font-size:9px;color:var(--cyanDark);font-weight:700}.chatbox{background:#f8faf9;border:1px solid var(--line);border-radius:11px;padding:13px;min-height:120px}.bubble{max-width:88%;background:#fff;border:1px solid var(--line);padding:10px 12px;border-radius:10px 10px 10px 3px;font-size:11px;line-height:1.5}.inputrow{display:flex;gap:7px;margin-top:9px}.inputrow input{flex:1;border:1px solid var(--line);border-radius:8px;padding:9px 11px;outline:0}.inputrow button{background:var(--cyan);border:0;border-radius:8px;padding:0 15px;font-weight:800;color:#073b3d}
+.sectionTitle{font-size:22px;margin:0 0 18px}.toolbar{display:flex;gap:7px;margin-bottom:14px}.toolbar button{background:#fff;border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:10px;font-weight:700}.table{width:100%;border-collapse:collapse;font-size:11px}.table th{padding:9px;text-align:left;color:var(--muted);font-size:9px;text-transform:uppercase;border-bottom:1px solid var(--line)}.table td{padding:12px 9px;border-bottom:1px solid var(--line)}.status{padding:4px 7px;border-radius:999px;font-size:9px;font-weight:800}.customer{background:#eaf8f2;color:var(--green)}.working{background:var(--cyanSoft);color:#087e81}.blocked{background:#f1f2f2;color:#6b777b}
+.toast{position:fixed;right:25px;bottom:25px;background:var(--ink);color:#fff;padding:11px 14px;border-radius:9px;font-size:11px;display:none}.toast.show{display:block}
+@media(max-width:900px){.side{width:190px}main{margin-left:190px;padding:22px}.grid{grid-template-columns:1fr}.search{width:220px}}@media(max-width:650px){.side{position:static;width:100%;border:0;border-bottom:1px solid var(--line)}.profile{position:static;margin-top:18px}.app{display:block}main{margin:0}.top{display:block}.search{width:100%;margin-top:12px}.nav{grid-template-columns:repeat(3,1fr)}}
+</style>
+</head>
+<body>
+<div class="app">
+<aside class="side">
+  <div class="logo">iK<span>rusher</span></div><div class="tag">AAA SALES INTELLIGENCE</div>
+  <nav class="nav">
+    <button class="active" onclick="page('home')">⌂ &nbsp; Home</button>
+    <button onclick="page('pipeline')">▣ &nbsp; Pipeline</button>
+    <button onclick="page('market')">◈ &nbsp; Market Intel</button>
+    <button onclick="page('tasks')">✓ &nbsp; Follow-ups</button>
+    <button onclick="page('launches')">◉ &nbsp; Launch Monitor</button>
+    <button onclick="page('ask')">✦ &nbsp; Ask AAA</button>
+  </nav>
+  <div class="profile"><div class="avatar">AM</div><div><b>Alice Moreno</b><small>CA · NV</small></div></div>
+</aside>
+<main>
+<div class="top"><div><div class="eyebrow">Sales intelligence</div><h1 id="title">Good morning, Alice</h1><div class="date">Thursday, October 5, 2026 · 3 things need your attention</div></div><input class="search" placeholder="Search accounts, contacts, products…"></div>
+
+<section id="home" class="page active">
+<div class="grid">
+<div class="stack">
+<div class="card"><div class="head"><div><h2>What needs your attention</h2><div class="sub">AAA has already sorted these by urgency.</div></div><button class="link" onclick="page('tasks')">View all →</button></div>
+<div class="attention">
+<div class="row"><span class="dot red"></span><div><strong>Copper Gardens · declining orders</strong><p>Flower packaging purchases are trending down. AAA found a cross-sell opportunity.</p></div><button class="btn primary" onclick="page('pipeline')">Review</button></div>
+<div class="row"><span class="dot amber"></span><div><strong>Follow up on samples</strong><p>Copper Gardens · due tomorrow</p></div><button class="btn" onclick="done(this)">Mark done</button></div>
+<div class="row"><span class="dot"></span><div><strong>Sierra Pine launched a new product</strong><p>Gelato Live Rosin · detected Oct 2 · monitored account</p></div><button class="btn" onclick="page('launches')">See alert</button></div>
+</div></div>
+<div class="card"><div class="head"><div><h2>Today at a glance</h2><div class="sub">Your workload, without the CRM noise.</div></div></div><div class="metrics"><div class="metric"><b>1</b><span>Overdue follow-up</span></div><div class="metric"><b>2</b><span>Due this week</span></div><div class="metric"><b>3</b><span>Launch alerts</span></div></div></div>
+<div class="card"><div class="head"><div><h2>AAA's recommendation</h2><div class="sub">Based on CRM activity + purchasing patterns.</div></div><span class="pill">AI insight</span></div><div class="insight"><h3>Start with Copper Gardens</h3><p>The account is active, but flower-packaging purchases are declining. AAA also sees a whitespace opportunity: the brand sells edibles but currently buys no edible packaging from you.</p><div class="actions"><button class="btn primary" onclick="page('ask')">Prepare outreach</button><button class="btn" onclick="page('pipeline')">View account</button></div></div></div>
+</div>
+<div class="stack">
+<div class="card"><div class="head"><div><h2>Follow-ups</h2><div class="sub">Only what needs action.</div></div><button class="link" onclick="page('tasks')">Open →</button></div>
+<div class="task"><span class="check"></span><div><strong>Follow up on samples</strong><small>Copper Gardens</small></div><span class="due">Tomorrow</span></div>
+<div class="task"><span class="check"></span><div><strong>Book intro meeting</strong><small>North Fork Provisions</small></div><span class="due">Oct 19</span></div></div>
+<div class="card"><div class="head"><div><h2>Launch monitor</h2><div class="sub">Recent activity from watched accounts.</div></div><button class="link" onclick="page('launches')">All alerts →</button></div>
+<div class="launch"><div class="launchIcon">✦</div><div><strong>Copper Gelato Reserve Eighth</strong><p>Copper Gardens · new flower product</p><a href="#" onclick="return false">View source →</a></div></div>
+<div class="launch"><div class="launchIcon">✦</div><div><strong>North Fork Blue Dream Diamonds</strong><p>North Fork Provisions · new concentrate</p><a href="#" onclick="return false">View source →</a></div></div>
+<div class="launch"><div class="launchIcon">✦</div><div><strong>Sierra Pine Gelato Live Rosin</strong><p>Sierra Pine Supply · new concentrate</p><a href="#" onclick="return false">View source →</a></div></div></div>
+<div class="card"><div class="head"><div><h2>Ask AAA</h2><div class="sub">Research, draft, or take a sales action.</div></div></div><div class="chatbox"><div class="bubble"><b>AAA</b><br>What can I help you move forward today?</div></div><div class="inputrow"><input id="quick" placeholder="e.g. Which CA brands should I prioritize?"><button onclick="ask('quick')">Ask</button></div></div>
+</div></div></section>
+
+<section id="pipeline" class="page"><h2 class="sectionTitle">My pipeline</h2><div class="card"><div class="toolbar"><button>All accounts</button><button>Customers</button><button>Prospects</button><button>Needs attention</button></div><table class="table"><thead><tr><th>Account</th><th>Type</th><th>Status</th><th>Next step</th></tr></thead><tbody>
+<tr><td><b>Copper Gardens</b><br><span class="sub">ACC-1002 · CA</span></td><td>Customer</td><td><span class="status customer">Active customer</span></td><td><button class="btn" onclick="page('ask')">Review insight</button></td></tr>
+<tr><td><b>North Fork Provisions</b><br><span class="sub">ACC-1003 · CA</span></td><td>Customer</td><td><span class="status customer">Active customer</span></td><td><button class="btn" onclick="page('tasks')">Book meeting</button></td></tr>
+<tr><td><b>Maplewood Farms</b><br><span class="sub">ACC-1004 · CA</span></td><td>Prospect</td><td><span class="status working">Working</span></td><td><button class="btn" onclick="page('market')">Research</button></td></tr>
+<tr><td><b>Bramble Botanicals</b><br><span class="sub">LEAD-2001 · CA</span></td><td>Lead</td><td><span class="status working">Contacted</span></td><td><button class="btn" onclick="page('tasks')">Follow up</button></td></tr>
+</tbody></table></div></section>
+
+<section id="market" class="page"><h2 class="sectionTitle">Market intelligence</h2><div class="card"><div class="head"><div><h2>California prospecting</h2><div class="sub">BDSA research + CRM ownership checks before outreach.</div></div><span class="pill">BDSA + CRM</span></div><div class="insight"><h3>Find the best prospects without the manual research</h3><p>AAA combines market revenue, product/category trends, and CRM status so you don't waste time researching accounts you cannot pursue.</p><div class="actions"><button class="btn primary" onclick="askWith('Which CA brands should I prioritize for prospecting this quarter?')">Find prospects</button></div></div><br><table class="table"><thead><tr><th>Account</th><th>CRM check</th><th>Action</th></tr></thead><tbody>
+<tr><td><b>Maplewood Farms</b></td><td><span class="status working">Working · Alice</span></td><td>Continue outreach</td></tr>
+<tr><td><b>Sierra Pine Supply</b></td><td><span class="status customer">Customer · Alice</span></td><td>Not a new prospect</td></tr>
+<tr><td><b>Ember Labs LLC</b></td><td><span class="status blocked">Lead · Ben</span></td><td>Coordinate with owner</td></tr>
+</tbody></table></div></section>
+
+<section id="tasks" class="page"><h2 class="sectionTitle">Follow-ups</h2><div class="card"><div class="head"><div><h2>Your open tasks</h2><div class="sub">AAA keeps overdue work at the top.</div></div><button class="btn primary" onclick="toast('New follow-up flow ready')">+ New follow-up</button></div>
+<div class="task"><span class="check"></span><div><strong>Follow up on samples</strong><small>Copper Gardens · TASK-5001</small></div><span class="due">Due Oct 6</span></div>
+<div class="task"><span class="check"></span><div><strong>Book intro meeting</strong><small>North Fork Provisions · TASK-5002</small></div><span class="due">Due Oct 19</span></div>
+<div class="task"><span class="check"></span><div><strong>Send updated pricing</strong><small>Ember Labs · owned by Ben</small></div><span class="due">Not yours</span></div></div></section>
+
+<section id="launches" class="page"><h2 class="sectionTitle">Launch monitor</h2><div class="card"><div class="head"><div><h2>Recent launch alerts</h2><div class="sub">AAA classifies monitored posts and surfaces likely product launches.</div></div><span class="pill">Monitoring</span></div>
+<div class="launch"><div class="launchIcon">✦</div><div><strong>Copper Gelato Reserve Eighth</strong><p>Copper Gardens · Instagram · Oct 3</p><a href="#" onclick="return false">Open source →</a></div></div>
+<div class="launch"><div class="launchIcon">✦</div><div><strong>North Fork Blue Dream Diamonds</strong><p>North Fork Provisions · Instagram · Oct 3</p><a href="#" onclick="return false">Open source →</a></div></div>
+<div class="launch"><div class="launchIcon">✦</div><div><strong>Sierra Pine Gelato Live Rosin</strong><p>Sierra Pine Supply · Website + Instagram · Oct 2</p><a href="#" onclick="return false">Open source →</a></div></div>
+</div></section>
+
+<section id="ask" class="page"><h2 class="sectionTitle">Ask AAA</h2><div class="card"><div class="head"><div><h2>Your sales copilot</h2><div class="sub">AAA routes the request to the right specialist automatically.</div></div><span class="pill">AAA</span></div><div class="chatbox" id="chat"><div class="bubble"><b>AAA</b><br>Ask me to research a market, check an account, find a contact, manage a follow-up, monitor a launch, or draft a message.</div></div><div class="inputrow"><input id="big" placeholder="What do you want to accomplish?"><button onclick="ask('big')">Ask AAA</button></div></div></section>
+</main></div><div class="toast" id="toast"></div>
+<script>
+const names={home:'Good morning, Alice',pipeline:'My pipeline',market:'Market intelligence',tasks:'Follow-ups',launches:'Launch monitor',ask:'Ask AAA'};
+function page(id){document.querySelectorAll('.page').forEach(x=>x.classList.remove('active'));document.getElementById(id).classList.add('active');document.getElementById('title').textContent=names[id];document.querySelectorAll('.nav button').forEach((b,i)=>b.classList.toggle('active',Object.keys(names)[i]===id));scrollTo({top:0,behavior:'smooth'})}
+function done(b){b.textContent='Done';b.disabled=true;b.parentElement.style.opacity=.5;toast('Follow-up marked complete')}
+function toast(x){let t=document.getElementById('toast');t.textContent=x;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),2000)}
+function askWith(x){page('ask');document.getElementById('big').value=x;ask('big')}
+function ask(id){let i=document.getElementById(id),q=i.value.trim();if(!q)return;page('ask');let w=document.getElementById('chat');w.insertAdjacentHTML('beforeend','<div style="display:flex;justify-content:flex-end;margin-top:9px"><div class="bubble" style="background:#e8fbfb;border-radius:10px 10px 3px 10px">'+esc(q)+'</div></div>');let a='I can help with that. In the live app, AAA will route this request to the right specialist and return the next action.';if(/overdue|follow.?up|task/i.test(q))a='<b>AAA</b><br>You have 1 overdue follow-up and 2 upcoming tasks. Start with overdue work, then handle Copper Gardens because its account insight also needs attention.';else if(/prospect|brand|market|california|\\bCA\\b/i.test(q))a='<b>AAA</b><br>I will combine BDSA rankings with CRM ownership. Maplewood Farms is an active CA prospect; Sierra Pine is already a customer; Ember Labs is Ben’s lead.';else if(/copper/i.test(q))a='<b>AAA</b><br>Copper Gardens is active, but flower-packaging purchases are declining. There is also a whitespace opportunity in edible packaging. Best next step: prepare targeted outreach.';else if(/launch/i.test(q))a='<b>AAA</b><br>Three monitored accounts have recent launch alerts: Copper Gardens, North Fork Provisions, and Sierra Pine Supply.';w.insertAdjacentHTML('beforeend','<div style="margin-top:9px"><div class="bubble">'+a+'</div></div>');i.value='';w.scrollTop=w.scrollHeight}
+function esc(s){return s.replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]))}
+</script>
+</body>
+</html>
