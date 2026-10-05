@@ -1,0 +1,1578 @@
+{
+ "accounts": [
+  {
+   "id": "ACC-1001",
+   "name": "Sierra Pine Supply, Inc.",
+   "state": "CA",
+   "type": "customer",
+   "status": "Active customer",
+   "owner": "alice",
+   "website": "sierrapinesupply.example",
+   "notes": "",
+   "created": "2024-06-15"
+  },
+  {
+   "id": "ACC-1002",
+   "name": "Copper Gardens",
+   "state": "CA",
+   "type": "customer",
+   "status": "Active customer",
+   "owner": "alice",
+   "website": "coppergardens.example",
+   "notes": "",
+   "created": "2024-01-15"
+  },
+  {
+   "id": "ACC-1003",
+   "name": "North Fork Provisions",
+   "state": "CA",
+   "type": "customer",
+   "status": "Active customer",
+   "owner": "alice",
+   "website": "northforkprovisions.example",
+   "notes": "",
+   "created": "2024-03-15"
+  },
+  {
+   "id": "ACC-1004",
+   "name": "Maplewood Farms",
+   "state": "CA",
+   "type": "prospect",
+   "status": "Working",
+   "owner": "alice",
+   "website": "maplewoodfarms.example",
+   "notes": "",
+   "created": "2024-01-15"
+  },
+  {
+   "id": "ACC-1005",
+   "name": "Oak & Ash Botanicals",
+   "state": "MI",
+   "type": "customer",
+   "status": "Active customer",
+   "owner": "ben",
+   "website": "oakashbotanicals.example",
+   "notes": "",
+   "created": "2024-01-15"
+  },
+  {
+   "id": "ACC-1006",
+   "name": "Quartz Supply",
+   "state": "MI",
+   "type": "customer",
+   "status": "Active customer",
+   "owner": "ben",
+   "website": "quartzsupply.example",
+   "notes": "",
+   "created": "2024-04-15"
+  },
+  {
+   "id": "ACC-1007",
+   "name": "Marigold Botanicals",
+   "state": "MI",
+   "type": "customer",
+   "status": "Active customer",
+   "owner": "ben",
+   "website": "marigoldbotanicals.example",
+   "notes": "",
+   "created": "2024-09-15"
+  },
+  {
+   "id": "ACC-1008",
+   "name": "Granite Supply",
+   "state": "IL",
+   "type": "prospect",
+   "status": "Nurture",
+   "owner": "ben",
+   "website": "granitesupply.example",
+   "notes": "",
+   "created": "2024-06-15"
+  },
+  {
+   "id": "ACC-1009",
+   "name": "North Fork Farms",
+   "state": "CO",
+   "type": "customer",
+   "status": "Active customer",
+   "owner": "carla",
+   "website": "northforkfarms.example",
+   "notes": "",
+   "created": "2024-08-15"
+  },
+  {
+   "id": "ACC-1010",
+   "name": "Yarrow Farms",
+   "state": "CO",
+   "type": "customer",
+   "status": "Active customer",
+   "owner": "carla",
+   "website": "yarrowfarms.example",
+   "notes": "",
+   "created": "2024-01-15"
+  },
+  {
+   "id": "ACC-1011",
+   "name": "Desert Bloom Extracts",
+   "state": "MA",
+   "type": "customer",
+   "status": "Active customer",
+   "owner": "carla",
+   "website": "desertbloomextracts.example",
+   "notes": "",
+   "created": "2024-09-15"
+  },
+  {
+   "id": "ACC-1012",
+   "name": "Marigold Harvest",
+   "state": "MA",
+   "type": "prospect",
+   "status": "Working",
+   "owner": "carla",
+   "website": "marigoldharvest.example",
+   "notes": "",
+   "created": "2024-06-15"
+  }
+ ],
+ "contacts": [
+  {
+   "id": "CON-3001",
+   "account_id": "ACC-1001",
+   "name": "Zoe Okafor",
+   "title": "Co-Founder & CEO",
+   "email": "zoe.okafor@sierrapinesupply.example",
+   "phone": "+1 (213) 555-0183"
+  },
+  {
+   "id": "CON-3002",
+   "account_id": "ACC-1001",
+   "name": "Tyler Vasquez",
+   "title": "Purchasing Manager",
+   "email": "tyler.vasquez@sierrapinesupply.example",
+   "phone": "+1 (213) 555-0112"
+  },
+  {
+   "id": "CON-3003",
+   "account_id": "ACC-1002",
+   "name": "Victor Alvarez",
+   "title": "Co-Founder & CEO",
+   "email": "victor.alvarez@coppergardens.example",
+   "phone": "+1 (213) 555-0127"
+  },
+  {
+   "id": "CON-3004",
+   "account_id": "ACC-1002",
+   "name": "Aisha Foster",
+   "title": "Director of Procurement",
+   "email": "aisha.foster@coppergardens.example",
+   "phone": "+1 (213) 555-0103"
+  },
+  {
+   "id": "CON-3005",
+   "account_id": "ACC-1003",
+   "name": "Tessa Delgado",
+   "title": "Director of Procurement",
+   "email": "tessa.delgado@northforkprovisions.example",
+   "phone": "+1 (213) 555-0114"
+  },
+  {
+   "id": "CON-3006",
+   "account_id": "ACC-1003",
+   "name": "Tyler Patel",
+   "title": "Co-Founder & CEO",
+   "email": "tyler.patel@northforkprovisions.example",
+   "phone": "+1 (213) 555-0108"
+  },
+  {
+   "id": "CON-3007",
+   "account_id": "ACC-1004",
+   "name": "Andre Foster",
+   "title": "Head of Brand",
+   "email": "andre.foster@maplewoodfarms.example",
+   "phone": "+1 (213) 555-0172"
+  },
+  {
+   "id": "CON-3008",
+   "account_id": "ACC-1004",
+   "name": "Tessa Patel",
+   "title": "Purchasing Manager",
+   "email": "tessa.patel@maplewoodfarms.example",
+   "phone": "+1 (213) 555-0187"
+  },
+  {
+   "id": "CON-3009",
+   "account_id": "ACC-1005",
+   "name": "Andre Lopez",
+   "title": "Director of Supply Chain",
+   "email": "andre.lopez@oakashbotanicals.example",
+   "phone": "+1 (313) 555-0109"
+  },
+  {
+   "id": "CON-3010",
+   "account_id": "ACC-1005",
+   "name": "Andre Ibarra",
+   "title": "Director of Procurement",
+   "email": "andre.ibarra@oakashbotanicals.example",
+   "phone": "+1 (313) 555-0117"
+  },
+  {
+   "id": "CON-3011",
+   "account_id": "ACC-1006",
+   "name": "Victor Mendoza",
+   "title": "Head of Brand",
+   "email": "victor.mendoza@quartzsupply.example",
+   "phone": "+1 (313) 555-0117"
+  },
+  {
+   "id": "CON-3012",
+   "account_id": "ACC-1006",
+   "name": "Ryan Quinn",
+   "title": "VP of Operations",
+   "email": "ryan.quinn@quartzsupply.example",
+   "phone": "+1 (313) 555-0126"
+  },
+  {
+   "id": "CON-3013",
+   "account_id": "ACC-1007",
+   "name": "Lena Delgado",
+   "title": "Packaging Manager",
+   "email": "lena.delgado@marigoldbotanicals.example",
+   "phone": "+1 (313) 555-0177"
+  },
+  {
+   "id": "CON-3014",
+   "account_id": "ACC-1007",
+   "name": "Andre Young",
+   "title": "Purchasing Manager",
+   "email": "andre.young@marigoldbotanicals.example",
+   "phone": "+1 (313) 555-0144"
+  },
+  {
+   "id": "CON-3015",
+   "account_id": "ACC-1008",
+   "name": "Ryan Jensen",
+   "title": "VP of Operations",
+   "email": "ryan.jensen@granitesupply.example",
+   "phone": "+1 (213) 555-0178"
+  },
+  {
+   "id": "CON-3016",
+   "account_id": "ACC-1008",
+   "name": "Aisha Chen",
+   "title": "Director of Procurement",
+   "email": "aisha.chen@granitesupply.example",
+   "phone": "+1 (213) 555-0141"
+  },
+  {
+   "id": "CON-3017",
+   "account_id": "ACC-1009",
+   "name": "Aisha Vasquez",
+   "title": "COO",
+   "email": "aisha.vasquez@northforkfarms.example",
+   "phone": "+1 (303) 555-0190"
+  },
+  {
+   "id": "CON-3018",
+   "account_id": "ACC-1009",
+   "name": "Logan Novak",
+   "title": "Co-Founder & CEO",
+   "email": "logan.novak@northforkfarms.example",
+   "phone": "+1 (303) 555-0150"
+  },
+  {
+   "id": "CON-3019",
+   "account_id": "ACC-1010",
+   "name": "Diego Young",
+   "title": "COO",
+   "email": "diego.young@yarrowfarms.example",
+   "phone": "+1 (213) 555-0120"
+  },
+  {
+   "id": "CON-3020",
+   "account_id": "ACC-1010",
+   "name": "Ryan Garcia",
+   "title": "Purchasing Manager",
+   "email": "ryan.garcia@yarrowfarms.example",
+   "phone": "+1 (213) 555-0131"
+  },
+  {
+   "id": "CON-3021",
+   "account_id": "ACC-1011",
+   "name": "Elena Shah",
+   "title": "VP of Operations",
+   "email": "elena.shah@desertbloomextracts.example",
+   "phone": "+1 (213) 555-0164"
+  },
+  {
+   "id": "CON-3022",
+   "account_id": "ACC-1011",
+   "name": "Lena Quinn",
+   "title": "Packaging Manager",
+   "email": "lena.quinn@desertbloomextracts.example",
+   "phone": "+1 (213) 555-0147"
+  },
+  {
+   "id": "CON-3023",
+   "account_id": "ACC-1012",
+   "name": "Elena Hayes",
+   "title": "Director of Supply Chain",
+   "email": "elena.hayes@marigoldharvest.example",
+   "phone": "+1 (213) 555-0161"
+  },
+  {
+   "id": "CON-3024",
+   "account_id": "ACC-1012",
+   "name": "Grace Ibarra",
+   "title": "Head of Brand",
+   "email": "grace.ibarra@marigoldharvest.example",
+   "phone": "+1 (213) 555-0112"
+  }
+ ],
+ "leads": [
+  {
+   "id": "LEAD-2001",
+   "company": "Bramble Botanicals",
+   "state": "CA",
+   "owner": "alice",
+   "status": "Contacted",
+   "source": "Referral",
+   "created": "2026-08-24",
+   "website": "bramblebotanicals.example",
+   "contact_name": "Sofia Young",
+   "contact_title": "Director of Procurement",
+   "contact_email": "sofia.young@bramblebotanicals.example"
+  },
+  {
+   "id": "LEAD-2002",
+   "company": "Ember Labs LLC",
+   "state": "CA",
+   "owner": "ben",
+   "status": "Contacted",
+   "source": "Referral",
+   "created": "2026-07-24",
+   "website": "emberlabs.example",
+   "contact_name": "Sofia Turner",
+   "contact_title": "Director of Procurement",
+   "contact_email": "sofia.turner@emberlabs.example"
+  },
+  {
+   "id": "LEAD-2003",
+   "company": "Riverbend Gardens",
+   "state": "IL",
+   "owner": "ben",
+   "status": "New",
+   "source": "Referral",
+   "created": "2026-06-14",
+   "website": "riverbendgardens.example",
+   "contact_name": "Caleb Turner",
+   "contact_title": "Purchasing Manager",
+   "contact_email": "caleb.turner@riverbendgardens.example"
+  },
+  {
+   "id": "LEAD-2004",
+   "company": "Amber Collective",
+   "state": "MA",
+   "owner": "carla",
+   "status": "New",
+   "source": "Referral",
+   "created": "2026-06-28",
+   "website": "ambercollective.example",
+   "contact_name": "Zoe Young",
+   "contact_title": "VP of Operations",
+   "contact_email": "zoe.young@ambercollective.example"
+  }
+ ],
+ "activities": [
+  {
+   "id": "ACT-4001",
+   "record_id": "ACC-1001",
+   "rep": "alice",
+   "type": "Call",
+   "summary": "Quarterly check-in",
+   "date": "2026-09-24"
+  },
+  {
+   "id": "ACT-4002",
+   "record_id": "ACC-1002",
+   "rep": "alice",
+   "type": "Call",
+   "summary": "Quarterly check-in",
+   "date": "2026-09-15"
+  },
+  {
+   "id": "ACT-4003",
+   "record_id": "ACC-1003",
+   "rep": "alice",
+   "type": "Call",
+   "summary": "Quarterly check-in",
+   "date": "2026-09-24"
+  },
+  {
+   "id": "ACT-4004",
+   "record_id": "ACC-1004",
+   "rep": "alice",
+   "type": "Call",
+   "summary": "Left voicemail",
+   "date": "2026-09-12"
+  },
+  {
+   "id": "ACT-4005",
+   "record_id": "ACC-1005",
+   "rep": "ben",
+   "type": "Call",
+   "summary": "Left voicemail",
+   "date": "2026-09-10"
+  },
+  {
+   "id": "ACT-4006",
+   "record_id": "ACC-1006",
+   "rep": "ben",
+   "type": "Call",
+   "summary": "Left voicemail",
+   "date": "2026-09-11"
+  },
+  {
+   "id": "ACT-4007",
+   "record_id": "ACC-1007",
+   "rep": "ben",
+   "type": "Call",
+   "summary": "Discussed Q4 packaging needs",
+   "date": "2026-09-08"
+  },
+  {
+   "id": "ACT-4008",
+   "record_id": "ACC-1008",
+   "rep": "ben",
+   "type": "Call",
+   "summary": "Discussed Q4 packaging needs",
+   "date": "2026-09-02"
+  },
+  {
+   "id": "ACT-4009",
+   "record_id": "ACC-1009",
+   "rep": "carla",
+   "type": "Call",
+   "summary": "Quarterly check-in",
+   "date": "2026-09-14"
+  },
+  {
+   "id": "ACT-4010",
+   "record_id": "ACC-1010",
+   "rep": "carla",
+   "type": "Call",
+   "summary": "Left voicemail",
+   "date": "2026-09-15"
+  },
+  {
+   "id": "ACT-4011",
+   "record_id": "ACC-1011",
+   "rep": "carla",
+   "type": "Call",
+   "summary": "Quarterly check-in",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "ACT-4012",
+   "record_id": "ACC-1012",
+   "rep": "carla",
+   "type": "Call",
+   "summary": "Left voicemail",
+   "date": "2026-09-15"
+  },
+  {
+   "id": "ACT-4013",
+   "record_id": "LEAD-2001",
+   "rep": "alice",
+   "type": "Call",
+   "summary": "Left voicemail",
+   "date": "2026-09-15"
+  },
+  {
+   "id": "ACT-4014",
+   "record_id": "LEAD-2002",
+   "rep": "ben",
+   "type": "Call",
+   "summary": "Discussed Q4 packaging needs",
+   "date": "2026-09-05"
+  },
+  {
+   "id": "ACT-4015",
+   "record_id": "LEAD-2003",
+   "rep": "ben",
+   "type": "Call",
+   "summary": "Left voicemail",
+   "date": "2026-09-14"
+  },
+  {
+   "id": "ACT-4016",
+   "record_id": "LEAD-2004",
+   "rep": "carla",
+   "type": "Call",
+   "summary": "Intro call, sent catalog",
+   "date": "2026-09-05"
+  }
+ ],
+ "orders": [
+  {
+   "account_id": "ACC-1001",
+   "month": "2025-10",
+   "category": "Pre-roll tubes",
+   "amount": 12930.0
+  },
+  {
+   "account_id": "ACC-1001",
+   "month": "2025-11",
+   "category": "Pre-roll tubes",
+   "amount": 15300.0
+  },
+  {
+   "account_id": "ACC-1001",
+   "month": "2025-12",
+   "category": "Pre-roll tubes",
+   "amount": 15710.0
+  },
+  {
+   "account_id": "ACC-1001",
+   "month": "2026-01",
+   "category": "Pre-roll tubes",
+   "amount": 14800.0
+  },
+  {
+   "account_id": "ACC-1001",
+   "month": "2026-02",
+   "category": "Pre-roll tubes",
+   "amount": 15660.0
+  },
+  {
+   "account_id": "ACC-1001",
+   "month": "2026-03",
+   "category": "Pre-roll tubes",
+   "amount": 16680.0
+  },
+  {
+   "account_id": "ACC-1001",
+   "month": "2026-04",
+   "category": "Pre-roll tubes",
+   "amount": 15910.0
+  },
+  {
+   "account_id": "ACC-1001",
+   "month": "2026-05",
+   "category": "Pre-roll tubes",
+   "amount": 16700.0
+  },
+  {
+   "account_id": "ACC-1001",
+   "month": "2026-06",
+   "category": "Pre-roll tubes",
+   "amount": 14120.0
+  },
+  {
+   "account_id": "ACC-1001",
+   "month": "2026-07",
+   "category": "Pre-roll tubes",
+   "amount": 14710.0
+  },
+  {
+   "account_id": "ACC-1001",
+   "month": "2026-08",
+   "category": "Pre-roll tubes",
+   "amount": 14840.0
+  },
+  {
+   "account_id": "ACC-1001",
+   "month": "2026-09",
+   "category": "Pre-roll tubes",
+   "amount": 14910.0
+  },
+  {
+   "account_id": "ACC-1002",
+   "month": "2025-10",
+   "category": "Flower jars & bags",
+   "amount": 9950.0
+  },
+  {
+   "account_id": "ACC-1002",
+   "month": "2025-11",
+   "category": "Flower jars & bags",
+   "amount": 8240.0
+  },
+  {
+   "account_id": "ACC-1002",
+   "month": "2025-12",
+   "category": "Flower jars & bags",
+   "amount": 9490.0
+  },
+  {
+   "account_id": "ACC-1002",
+   "month": "2026-01",
+   "category": "Flower jars & bags",
+   "amount": 7480.0
+  },
+  {
+   "account_id": "ACC-1002",
+   "month": "2026-02",
+   "category": "Flower jars & bags",
+   "amount": 7130.0
+  },
+  {
+   "account_id": "ACC-1002",
+   "month": "2026-03",
+   "category": "Flower jars & bags",
+   "amount": 7060.0
+  },
+  {
+   "account_id": "ACC-1002",
+   "month": "2026-04",
+   "category": "Flower jars & bags",
+   "amount": 8260.0
+  },
+  {
+   "account_id": "ACC-1002",
+   "month": "2026-05",
+   "category": "Flower jars & bags",
+   "amount": 6970.0
+  },
+  {
+   "account_id": "ACC-1002",
+   "month": "2026-06",
+   "category": "Flower jars & bags",
+   "amount": 7920.0
+  },
+  {
+   "account_id": "ACC-1002",
+   "month": "2026-07",
+   "category": "Flower jars & bags",
+   "amount": 7010.0
+  },
+  {
+   "account_id": "ACC-1002",
+   "month": "2026-08",
+   "category": "Flower jars & bags",
+   "amount": 7290.0
+  },
+  {
+   "account_id": "ACC-1002",
+   "month": "2026-09",
+   "category": "Flower jars & bags",
+   "amount": 6390.0
+  },
+  {
+   "account_id": "ACC-1003",
+   "month": "2025-10",
+   "category": "Concentrate containers",
+   "amount": 8470.0
+  },
+  {
+   "account_id": "ACC-1003",
+   "month": "2025-11",
+   "category": "Concentrate containers",
+   "amount": 9910.0
+  },
+  {
+   "account_id": "ACC-1003",
+   "month": "2025-12",
+   "category": "Concentrate containers",
+   "amount": 8240.0
+  },
+  {
+   "account_id": "ACC-1003",
+   "month": "2026-01",
+   "category": "Concentrate containers",
+   "amount": 10330.0
+  },
+  {
+   "account_id": "ACC-1003",
+   "month": "2026-02",
+   "category": "Concentrate containers",
+   "amount": 8420.0
+  },
+  {
+   "account_id": "ACC-1003",
+   "month": "2026-03",
+   "category": "Concentrate containers",
+   "amount": 8380.0
+  },
+  {
+   "account_id": "ACC-1003",
+   "month": "2026-04",
+   "category": "Concentrate containers",
+   "amount": 10730.0
+  },
+  {
+   "account_id": "ACC-1003",
+   "month": "2026-05",
+   "category": "Concentrate containers",
+   "amount": 9390.0
+  },
+  {
+   "account_id": "ACC-1003",
+   "month": "2026-06",
+   "category": "Concentrate containers",
+   "amount": 9930.0
+  },
+  {
+   "account_id": "ACC-1003",
+   "month": "2025-10",
+   "category": "Pre-roll tubes",
+   "amount": 14840.0
+  },
+  {
+   "account_id": "ACC-1003",
+   "month": "2025-11",
+   "category": "Pre-roll tubes",
+   "amount": 13210.0
+  },
+  {
+   "account_id": "ACC-1003",
+   "month": "2025-12",
+   "category": "Pre-roll tubes",
+   "amount": 15770.0
+  },
+  {
+   "account_id": "ACC-1003",
+   "month": "2026-01",
+   "category": "Pre-roll tubes",
+   "amount": 13340.0
+  },
+  {
+   "account_id": "ACC-1003",
+   "month": "2026-02",
+   "category": "Pre-roll tubes",
+   "amount": 12880.0
+  },
+  {
+   "account_id": "ACC-1003",
+   "month": "2026-03",
+   "category": "Pre-roll tubes",
+   "amount": 16680.0
+  },
+  {
+   "account_id": "ACC-1003",
+   "month": "2026-04",
+   "category": "Pre-roll tubes",
+   "amount": 16690.0
+  },
+  {
+   "account_id": "ACC-1003",
+   "month": "2026-05",
+   "category": "Pre-roll tubes",
+   "amount": 13200.0
+  },
+  {
+   "account_id": "ACC-1003",
+   "month": "2026-06",
+   "category": "Pre-roll tubes",
+   "amount": 13070.0
+  },
+  {
+   "account_id": "ACC-1003",
+   "month": "2026-07",
+   "category": "Pre-roll tubes",
+   "amount": 17060.0
+  },
+  {
+   "account_id": "ACC-1003",
+   "month": "2026-08",
+   "category": "Pre-roll tubes",
+   "amount": 15340.0
+  },
+  {
+   "account_id": "ACC-1003",
+   "month": "2026-09",
+   "category": "Pre-roll tubes",
+   "amount": 15510.0
+  },
+  {
+   "account_id": "ACC-1005",
+   "month": "2025-10",
+   "category": "Flower jars & bags",
+   "amount": 15880.0
+  },
+  {
+   "account_id": "ACC-1005",
+   "month": "2025-11",
+   "category": "Flower jars & bags",
+   "amount": 14490.0
+  },
+  {
+   "account_id": "ACC-1005",
+   "month": "2025-12",
+   "category": "Flower jars & bags",
+   "amount": 16090.0
+  },
+  {
+   "account_id": "ACC-1005",
+   "month": "2026-01",
+   "category": "Flower jars & bags",
+   "amount": 16780.0
+  },
+  {
+   "account_id": "ACC-1005",
+   "month": "2026-02",
+   "category": "Flower jars & bags",
+   "amount": 16580.0
+  },
+  {
+   "account_id": "ACC-1005",
+   "month": "2026-03",
+   "category": "Flower jars & bags",
+   "amount": 13130.0
+  },
+  {
+   "account_id": "ACC-1005",
+   "month": "2026-04",
+   "category": "Flower jars & bags",
+   "amount": 13630.0
+  },
+  {
+   "account_id": "ACC-1005",
+   "month": "2026-05",
+   "category": "Flower jars & bags",
+   "amount": 14610.0
+  },
+  {
+   "account_id": "ACC-1005",
+   "month": "2026-06",
+   "category": "Flower jars & bags",
+   "amount": 15270.0
+  },
+  {
+   "account_id": "ACC-1005",
+   "month": "2026-07",
+   "category": "Flower jars & bags",
+   "amount": 14320.0
+  },
+  {
+   "account_id": "ACC-1005",
+   "month": "2026-08",
+   "category": "Flower jars & bags",
+   "amount": 18650.0
+  },
+  {
+   "account_id": "ACC-1005",
+   "month": "2026-09",
+   "category": "Flower jars & bags",
+   "amount": 17930.0
+  },
+  {
+   "account_id": "ACC-1006",
+   "month": "2025-10",
+   "category": "Flower jars & bags",
+   "amount": 8440.0
+  },
+  {
+   "account_id": "ACC-1006",
+   "month": "2025-11",
+   "category": "Flower jars & bags",
+   "amount": 9790.0
+  },
+  {
+   "account_id": "ACC-1006",
+   "month": "2025-12",
+   "category": "Flower jars & bags",
+   "amount": 9770.0
+  },
+  {
+   "account_id": "ACC-1006",
+   "month": "2026-01",
+   "category": "Flower jars & bags",
+   "amount": 8610.0
+  },
+  {
+   "account_id": "ACC-1006",
+   "month": "2026-02",
+   "category": "Flower jars & bags",
+   "amount": 10310.0
+  },
+  {
+   "account_id": "ACC-1006",
+   "month": "2026-03",
+   "category": "Flower jars & bags",
+   "amount": 8990.0
+  },
+  {
+   "account_id": "ACC-1006",
+   "month": "2026-04",
+   "category": "Flower jars & bags",
+   "amount": 9330.0
+  },
+  {
+   "account_id": "ACC-1006",
+   "month": "2026-05",
+   "category": "Flower jars & bags",
+   "amount": 9240.0
+  },
+  {
+   "account_id": "ACC-1006",
+   "month": "2026-06",
+   "category": "Flower jars & bags",
+   "amount": 10330.0
+  },
+  {
+   "account_id": "ACC-1006",
+   "month": "2026-07",
+   "category": "Flower jars & bags",
+   "amount": 8640.0
+  },
+  {
+   "account_id": "ACC-1006",
+   "month": "2026-08",
+   "category": "Flower jars & bags",
+   "amount": 8330.0
+  },
+  {
+   "account_id": "ACC-1006",
+   "month": "2026-09",
+   "category": "Flower jars & bags",
+   "amount": 9040.0
+  },
+  {
+   "account_id": "ACC-1006",
+   "month": "2025-10",
+   "category": "Vape hardware",
+   "amount": 3990.0
+  },
+  {
+   "account_id": "ACC-1006",
+   "month": "2025-11",
+   "category": "Vape hardware",
+   "amount": 4490.0
+  },
+  {
+   "account_id": "ACC-1006",
+   "month": "2025-12",
+   "category": "Vape hardware",
+   "amount": 3460.0
+  },
+  {
+   "account_id": "ACC-1006",
+   "month": "2026-01",
+   "category": "Vape hardware",
+   "amount": 3690.0
+  },
+  {
+   "account_id": "ACC-1006",
+   "month": "2026-02",
+   "category": "Vape hardware",
+   "amount": 3770.0
+  },
+  {
+   "account_id": "ACC-1006",
+   "month": "2026-03",
+   "category": "Vape hardware",
+   "amount": 3940.0
+  },
+  {
+   "account_id": "ACC-1006",
+   "month": "2026-04",
+   "category": "Vape hardware",
+   "amount": 3920.0
+  },
+  {
+   "account_id": "ACC-1006",
+   "month": "2026-05",
+   "category": "Vape hardware",
+   "amount": 3450.0
+  },
+  {
+   "account_id": "ACC-1006",
+   "month": "2026-06",
+   "category": "Vape hardware",
+   "amount": 4300.0
+  },
+  {
+   "account_id": "ACC-1006",
+   "month": "2026-07",
+   "category": "Vape hardware",
+   "amount": 4310.0
+  },
+  {
+   "account_id": "ACC-1006",
+   "month": "2026-08",
+   "category": "Vape hardware",
+   "amount": 3950.0
+  },
+  {
+   "account_id": "ACC-1006",
+   "month": "2026-09",
+   "category": "Vape hardware",
+   "amount": 3500.0
+  },
+  {
+   "account_id": "ACC-1007",
+   "month": "2025-10",
+   "category": "Edible packaging",
+   "amount": 3560.0
+  },
+  {
+   "account_id": "ACC-1007",
+   "month": "2025-11",
+   "category": "Edible packaging",
+   "amount": 4690.0
+  },
+  {
+   "account_id": "ACC-1007",
+   "month": "2025-12",
+   "category": "Edible packaging",
+   "amount": 4360.0
+  },
+  {
+   "account_id": "ACC-1007",
+   "month": "2026-01",
+   "category": "Edible packaging",
+   "amount": 4610.0
+  },
+  {
+   "account_id": "ACC-1007",
+   "month": "2026-02",
+   "category": "Edible packaging",
+   "amount": 3780.0
+  },
+  {
+   "account_id": "ACC-1007",
+   "month": "2026-03",
+   "category": "Edible packaging",
+   "amount": 4360.0
+  },
+  {
+   "account_id": "ACC-1007",
+   "month": "2026-04",
+   "category": "Edible packaging",
+   "amount": 5200.0
+  },
+  {
+   "account_id": "ACC-1007",
+   "month": "2026-05",
+   "category": "Edible packaging",
+   "amount": 4580.0
+  },
+  {
+   "account_id": "ACC-1007",
+   "month": "2026-06",
+   "category": "Edible packaging",
+   "amount": 4200.0
+  },
+  {
+   "account_id": "ACC-1007",
+   "month": "2026-07",
+   "category": "Edible packaging",
+   "amount": 5250.0
+  },
+  {
+   "account_id": "ACC-1007",
+   "month": "2026-08",
+   "category": "Edible packaging",
+   "amount": 5420.0
+  },
+  {
+   "account_id": "ACC-1007",
+   "month": "2026-09",
+   "category": "Edible packaging",
+   "amount": 4990.0
+  },
+  {
+   "account_id": "ACC-1007",
+   "month": "2025-10",
+   "category": "Flower jars & bags",
+   "amount": 13610.0
+  },
+  {
+   "account_id": "ACC-1007",
+   "month": "2025-11",
+   "category": "Flower jars & bags",
+   "amount": 13670.0
+  },
+  {
+   "account_id": "ACC-1007",
+   "month": "2025-12",
+   "category": "Flower jars & bags",
+   "amount": 16660.0
+  },
+  {
+   "account_id": "ACC-1007",
+   "month": "2026-01",
+   "category": "Flower jars & bags",
+   "amount": 16070.0
+  },
+  {
+   "account_id": "ACC-1007",
+   "month": "2026-02",
+   "category": "Flower jars & bags",
+   "amount": 15700.0
+  },
+  {
+   "account_id": "ACC-1007",
+   "month": "2026-03",
+   "category": "Flower jars & bags",
+   "amount": 15790.0
+  },
+  {
+   "account_id": "ACC-1007",
+   "month": "2026-04",
+   "category": "Flower jars & bags",
+   "amount": 15100.0
+  },
+  {
+   "account_id": "ACC-1007",
+   "month": "2026-05",
+   "category": "Flower jars & bags",
+   "amount": 18710.0
+  },
+  {
+   "account_id": "ACC-1007",
+   "month": "2026-06",
+   "category": "Flower jars & bags",
+   "amount": 19200.0
+  },
+  {
+   "account_id": "ACC-1007",
+   "month": "2026-07",
+   "category": "Flower jars & bags",
+   "amount": 15310.0
+  },
+  {
+   "account_id": "ACC-1007",
+   "month": "2026-08",
+   "category": "Flower jars & bags",
+   "amount": 18810.0
+  },
+  {
+   "account_id": "ACC-1007",
+   "month": "2026-09",
+   "category": "Flower jars & bags",
+   "amount": 17370.0
+  },
+  {
+   "account_id": "ACC-1007",
+   "month": "2025-10",
+   "category": "Vape hardware",
+   "amount": 3430.0
+  },
+  {
+   "account_id": "ACC-1007",
+   "month": "2025-11",
+   "category": "Vape hardware",
+   "amount": 3640.0
+  },
+  {
+   "account_id": "ACC-1007",
+   "month": "2025-12",
+   "category": "Vape hardware",
+   "amount": 4530.0
+  },
+  {
+   "account_id": "ACC-1007",
+   "month": "2026-01",
+   "category": "Vape hardware",
+   "amount": 3980.0
+  },
+  {
+   "account_id": "ACC-1007",
+   "month": "2026-02",
+   "category": "Vape hardware",
+   "amount": 3990.0
+  },
+  {
+   "account_id": "ACC-1007",
+   "month": "2026-03",
+   "category": "Vape hardware",
+   "amount": 3930.0
+  },
+  {
+   "account_id": "ACC-1007",
+   "month": "2026-04",
+   "category": "Vape hardware",
+   "amount": 4740.0
+  },
+  {
+   "account_id": "ACC-1007",
+   "month": "2026-05",
+   "category": "Vape hardware",
+   "amount": 4380.0
+  },
+  {
+   "account_id": "ACC-1007",
+   "month": "2026-06",
+   "category": "Vape hardware",
+   "amount": 4270.0
+  },
+  {
+   "account_id": "ACC-1007",
+   "month": "2026-07",
+   "category": "Vape hardware",
+   "amount": 4360.0
+  },
+  {
+   "account_id": "ACC-1007",
+   "month": "2026-08",
+   "category": "Vape hardware",
+   "amount": 5460.0
+  },
+  {
+   "account_id": "ACC-1007",
+   "month": "2026-09",
+   "category": "Vape hardware",
+   "amount": 5620.0
+  },
+  {
+   "account_id": "ACC-1009",
+   "month": "2025-10",
+   "category": "Concentrate containers",
+   "amount": 9770.0
+  },
+  {
+   "account_id": "ACC-1009",
+   "month": "2025-11",
+   "category": "Concentrate containers",
+   "amount": 8020.0
+  },
+  {
+   "account_id": "ACC-1009",
+   "month": "2025-12",
+   "category": "Concentrate containers",
+   "amount": 8140.0
+  },
+  {
+   "account_id": "ACC-1009",
+   "month": "2026-01",
+   "category": "Concentrate containers",
+   "amount": 9840.0
+  },
+  {
+   "account_id": "ACC-1009",
+   "month": "2026-02",
+   "category": "Concentrate containers",
+   "amount": 8520.0
+  },
+  {
+   "account_id": "ACC-1009",
+   "month": "2026-03",
+   "category": "Concentrate containers",
+   "amount": 10160.0
+  },
+  {
+   "account_id": "ACC-1009",
+   "month": "2026-04",
+   "category": "Concentrate containers",
+   "amount": 8350.0
+  },
+  {
+   "account_id": "ACC-1009",
+   "month": "2026-05",
+   "category": "Concentrate containers",
+   "amount": 8470.0
+  },
+  {
+   "account_id": "ACC-1009",
+   "month": "2026-06",
+   "category": "Concentrate containers",
+   "amount": 11070.0
+  },
+  {
+   "account_id": "ACC-1009",
+   "month": "2026-07",
+   "category": "Concentrate containers",
+   "amount": 8380.0
+  },
+  {
+   "account_id": "ACC-1009",
+   "month": "2026-08",
+   "category": "Concentrate containers",
+   "amount": 10810.0
+  },
+  {
+   "account_id": "ACC-1009",
+   "month": "2026-09",
+   "category": "Concentrate containers",
+   "amount": 9240.0
+  },
+  {
+   "account_id": "ACC-1010",
+   "month": "2025-10",
+   "category": "Vape hardware",
+   "amount": 3860.0
+  },
+  {
+   "account_id": "ACC-1010",
+   "month": "2025-11",
+   "category": "Vape hardware",
+   "amount": 4190.0
+  },
+  {
+   "account_id": "ACC-1010",
+   "month": "2025-12",
+   "category": "Vape hardware",
+   "amount": 3700.0
+  },
+  {
+   "account_id": "ACC-1010",
+   "month": "2026-01",
+   "category": "Vape hardware",
+   "amount": 4510.0
+  },
+  {
+   "account_id": "ACC-1010",
+   "month": "2026-02",
+   "category": "Vape hardware",
+   "amount": 4420.0
+  },
+  {
+   "account_id": "ACC-1010",
+   "month": "2026-03",
+   "category": "Vape hardware",
+   "amount": 4200.0
+  },
+  {
+   "account_id": "ACC-1010",
+   "month": "2026-04",
+   "category": "Vape hardware",
+   "amount": 4510.0
+  },
+  {
+   "account_id": "ACC-1010",
+   "month": "2026-05",
+   "category": "Vape hardware",
+   "amount": 4250.0
+  },
+  {
+   "account_id": "ACC-1010",
+   "month": "2026-06",
+   "category": "Vape hardware",
+   "amount": 4630.0
+  },
+  {
+   "account_id": "ACC-1010",
+   "month": "2026-07",
+   "category": "Vape hardware",
+   "amount": 4500.0
+  },
+  {
+   "account_id": "ACC-1010",
+   "month": "2026-08",
+   "category": "Vape hardware",
+   "amount": 4900.0
+  },
+  {
+   "account_id": "ACC-1010",
+   "month": "2026-09",
+   "category": "Vape hardware",
+   "amount": 4390.0
+  },
+  {
+   "account_id": "ACC-1011",
+   "month": "2025-10",
+   "category": "Edible packaging",
+   "amount": 3500.0
+  },
+  {
+   "account_id": "ACC-1011",
+   "month": "2025-11",
+   "category": "Edible packaging",
+   "amount": 4710.0
+  },
+  {
+   "account_id": "ACC-1011",
+   "month": "2025-12",
+   "category": "Edible packaging",
+   "amount": 3940.0
+  },
+  {
+   "account_id": "ACC-1011",
+   "month": "2026-01",
+   "category": "Edible packaging",
+   "amount": 4870.0
+  },
+  {
+   "account_id": "ACC-1011",
+   "month": "2026-02",
+   "category": "Edible packaging",
+   "amount": 4600.0
+  },
+  {
+   "account_id": "ACC-1011",
+   "month": "2026-03",
+   "category": "Edible packaging",
+   "amount": 4200.0
+  },
+  {
+   "account_id": "ACC-1011",
+   "month": "2026-04",
+   "category": "Edible packaging",
+   "amount": 4240.0
+  },
+  {
+   "account_id": "ACC-1011",
+   "month": "2026-05",
+   "category": "Edible packaging",
+   "amount": 5310.0
+  },
+  {
+   "account_id": "ACC-1011",
+   "month": "2026-06",
+   "category": "Edible packaging",
+   "amount": 4590.0
+  },
+  {
+   "account_id": "ACC-1011",
+   "month": "2026-07",
+   "category": "Edible packaging",
+   "amount": 5760.0
+  },
+  {
+   "account_id": "ACC-1011",
+   "month": "2026-08",
+   "category": "Edible packaging",
+   "amount": 5790.0
+  },
+  {
+   "account_id": "ACC-1011",
+   "month": "2026-09",
+   "category": "Edible packaging",
+   "amount": 5080.0
+  },
+  {
+   "account_id": "ACC-1011",
+   "month": "2025-10",
+   "category": "Flower jars & bags",
+   "amount": 14570.0
+  },
+  {
+   "account_id": "ACC-1011",
+   "month": "2025-11",
+   "category": "Flower jars & bags",
+   "amount": 14820.0
+  },
+  {
+   "account_id": "ACC-1011",
+   "month": "2025-12",
+   "category": "Flower jars & bags",
+   "amount": 15310.0
+  },
+  {
+   "account_id": "ACC-1011",
+   "month": "2026-01",
+   "category": "Flower jars & bags",
+   "amount": 15330.0
+  },
+  {
+   "account_id": "ACC-1011",
+   "month": "2026-02",
+   "category": "Flower jars & bags",
+   "amount": 14740.0
+  },
+  {
+   "account_id": "ACC-1011",
+   "month": "2026-03",
+   "category": "Flower jars & bags",
+   "amount": 15870.0
+  },
+  {
+   "account_id": "ACC-1011",
+   "month": "2026-04",
+   "category": "Flower jars & bags",
+   "amount": 18340.0
+  },
+  {
+   "account_id": "ACC-1011",
+   "month": "2026-05",
+   "category": "Flower jars & bags",
+   "amount": 18430.0
+  },
+  {
+   "account_id": "ACC-1011",
+   "month": "2026-06",
+   "category": "Flower jars & bags",
+   "amount": 17900.0
+  },
+  {
+   "account_id": "ACC-1011",
+   "month": "2026-07",
+   "category": "Flower jars & bags",
+   "amount": 19120.0
+  },
+  {
+   "account_id": "ACC-1011",
+   "month": "2026-08",
+   "category": "Flower jars & bags",
+   "amount": 21460.0
+  },
+  {
+   "account_id": "ACC-1011",
+   "month": "2026-09",
+   "category": "Flower jars & bags",
+   "amount": 17940.0
+  },
+  {
+   "account_id": "ACC-1011",
+   "month": "2025-10",
+   "category": "Pre-roll tubes",
+   "amount": 5650.0
+  },
+  {
+   "account_id": "ACC-1011",
+   "month": "2025-11",
+   "category": "Pre-roll tubes",
+   "amount": 5820.0
+  },
+  {
+   "account_id": "ACC-1011",
+   "month": "2025-12",
+   "category": "Pre-roll tubes",
+   "amount": 6570.0
+  },
+  {
+   "account_id": "ACC-1011",
+   "month": "2026-01",
+   "category": "Pre-roll tubes",
+   "amount": 7600.0
+  },
+  {
+   "account_id": "ACC-1011",
+   "month": "2026-02",
+   "category": "Pre-roll tubes",
+   "amount": 7580.0
+  },
+  {
+   "account_id": "ACC-1011",
+   "month": "2026-03",
+   "category": "Pre-roll tubes",
+   "amount": 8250.0
+  },
+  {
+   "account_id": "ACC-1011",
+   "month": "2026-04",
+   "category": "Pre-roll tubes",
+   "amount": 6780.0
+  },
+  {
+   "account_id": "ACC-1011",
+   "month": "2026-05",
+   "category": "Pre-roll tubes",
+   "amount": 8630.0
+  },
+  {
+   "account_id": "ACC-1011",
+   "month": "2026-06",
+   "category": "Pre-roll tubes",
+   "amount": 8770.0
+  },
+  {
+   "account_id": "ACC-1011",
+   "month": "2026-07",
+   "category": "Pre-roll tubes",
+   "amount": 7240.0
+  },
+  {
+   "account_id": "ACC-1011",
+   "month": "2026-08",
+   "category": "Pre-roll tubes",
+   "amount": 9380.0
+  },
+  {
+   "account_id": "ACC-1011",
+   "month": "2026-09",
+   "category": "Pre-roll tubes",
+   "amount": 7890.0
+  }
+ ]
+}

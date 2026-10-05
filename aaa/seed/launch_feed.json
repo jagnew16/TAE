@@ -1,0 +1,162 @@
+[
+ {
+  "id": "FEED-1",
+  "source": "instagram",
+  "account": "@sierrapinesupply",
+  "url": "https://instagram.example/sierrapinesupply/p/1000",
+  "text": "Introducing Sierra Pine Gelato Live Rosin! Our newest drop hits shelves this Friday. Available now at dispensaries across CA. #newproduct #launch",
+  "observed_at": "2026-10-01T09:00:00"
+ },
+ {
+  "id": "FEED-2",
+  "source": "website",
+  "account": "sierrapinesupply.example",
+  "url": "https://sierrapinesupply.example/news/sierrapinegelatoliverosin",
+  "text": "Now available: Sierra Pine Gelato Live Rosin, a new concentrates product in our lineup.",
+  "observed_at": "2026-10-02T09:00:00"
+ },
+ {
+  "id": "FEED-3",
+  "source": "instagram",
+  "account": "@sierrapinesupply",
+  "url": "https://instagram.example/sierrapinesupply/p/2000",
+  "text": "We're hiring! Join our cultivation team.",
+  "observed_at": "2026-10-02T09:00:00"
+ },
+ {
+  "id": "FEED-4",
+  "source": "instagram",
+  "account": "@coppergardens",
+  "url": "https://instagram.example/coppergardens/p/1003",
+  "text": "Introducing Copper Gelato Reserve Eighth! Our newest drop hits shelves this Friday. Available now at dispensaries across CA. #newproduct #launch",
+  "observed_at": "2026-10-03T09:00:00"
+ },
+ {
+  "id": "FEED-5",
+  "source": "website",
+  "account": "coppergardens.example",
+  "url": "https://coppergardens.example/news/coppergelatoreserveeighth",
+  "text": "Now available: Copper Gelato Reserve Eighth, a new flower product in our lineup.",
+  "observed_at": "2026-10-03T09:00:00"
+ },
+ {
+  "id": "FEED-6",
+  "source": "instagram",
+  "account": "@coppergardens",
+  "url": "https://instagram.example/coppergardens/p/2003",
+  "text": "We're hiring! Join our cultivation team.",
+  "observed_at": "2026-10-02T09:00:00"
+ },
+ {
+  "id": "FEED-7",
+  "source": "instagram",
+  "account": "@northforkprovisions",
+  "url": "https://instagram.example/northforkprovisions/p/1006",
+  "text": "Introducing North Fork Blue Dream Diamonds! Our newest drop hits shelves this Friday. Available now at dispensaries across CA. #newproduct #launch",
+  "observed_at": "2026-10-03T09:00:00"
+ },
+ {
+  "id": "FEED-8",
+  "source": "website",
+  "account": "northforkprovisions.example",
+  "url": "https://northforkprovisions.example/news/northforkbluedreamdiamonds",
+  "text": "Now available: North Fork Blue Dream Diamonds, a new concentrates product in our lineup.",
+  "observed_at": "2026-10-02T09:00:00"
+ },
+ {
+  "id": "FEED-9",
+  "source": "instagram",
+  "account": "@northforkprovisions",
+  "url": "https://instagram.example/northforkprovisions/p/2006",
+  "text": "We're hiring! Join our cultivation team.",
+  "observed_at": "2026-10-03T09:00:00"
+ },
+ {
+  "id": "FEED-10",
+  "source": "instagram",
+  "account": "@oakashbotanicals",
+  "url": "https://instagram.example/oakashbotanicals/p/2009",
+  "text": "Happy harvest season from the whole crew.",
+  "observed_at": "2026-10-01T09:00:00"
+ },
+ {
+  "id": "FEED-11",
+  "source": "instagram",
+  "account": "@quartzsupply",
+  "url": "https://instagram.example/quartzsupply/p/1010",
+  "text": "Introducing Quartz Pineapple Express Smalls Quarter! Our newest drop hits shelves this Friday. Available now at dispensaries across MI. #newproduct #launch",
+  "observed_at": "2026-10-03T09:00:00"
+ },
+ {
+  "id": "FEED-12",
+  "source": "website",
+  "account": "quartzsupply.example",
+  "url": "https://quartzsupply.example/news/quartzpineappleexpresssmallsquarter",
+  "text": "Now available: Quartz Pineapple Express Smalls Quarter, a new flower product in our lineup.",
+  "observed_at": "2026-10-01T09:00:00"
+ },
+ {
+  "id": "FEED-13",
+  "source": "instagram",
+  "account": "@quartzsupply",
+  "url": "https://instagram.example/quartzsupply/p/2010",
+  "text": "Thanks to everyone who stopped by our booth this weekend.",
+  "observed_at": "2026-10-02T09:00:00"
+ },
+ {
+  "id": "FEED-14",
+  "source": "instagram",
+  "account": "@marigoldbotanicals",
+  "url": "https://instagram.example/marigoldbotanicals/p/1013",
+  "text": "Introducing Marigold Pineapple Express Sparkling Tonic! Our newest drop hits shelves this Friday. Available now at dispensaries across MI. #newproduct #launch",
+  "observed_at": "2026-10-03T09:00:00"
+ },
+ {
+  "id": "FEED-15",
+  "source": "website",
+  "account": "marigoldbotanicals.example",
+  "url": "https://marigoldbotanicals.example/news/marigoldpineappleexpresssparklingtonic",
+  "text": "Now available: Marigold Pineapple Express Sparkling Tonic, a new beverages product in our lineup.",
+  "observed_at": "2026-10-01T09:00:00"
+ },
+ {
+  "id": "FEED-16",
+  "source": "instagram",
+  "account": "@marigoldbotanicals",
+  "url": "https://instagram.example/marigoldbotanicals/p/2013",
+  "text": "Happy harvest season from the whole crew.",
+  "observed_at": "2026-10-01T09:00:00"
+ },
+ {
+  "id": "FEED-17",
+  "source": "instagram",
+  "account": "@bramblebotanicals",
+  "url": "https://instagram.example/bramblebotanicals/p/2016",
+  "text": "We're hiring! Join our cultivation team.",
+  "observed_at": "2026-10-03T09:00:00"
+ },
+ {
+  "id": "FEED-18",
+  "source": "instagram",
+  "account": "@emberlabs",
+  "url": "https://instagram.example/emberlabs/p/1017",
+  "text": "Introducing Ember Watermelon Disposable! Our newest drop hits shelves this Friday. Available now at dispensaries across CA. #newproduct #launch",
+  "observed_at": "2026-10-02T09:00:00"
+ },
+ {
+  "id": "FEED-19",
+  "source": "website",
+  "account": "emberlabs.example",
+  "url": "https://emberlabs.example/news/emberwatermelondisposable",
+  "text": "Now available: Ember Watermelon Disposable, a new vape product in our lineup.",
+  "observed_at": "2026-10-03T09:00:00"
+ },
+ {
+  "id": "FEED-20",
+  "source": "instagram",
+  "account": "@saltwaterbotanicals",
+  "url": "https://instagram.example/saltwaterbotanicals/p/9999",
+  "text": "Introducing our brand-new seltzer line, launching statewide next week!",
+  "observed_at": "2026-10-02T09:00:00"
+ }
+]

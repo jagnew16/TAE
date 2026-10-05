@@ -1,0 +1,92 @@
+[
+ {
+  "id": "TASK-5001",
+  "rep": "alice",
+  "record_id": "ACC-1002",
+  "title": "Follow up on samples",
+  "due_in_days": 1,
+  "status": "open",
+  "notes": ""
+ },
+ {
+  "id": "TASK-5002",
+  "rep": "alice",
+  "record_id": "ACC-1003",
+  "title": "Book intro meeting",
+  "due_in_days": 14,
+  "status": "open",
+  "notes": ""
+ },
+ {
+  "id": "TASK-5003",
+  "rep": "ben",
+  "record_id": "ACC-1006",
+  "title": "Follow up on samples",
+  "due_in_days": -2,
+  "status": "open",
+  "notes": ""
+ },
+ {
+  "id": "TASK-5004",
+  "rep": "ben",
+  "record_id": "ACC-1007",
+  "title": "Book intro meeting",
+  "due_in_days": 1,
+  "status": "open",
+  "notes": ""
+ },
+ {
+  "id": "TASK-5005",
+  "rep": "ben",
+  "record_id": "ACC-1008",
+  "title": "Check in on Q4 order",
+  "due_in_days": -2,
+  "status": "open",
+  "notes": ""
+ },
+ {
+  "id": "TASK-5006",
+  "rep": "carla",
+  "record_id": "ACC-1009",
+  "title": "Book intro meeting",
+  "due_in_days": -2,
+  "status": "open",
+  "notes": ""
+ },
+ {
+  "id": "TASK-5007",
+  "rep": "carla",
+  "record_id": "ACC-1010",
+  "title": "Check in on Q4 order",
+  "due_in_days": -2,
+  "status": "open",
+  "notes": ""
+ },
+ {
+  "id": "TASK-5008",
+  "rep": "carla",
+  "record_id": "ACC-1011",
+  "title": "Book intro meeting",
+  "due_in_days": 1,
+  "status": "open",
+  "notes": ""
+ },
+ {
+  "id": "TASK-5009",
+  "rep": "carla",
+  "record_id": "ACC-1012",
+  "title": "Follow up on samples",
+  "due_in_days": 1,
+  "status": "open",
+  "notes": ""
+ },
+ {
+  "id": "TASK-5010",
+  "rep": "ben",
+  "record_id": "LEAD-2002",
+  "title": "Send updated pricing",
+  "due_in_days": -5,
+  "status": "open",
+  "notes": ""
+ }
+]

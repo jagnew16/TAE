@@ -1,0 +1,3773 @@
+{
+ "source": "ZoomInfo (mock)",
+ "companies": [
+  {
+   "company": "Saltwater Botanicals",
+   "domain": "saltwaterbotanicals.example",
+   "hq_state": "MI",
+   "employees": 85,
+   "instagram": "@saltwaterbotanicals",
+   "contacts": [
+    {
+     "name": "Elena Mendoza",
+     "title": "Director of Procurement",
+     "email": "elena.mendoza@saltwaterbotanicals.example",
+     "phone": "+1 (313) 555-0177"
+    },
+    {
+     "name": "Marcus Delgado",
+     "title": "Packaging Manager",
+     "email": "marcus.delgado@saltwaterbotanicals.example",
+     "phone": "+1 (313) 555-0150"
+    },
+    {
+     "name": "Grace Garcia",
+     "title": "Purchasing Manager",
+     "email": "grace.garcia@saltwaterbotanicals.example",
+     "phone": "+1 (313) 555-0114"
+    }
+   ]
+  },
+  {
+   "company": "Amber Collective",
+   "domain": "ambercollective.example",
+   "hq_state": "MA",
+   "employees": 60,
+   "instagram": "@ambercollective",
+   "contacts": [
+    {
+     "name": "Zoe Young",
+     "title": "VP of Operations",
+     "email": "zoe.young@ambercollective.example",
+     "phone": "+1 (617) 555-0151"
+    },
+    {
+     "name": "Caleb Novak",
+     "title": "Director of Supply Chain",
+     "email": "caleb.novak@ambercollective.example",
+     "phone": "+1 (617) 555-0145"
+    }
+   ]
+  },
+  {
+   "company": "Golden Coast Extracts",
+   "domain": "goldencoastextracts.example",
+   "hq_state": "CA",
+   "employees": 200,
+   "instagram": "@goldencoastextracts",
+   "contacts": [
+    {
+     "name": "Tessa Delgado",
+     "title": "Purchasing Manager",
+     "email": "tessa.delgado@goldencoastextracts.example",
+     "phone": "+1 (213) 555-0185"
+    },
+    {
+     "name": "Victor Underwood",
+     "title": "VP of Operations",
+     "email": "victor.underwood@goldencoastextracts.example",
+     "phone": "+1 (213) 555-0197"
+    },
+    {
+     "name": "Tessa Kim",
+     "title": "Director of Supply Chain",
+     "email": "tessa.kim@goldencoastextracts.example",
+     "phone": "+1 (213) 555-0164"
+    }
+   ]
+  },
+  {
+   "company": "Desert Bloom Botanicals",
+   "domain": "desertbloombotanicals.example",
+   "hq_state": "CO",
+   "employees": 200,
+   "instagram": "@desertbloombotanicals",
+   "contacts": [
+    {
+     "name": "Zoe Okafor",
+     "title": "Director of Supply Chain",
+     "email": "zoe.okafor@desertbloombotanicals.example",
+     "phone": "+1 (303) 555-0136"
+    },
+    {
+     "name": "Hannah Foster",
+     "title": "Director of Procurement",
+     "email": "hannah.foster@desertbloombotanicals.example",
+     "phone": "+1 (303) 555-0122"
+    }
+   ]
+  },
+  {
+   "company": "Sierra Pine Supply",
+   "domain": "sierrapinesupply.example",
+   "hq_state": "CA",
+   "employees": 200,
+   "instagram": "@sierrapinesupply",
+   "contacts": [
+    {
+     "name": "Zoe Okafor",
+     "title": "Co-Founder & CEO",
+     "email": "zoe.okafor@sierrapinesupply.example",
+     "phone": "+1 (213) 555-0183"
+    },
+    {
+     "name": "Tyler Vasquez",
+     "title": "Purchasing Manager",
+     "email": "tyler.vasquez@sierrapinesupply.example",
+     "phone": "+1 (213) 555-0112"
+    },
+    {
+     "name": "Rachel Shah",
+     "title": "VP of Operations",
+     "email": "rachel.shah@sierrapinesupply.example",
+     "phone": "+1 (213) 555-0183"
+    }
+   ]
+  },
+  {
+   "company": "Cedar Harvest",
+   "domain": "cedarharvest.example",
+   "hq_state": "MA",
+   "employees": 200,
+   "instagram": "@cedarharvest",
+   "contacts": [
+    {
+     "name": "Maya Turner",
+     "title": "Director of Supply Chain",
+     "email": "maya.turner@cedarharvest.example",
+     "phone": "+1 (617) 555-0128"
+    },
+    {
+     "name": "Elena Turner",
+     "title": "COO",
+     "email": "elena.turner@cedarharvest.example",
+     "phone": "+1 (617) 555-0179"
+    },
+    {
+     "name": "Nina Chen",
+     "title": "Head of Brand",
+     "email": "nina.chen@cedarharvest.example",
+     "phone": "+1 (617) 555-0176"
+    }
+   ]
+  },
+  {
+   "company": "Maplewood Farms",
+   "domain": "maplewoodfarms.example",
+   "hq_state": "CA",
+   "employees": 25,
+   "instagram": "@maplewoodfarms",
+   "contacts": [
+    {
+     "name": "Andre Foster",
+     "title": "Head of Brand",
+     "email": "andre.foster@maplewoodfarms.example",
+     "phone": "+1 (213) 555-0172"
+    },
+    {
+     "name": "Tessa Patel",
+     "title": "Purchasing Manager",
+     "email": "tessa.patel@maplewoodfarms.example",
+     "phone": "+1 (213) 555-0187"
+    }
+   ]
+  },
+  {
+   "company": "Amber Botanicals",
+   "domain": "amberbotanicals.example",
+   "hq_state": "CA",
+   "employees": 60,
+   "instagram": "@amberbotanicals",
+   "contacts": [
+    {
+     "name": "Samir Underwood",
+     "title": "Co-Founder & CEO",
+     "email": "samir.underwood@amberbotanicals.example",
+     "phone": "+1 (213) 555-0149"
+    },
+    {
+     "name": "Caleb Quinn",
+     "title": "Head of Brand",
+     "email": "caleb.quinn@amberbotanicals.example",
+     "phone": "+1 (213) 555-0124"
+    },
+    {
+     "name": "Tyler Okafor",
+     "title": "Purchasing Manager",
+     "email": "tyler.okafor@amberbotanicals.example",
+     "phone": "+1 (213) 555-0147"
+    }
+   ]
+  },
+  {
+   "company": "Fernleaf Extracts",
+   "domain": "fernleafextracts.example",
+   "hq_state": "NV",
+   "employees": 60,
+   "instagram": "@fernleafextracts",
+   "contacts": [
+    {
+     "name": "Grace Kim",
+     "title": "Packaging Manager",
+     "email": "grace.kim@fernleafextracts.example",
+     "phone": "+1 (702) 555-0116"
+    },
+    {
+     "name": "Kevin Chen",
+     "title": "Head of Brand",
+     "email": "kevin.chen@fernleafextracts.example",
+     "phone": "+1 (702) 555-0103"
+    }
+   ]
+  },
+  {
+   "company": "Oak & Ash Harvest",
+   "domain": "oakashharvest.example",
+   "hq_state": "IL",
+   "employees": 25,
+   "instagram": "@oakashharvest",
+   "contacts": [
+    {
+     "name": "Hannah Hayes",
+     "title": "Packaging Manager",
+     "email": "hannah.hayes@oakashharvest.example",
+     "phone": "+1 (312) 555-0122"
+    },
+    {
+     "name": "Hannah Quinn",
+     "title": "Director of Procurement",
+     "email": "hannah.quinn@oakashharvest.example",
+     "phone": "+1 (312) 555-0182"
+    },
+    {
+     "name": "Marcus Turner",
+     "title": "COO",
+     "email": "marcus.turner@oakashharvest.example",
+     "phone": "+1 (312) 555-0142"
+    },
+    {
+     "name": "Tyler Hayes",
+     "title": "Purchasing Manager",
+     "email": "tyler.hayes@oakashharvest.example",
+     "phone": "+1 (312) 555-0159"
+    }
+   ]
+  },
+  {
+   "company": "Amber Supply",
+   "domain": "ambersupply.example",
+   "hq_state": "MI",
+   "employees": 200,
+   "instagram": "@ambersupply",
+   "contacts": [
+    {
+     "name": "Victor Novak",
+     "title": "Co-Founder & CEO",
+     "email": "victor.novak@ambersupply.example",
+     "phone": "+1 (313) 555-0166"
+    },
+    {
+     "name": "Isaac Mendoza",
+     "title": "Head of Brand",
+     "email": "isaac.mendoza@ambersupply.example",
+     "phone": "+1 (313) 555-0109"
+    }
+   ]
+  },
+  {
+   "company": "Fernleaf Supply",
+   "domain": "fernleafsupply.example",
+   "hq_state": "MI",
+   "employees": 200,
+   "instagram": "@fernleafsupply",
+   "contacts": [
+    {
+     "name": "Tessa Reyes",
+     "title": "COO",
+     "email": "tessa.reyes@fernleafsupply.example",
+     "phone": "+1 (313) 555-0191"
+    },
+    {
+     "name": "Maya Okafor",
+     "title": "Head of Brand",
+     "email": "maya.okafor@fernleafsupply.example",
+     "phone": "+1 (313) 555-0161"
+    },
+    {
+     "name": "Ryan Brooks",
+     "title": "Purchasing Manager",
+     "email": "ryan.brooks@fernleafsupply.example",
+     "phone": "+1 (313) 555-0137"
+    }
+   ]
+  },
+  {
+   "company": "Maplewood Extracts",
+   "domain": "maplewoodextracts.example",
+   "hq_state": "NV",
+   "employees": 40,
+   "instagram": "@maplewoodextracts",
+   "contacts": [
+    {
+     "name": "Tessa Underwood",
+     "title": "Co-Founder & CEO",
+     "email": "tessa.underwood@maplewoodextracts.example",
+     "phone": "+1 (702) 555-0156"
+    },
+    {
+     "name": "Diego Delgado",
+     "title": "VP of Operations",
+     "email": "diego.delgado@maplewoodextracts.example",
+     "phone": "+1 (702) 555-0113"
+    },
+    {
+     "name": "Elena Ibarra",
+     "title": "Director of Procurement",
+     "email": "elena.ibarra@maplewoodextracts.example",
+     "phone": "+1 (702) 555-0197"
+    },
+    {
+     "name": "Aisha Zimmerman",
+     "title": "Purchasing Manager",
+     "email": "aisha.zimmerman@maplewoodextracts.example",
+     "phone": "+1 (702) 555-0114"
+    }
+   ]
+  },
+  {
+   "company": "Marigold Harvest",
+   "domain": "marigoldharvest.example",
+   "hq_state": "CA",
+   "employees": 25,
+   "instagram": "@marigoldharvest",
+   "contacts": [
+    {
+     "name": "Elena Hayes",
+     "title": "Director of Supply Chain",
+     "email": "elena.hayes@marigoldharvest.example",
+     "phone": "+1 (213) 555-0161"
+    },
+    {
+     "name": "Grace Ibarra",
+     "title": "Head of Brand",
+     "email": "grace.ibarra@marigoldharvest.example",
+     "phone": "+1 (213) 555-0112"
+    },
+    {
+     "name": "Lena Underwood",
+     "title": "VP of Operations",
+     "email": "lena.underwood@marigoldharvest.example",
+     "phone": "+1 (213) 555-0188"
+    }
+   ]
+  },
+  {
+   "company": "Granite Farms",
+   "domain": "granitefarms.example",
+   "hq_state": "CA",
+   "employees": 85,
+   "instagram": "@granitefarms",
+   "contacts": [
+    {
+     "name": "Zoe Ibarra",
+     "title": "Packaging Manager",
+     "email": "zoe.ibarra@granitefarms.example",
+     "phone": "+1 (213) 555-0143"
+    },
+    {
+     "name": "Kevin Whitaker",
+     "title": "Director of Supply Chain",
+     "email": "kevin.whitaker@granitefarms.example",
+     "phone": "+1 (213) 555-0156"
+    },
+    {
+     "name": "Lena Okafor",
+     "title": "COO",
+     "email": "lena.okafor@granitefarms.example",
+     "phone": "+1 (213) 555-0189"
+    }
+   ]
+  },
+  {
+   "company": "Thistle Craft Co.",
+   "domain": "thistlecraftco.example",
+   "hq_state": "IL",
+   "employees": 40,
+   "instagram": "@thistlecraftco",
+   "contacts": [
+    {
+     "name": "Elena Quinn",
+     "title": "Purchasing Manager",
+     "email": "elena.quinn@thistlecraftco.example",
+     "phone": "+1 (312) 555-0136"
+    },
+    {
+     "name": "Maya Hayes",
+     "title": "Packaging Manager",
+     "email": "maya.hayes@thistlecraftco.example",
+     "phone": "+1 (312) 555-0147"
+    },
+    {
+     "name": "Aisha Lopez",
+     "title": "Co-Founder & CEO",
+     "email": "aisha.lopez@thistlecraftco.example",
+     "phone": "+1 (312) 555-0191"
+    },
+    {
+     "name": "Kevin Jensen",
+     "title": "COO",
+     "email": "kevin.jensen@thistlecraftco.example",
+     "phone": "+1 (312) 555-0191"
+    }
+   ]
+  },
+  {
+   "company": "Silver Creek Labs",
+   "domain": "silvercreeklabs.example",
+   "hq_state": "MI",
+   "employees": 60,
+   "instagram": "@silvercreeklabs",
+   "contacts": [
+    {
+     "name": "Victor Jensen",
+     "title": "Purchasing Manager",
+     "email": "victor.jensen@silvercreeklabs.example",
+     "phone": "+1 (313) 555-0119"
+    },
+    {
+     "name": "Ryan Whitaker",
+     "title": "Director of Procurement",
+     "email": "ryan.whitaker@silvercreeklabs.example",
+     "phone": "+1 (313) 555-0116"
+    },
+    {
+     "name": "Elena Turner",
+     "title": "Head of Brand",
+     "email": "elena.turner@silvercreeklabs.example",
+     "phone": "+1 (313) 555-0137"
+    },
+    {
+     "name": "Rachel Ibarra",
+     "title": "Director of Supply Chain",
+     "email": "rachel.ibarra@silvercreeklabs.example",
+     "phone": "+1 (313) 555-0181"
+    }
+   ]
+  },
+  {
+   "company": "Juniper Collective",
+   "domain": "junipercollective.example",
+   "hq_state": "CA",
+   "employees": 200,
+   "instagram": "@junipercollective",
+   "contacts": [
+    {
+     "name": "Kevin Ellis",
+     "title": "Director of Procurement",
+     "email": "kevin.ellis@junipercollective.example",
+     "phone": "+1 (213) 555-0174"
+    },
+    {
+     "name": "Maya Ibarra",
+     "title": "Purchasing Manager",
+     "email": "maya.ibarra@junipercollective.example",
+     "phone": "+1 (213) 555-0146"
+    }
+   ]
+  },
+  {
+   "company": "Desert Bloom Extracts",
+   "domain": "desertbloomextracts.example",
+   "hq_state": "CA",
+   "employees": 40,
+   "instagram": "@desertbloomextracts",
+   "contacts": [
+    {
+     "name": "Elena Shah",
+     "title": "VP of Operations",
+     "email": "elena.shah@desertbloomextracts.example",
+     "phone": "+1 (213) 555-0164"
+    },
+    {
+     "name": "Lena Quinn",
+     "title": "Packaging Manager",
+     "email": "lena.quinn@desertbloomextracts.example",
+     "phone": "+1 (213) 555-0147"
+    },
+    {
+     "name": "Rachel Patel",
+     "title": "Head of Brand",
+     "email": "rachel.patel@desertbloomextracts.example",
+     "phone": "+1 (213) 555-0182"
+    }
+   ]
+  },
+  {
+   "company": "Thistle Gardens",
+   "domain": "thistlegardens.example",
+   "hq_state": "CA",
+   "employees": 25,
+   "instagram": "@thistlegardens",
+   "contacts": [
+    {
+     "name": "Maya Vasquez",
+     "title": "Packaging Manager",
+     "email": "maya.vasquez@thistlegardens.example",
+     "phone": "+1 (213) 555-0108"
+    },
+    {
+     "name": "Lena Hayes",
+     "title": "COO",
+     "email": "lena.hayes@thistlegardens.example",
+     "phone": "+1 (213) 555-0139"
+    },
+    {
+     "name": "Grace Hayes",
+     "title": "Director of Procurement",
+     "email": "grace.hayes@thistlegardens.example",
+     "phone": "+1 (213) 555-0119"
+    },
+    {
+     "name": "Sofia Turner",
+     "title": "Head of Brand",
+     "email": "sofia.turner@thistlegardens.example",
+     "phone": "+1 (213) 555-0199"
+    }
+   ]
+  },
+  {
+   "company": "Copper Botanicals",
+   "domain": "copperbotanicals.example",
+   "hq_state": "MI",
+   "employees": 25,
+   "instagram": "@copperbotanicals",
+   "contacts": [
+    {
+     "name": "Aisha Underwood",
+     "title": "Director of Procurement",
+     "email": "aisha.underwood@copperbotanicals.example",
+     "phone": "+1 (313) 555-0101"
+    },
+    {
+     "name": "Ryan Quinn",
+     "title": "VP of Operations",
+     "email": "ryan.quinn@copperbotanicals.example",
+     "phone": "+1 (313) 555-0129"
+    },
+    {
+     "name": "Ryan Garcia",
+     "title": "Packaging Manager",
+     "email": "ryan.garcia@copperbotanicals.example",
+     "phone": "+1 (313) 555-0146"
+    },
+    {
+     "name": "Victor Brooks",
+     "title": "Head of Brand",
+     "email": "victor.brooks@copperbotanicals.example",
+     "phone": "+1 (313) 555-0151"
+    }
+   ]
+  },
+  {
+   "company": "Lantern Botanicals",
+   "domain": "lanternbotanicals.example",
+   "hq_state": "CA",
+   "employees": 60,
+   "instagram": "@lanternbotanicals",
+   "contacts": [
+    {
+     "name": "Caleb Young",
+     "title": "COO",
+     "email": "caleb.young@lanternbotanicals.example",
+     "phone": "+1 (213) 555-0168"
+    },
+    {
+     "name": "Priya Brooks",
+     "title": "VP of Operations",
+     "email": "priya.brooks@lanternbotanicals.example",
+     "phone": "+1 (213) 555-0157"
+    },
+    {
+     "name": "Aisha Quinn",
+     "title": "Purchasing Manager",
+     "email": "aisha.quinn@lanternbotanicals.example",
+     "phone": "+1 (213) 555-0131"
+    }
+   ]
+  },
+  {
+   "company": "Lakeshore Gardens",
+   "domain": "lakeshoregardens.example",
+   "hq_state": "MI",
+   "employees": 85,
+   "instagram": "@lakeshoregardens",
+   "contacts": [
+    {
+     "name": "Andre Hayes",
+     "title": "VP of Operations",
+     "email": "andre.hayes@lakeshoregardens.example",
+     "phone": "+1 (313) 555-0188"
+    },
+    {
+     "name": "Mei Okafor",
+     "title": "Head of Brand",
+     "email": "mei.okafor@lakeshoregardens.example",
+     "phone": "+1 (313) 555-0122"
+    },
+    {
+     "name": "Jordan Turner",
+     "title": "Director of Supply Chain",
+     "email": "jordan.turner@lakeshoregardens.example",
+     "phone": "+1 (313) 555-0134"
+    }
+   ]
+  },
+  {
+   "company": "Riverbend Collective",
+   "domain": "riverbendcollective.example",
+   "hq_state": "MI",
+   "employees": 60,
+   "instagram": "@riverbendcollective",
+   "contacts": [
+    {
+     "name": "Priya Ellis",
+     "title": "Director of Procurement",
+     "email": "priya.ellis@riverbendcollective.example",
+     "phone": "+1 (313) 555-0166"
+    },
+    {
+     "name": "Kevin Brooks",
+     "title": "Head of Brand",
+     "email": "kevin.brooks@riverbendcollective.example",
+     "phone": "+1 (313) 555-0126"
+    }
+   ]
+  },
+  {
+   "company": "Timberline Farms",
+   "domain": "timberlinefarms.example",
+   "hq_state": "CA",
+   "employees": 60,
+   "instagram": "@timberlinefarms",
+   "contacts": [
+    {
+     "name": "Marcus Reyes",
+     "title": "Packaging Manager",
+     "email": "marcus.reyes@timberlinefarms.example",
+     "phone": "+1 (213) 555-0106"
+    },
+    {
+     "name": "Lena Underwood",
+     "title": "Director of Procurement",
+     "email": "lena.underwood@timberlinefarms.example",
+     "phone": "+1 (213) 555-0109"
+    }
+   ]
+  },
+  {
+   "company": "Stonefruit Provisions",
+   "domain": "stonefruitprovisions.example",
+   "hq_state": "MI",
+   "employees": 12,
+   "instagram": "@stonefruitprovisions",
+   "contacts": [
+    {
+     "name": "Isaac Garcia",
+     "title": "COO",
+     "email": "isaac.garcia@stonefruitprovisions.example",
+     "phone": "+1 (313) 555-0112"
+    },
+    {
+     "name": "Caleb Shah",
+     "title": "Director of Procurement",
+     "email": "caleb.shah@stonefruitprovisions.example",
+     "phone": "+1 (313) 555-0127"
+    },
+    {
+     "name": "Logan Patel",
+     "title": "Co-Founder & CEO",
+     "email": "logan.patel@stonefruitprovisions.example",
+     "phone": "+1 (313) 555-0138"
+    }
+   ]
+  },
+  {
+   "company": "Prairie Sky Botanicals",
+   "domain": "prairieskybotanicals.example",
+   "hq_state": "CA",
+   "employees": 85,
+   "instagram": "@prairieskybotanicals",
+   "contacts": [
+    {
+     "name": "Zoe Underwood",
+     "title": "Director of Supply Chain",
+     "email": "zoe.underwood@prairieskybotanicals.example",
+     "phone": "+1 (213) 555-0124"
+    },
+    {
+     "name": "Aisha Underwood",
+     "title": "Packaging Manager",
+     "email": "aisha.underwood@prairieskybotanicals.example",
+     "phone": "+1 (213) 555-0178"
+    },
+    {
+     "name": "Zoe Okafor",
+     "title": "Co-Founder & CEO",
+     "email": "zoe.okafor@prairieskybotanicals.example",
+     "phone": "+1 (213) 555-0100"
+    },
+    {
+     "name": "Sofia Zimmerman",
+     "title": "Director of Procurement",
+     "email": "sofia.zimmerman@prairieskybotanicals.example",
+     "phone": "+1 (213) 555-0152"
+    }
+   ]
+  },
+  {
+   "company": "Bramble Labs",
+   "domain": "bramblelabs.example",
+   "hq_state": "CO",
+   "employees": 85,
+   "instagram": "@bramblelabs",
+   "contacts": [
+    {
+     "name": "Isaac Quinn",
+     "title": "VP of Operations",
+     "email": "isaac.quinn@bramblelabs.example",
+     "phone": "+1 (303) 555-0136"
+    },
+    {
+     "name": "Tessa Jensen",
+     "title": "Packaging Manager",
+     "email": "tessa.jensen@bramblelabs.example",
+     "phone": "+1 (303) 555-0133"
+    },
+    {
+     "name": "Caleb Hayes",
+     "title": "Purchasing Manager",
+     "email": "caleb.hayes@bramblelabs.example",
+     "phone": "+1 (303) 555-0143"
+    }
+   ]
+  },
+  {
+   "company": "Cedar Supply",
+   "domain": "cedarsupply.example",
+   "hq_state": "CA",
+   "employees": 200,
+   "instagram": "@cedarsupply",
+   "contacts": [
+    {
+     "name": "Zoe Foster",
+     "title": "Purchasing Manager",
+     "email": "zoe.foster@cedarsupply.example",
+     "phone": "+1 (213) 555-0162"
+    },
+    {
+     "name": "Maya Kim",
+     "title": "Head of Brand",
+     "email": "maya.kim@cedarsupply.example",
+     "phone": "+1 (213) 555-0165"
+    },
+    {
+     "name": "Isaac Patel",
+     "title": "Director of Procurement",
+     "email": "isaac.patel@cedarsupply.example",
+     "phone": "+1 (213) 555-0120"
+    },
+    {
+     "name": "Tyler Chen",
+     "title": "Co-Founder & CEO",
+     "email": "tyler.chen@cedarsupply.example",
+     "phone": "+1 (213) 555-0197"
+    }
+   ]
+  },
+  {
+   "company": "Harborlight Harvest",
+   "domain": "harborlightharvest.example",
+   "hq_state": "NV",
+   "employees": 60,
+   "instagram": "@harborlightharvest",
+   "contacts": [
+    {
+     "name": "Lena Underwood",
+     "title": "COO",
+     "email": "lena.underwood@harborlightharvest.example",
+     "phone": "+1 (702) 555-0187"
+    },
+    {
+     "name": "Caleb Foster",
+     "title": "Director of Supply Chain",
+     "email": "caleb.foster@harborlightharvest.example",
+     "phone": "+1 (702) 555-0124"
+    },
+    {
+     "name": "Zoe Delgado",
+     "title": "Director of Procurement",
+     "email": "zoe.delgado@harborlightharvest.example",
+     "phone": "+1 (702) 555-0197"
+    }
+   ]
+  },
+  {
+   "company": "Yarrow Gardens",
+   "domain": "yarrowgardens.example",
+   "hq_state": "MI",
+   "employees": 85,
+   "instagram": "@yarrowgardens",
+   "contacts": [
+    {
+     "name": "Kevin Kim",
+     "title": "Purchasing Manager",
+     "email": "kevin.kim@yarrowgardens.example",
+     "phone": "+1 (313) 555-0198"
+    },
+    {
+     "name": "Nina Patel",
+     "title": "Packaging Manager",
+     "email": "nina.patel@yarrowgardens.example",
+     "phone": "+1 (313) 555-0113"
+    }
+   ]
+  },
+  {
+   "company": "Quartz Extracts",
+   "domain": "quartzextracts.example",
+   "hq_state": "CA",
+   "employees": 350,
+   "instagram": "@quartzextracts",
+   "contacts": [
+    {
+     "name": "Lena Foster",
+     "title": "Director of Procurement",
+     "email": "lena.foster@quartzextracts.example",
+     "phone": "+1 (213) 555-0124"
+    },
+    {
+     "name": "Zoe Mendoza",
+     "title": "Purchasing Manager",
+     "email": "zoe.mendoza@quartzextracts.example",
+     "phone": "+1 (213) 555-0121"
+    },
+    {
+     "name": "Tyler Turner",
+     "title": "Head of Brand",
+     "email": "tyler.turner@quartzextracts.example",
+     "phone": "+1 (213) 555-0184"
+    },
+    {
+     "name": "Tyler Kim",
+     "title": "COO",
+     "email": "tyler.kim@quartzextracts.example",
+     "phone": "+1 (213) 555-0166"
+    }
+   ]
+  },
+  {
+   "company": "Silver Creek Botanicals",
+   "domain": "silvercreekbotanicals.example",
+   "hq_state": "NV",
+   "employees": 350,
+   "instagram": "@silvercreekbotanicals",
+   "contacts": [
+    {
+     "name": "Andre Ibarra",
+     "title": "Director of Supply Chain",
+     "email": "andre.ibarra@silvercreekbotanicals.example",
+     "phone": "+1 (702) 555-0160"
+    },
+    {
+     "name": "Kevin Lopez",
+     "title": "Packaging Manager",
+     "email": "kevin.lopez@silvercreekbotanicals.example",
+     "phone": "+1 (702) 555-0118"
+    },
+    {
+     "name": "Kevin Kim",
+     "title": "Head of Brand",
+     "email": "kevin.kim@silvercreekbotanicals.example",
+     "phone": "+1 (702) 555-0193"
+    },
+    {
+     "name": "Omar Young",
+     "title": "VP of Operations",
+     "email": "omar.young@silvercreekbotanicals.example",
+     "phone": "+1 (702) 555-0140"
+    }
+   ]
+  },
+  {
+   "company": "Blue Heron Extracts",
+   "domain": "blueheronextracts.example",
+   "hq_state": "IL",
+   "employees": 40,
+   "instagram": "@blueheronextracts",
+   "contacts": [
+    {
+     "name": "Zoe Novak",
+     "title": "Director of Supply Chain",
+     "email": "zoe.novak@blueheronextracts.example",
+     "phone": "+1 (312) 555-0100"
+    },
+    {
+     "name": "Zoe Mendoza",
+     "title": "Purchasing Manager",
+     "email": "zoe.mendoza@blueheronextracts.example",
+     "phone": "+1 (312) 555-0107"
+    },
+    {
+     "name": "Diego Lopez",
+     "title": "Director of Procurement",
+     "email": "diego.lopez@blueheronextracts.example",
+     "phone": "+1 (312) 555-0182"
+    }
+   ]
+  },
+  {
+   "company": "Thistle Collective",
+   "domain": "thistlecollective.example",
+   "hq_state": "NV",
+   "employees": 200,
+   "instagram": "@thistlecollective",
+   "contacts": [
+    {
+     "name": "Grace Garcia",
+     "title": "Purchasing Manager",
+     "email": "grace.garcia@thistlecollective.example",
+     "phone": "+1 (702) 555-0184"
+    },
+    {
+     "name": "Mei Ibarra",
+     "title": "Co-Founder & CEO",
+     "email": "mei.ibarra@thistlecollective.example",
+     "phone": "+1 (702) 555-0137"
+    },
+    {
+     "name": "Omar Alvarez",
+     "title": "Head of Brand",
+     "email": "omar.alvarez@thistlecollective.example",
+     "phone": "+1 (702) 555-0141"
+    }
+   ]
+  },
+  {
+   "company": "Cedar Extracts",
+   "domain": "cedarextracts.example",
+   "hq_state": "MI",
+   "employees": 60,
+   "instagram": "@cedarextracts",
+   "contacts": [
+    {
+     "name": "Ryan Garcia",
+     "title": "Head of Brand",
+     "email": "ryan.garcia@cedarextracts.example",
+     "phone": "+1 (313) 555-0127"
+    },
+    {
+     "name": "Logan Quinn",
+     "title": "Purchasing Manager",
+     "email": "logan.quinn@cedarextracts.example",
+     "phone": "+1 (313) 555-0156"
+    },
+    {
+     "name": "Sofia Delgado",
+     "title": "Director of Supply Chain",
+     "email": "sofia.delgado@cedarextracts.example",
+     "phone": "+1 (313) 555-0109"
+    }
+   ]
+  },
+  {
+   "company": "Willowmere Botanicals",
+   "domain": "willowmerebotanicals.example",
+   "hq_state": "IL",
+   "employees": 200,
+   "instagram": "@willowmerebotanicals",
+   "contacts": [
+    {
+     "name": "Isaac Young",
+     "title": "Head of Brand",
+     "email": "isaac.young@willowmerebotanicals.example",
+     "phone": "+1 (312) 555-0175"
+    },
+    {
+     "name": "Isaac Brooks",
+     "title": "Packaging Manager",
+     "email": "isaac.brooks@willowmerebotanicals.example",
+     "phone": "+1 (312) 555-0199"
+    }
+   ]
+  },
+  {
+   "company": "Lantern Collective",
+   "domain": "lanterncollective.example",
+   "hq_state": "NV",
+   "employees": 25,
+   "instagram": "@lanterncollective",
+   "contacts": [
+    {
+     "name": "Aisha Mendoza",
+     "title": "Packaging Manager",
+     "email": "aisha.mendoza@lanterncollective.example",
+     "phone": "+1 (702) 555-0107"
+    },
+    {
+     "name": "Marcus Brooks",
+     "title": "COO",
+     "email": "marcus.brooks@lanterncollective.example",
+     "phone": "+1 (702) 555-0181"
+    },
+    {
+     "name": "Lena Ibarra",
+     "title": "VP of Operations",
+     "email": "lena.ibarra@lanterncollective.example",
+     "phone": "+1 (702) 555-0168"
+    },
+    {
+     "name": "Omar Okafor",
+     "title": "Purchasing Manager",
+     "email": "omar.okafor@lanterncollective.example",
+     "phone": "+1 (702) 555-0136"
+    }
+   ]
+  },
+  {
+   "company": "Marigold Gardens",
+   "domain": "marigoldgardens.example",
+   "hq_state": "MA",
+   "employees": 60,
+   "instagram": "@marigoldgardens",
+   "contacts": [
+    {
+     "name": "Lena Zimmerman",
+     "title": "VP of Operations",
+     "email": "lena.zimmerman@marigoldgardens.example",
+     "phone": "+1 (617) 555-0193"
+    },
+    {
+     "name": "Diego Ellis",
+     "title": "Head of Brand",
+     "email": "diego.ellis@marigoldgardens.example",
+     "phone": "+1 (617) 555-0119"
+    },
+    {
+     "name": "Aisha Jensen",
+     "title": "Co-Founder & CEO",
+     "email": "aisha.jensen@marigoldgardens.example",
+     "phone": "+1 (617) 555-0173"
+    }
+   ]
+  },
+  {
+   "company": "Ember Gardens",
+   "domain": "embergardens.example",
+   "hq_state": "CO",
+   "employees": 85,
+   "instagram": "@embergardens",
+   "contacts": [
+    {
+     "name": "Lena Shah",
+     "title": "Packaging Manager",
+     "email": "lena.shah@embergardens.example",
+     "phone": "+1 (303) 555-0169"
+    },
+    {
+     "name": "Zoe Vasquez",
+     "title": "COO",
+     "email": "zoe.vasquez@embergardens.example",
+     "phone": "+1 (303) 555-0133"
+    }
+   ]
+  },
+  {
+   "company": "Lakeshore Extracts",
+   "domain": "lakeshoreextracts.example",
+   "hq_state": "CA",
+   "employees": 60,
+   "instagram": "@lakeshoreextracts",
+   "contacts": [
+    {
+     "name": "Omar Zimmerman",
+     "title": "Co-Founder & CEO",
+     "email": "omar.zimmerman@lakeshoreextracts.example",
+     "phone": "+1 (213) 555-0157"
+    },
+    {
+     "name": "Ryan Garcia",
+     "title": "COO",
+     "email": "ryan.garcia@lakeshoreextracts.example",
+     "phone": "+1 (213) 555-0123"
+    },
+    {
+     "name": "Lena Okafor",
+     "title": "Packaging Manager",
+     "email": "lena.okafor@lakeshoreextracts.example",
+     "phone": "+1 (213) 555-0129"
+    },
+    {
+     "name": "Hannah Lopez",
+     "title": "VP of Operations",
+     "email": "hannah.lopez@lakeshoreextracts.example",
+     "phone": "+1 (213) 555-0142"
+    }
+   ]
+  },
+  {
+   "company": "Sierra Pine Collective",
+   "domain": "sierrapinecollective.example",
+   "hq_state": "NV",
+   "employees": 120,
+   "instagram": "@sierrapinecollective",
+   "contacts": [
+    {
+     "name": "Elena Delgado",
+     "title": "Purchasing Manager",
+     "email": "elena.delgado@sierrapinecollective.example",
+     "phone": "+1 (702) 555-0182"
+    },
+    {
+     "name": "Diego Novak",
+     "title": "VP of Operations",
+     "email": "diego.novak@sierrapinecollective.example",
+     "phone": "+1 (702) 555-0150"
+    },
+    {
+     "name": "Samir Patel",
+     "title": "Packaging Manager",
+     "email": "samir.patel@sierrapinecollective.example",
+     "phone": "+1 (702) 555-0106"
+    },
+    {
+     "name": "Nina Brooks",
+     "title": "Co-Founder & CEO",
+     "email": "nina.brooks@sierrapinecollective.example",
+     "phone": "+1 (702) 555-0165"
+    }
+   ]
+  },
+  {
+   "company": "Riverbend Craft Co.",
+   "domain": "riverbendcraftco.example",
+   "hq_state": "MI",
+   "employees": 120,
+   "instagram": "@riverbendcraftco",
+   "contacts": [
+    {
+     "name": "Nina Kim",
+     "title": "Director of Supply Chain",
+     "email": "nina.kim@riverbendcraftco.example",
+     "phone": "+1 (313) 555-0168"
+    },
+    {
+     "name": "Isaac Jensen",
+     "title": "Co-Founder & CEO",
+     "email": "isaac.jensen@riverbendcraftco.example",
+     "phone": "+1 (313) 555-0173"
+    }
+   ]
+  },
+  {
+   "company": "Prairie Sky Extracts",
+   "domain": "prairieskyextracts.example",
+   "hq_state": "MI",
+   "employees": 60,
+   "instagram": "@prairieskyextracts",
+   "contacts": [
+    {
+     "name": "Priya Reyes",
+     "title": "COO",
+     "email": "priya.reyes@prairieskyextracts.example",
+     "phone": "+1 (313) 555-0199"
+    },
+    {
+     "name": "Marcus Reyes",
+     "title": "Head of Brand",
+     "email": "marcus.reyes@prairieskyextracts.example",
+     "phone": "+1 (313) 555-0120"
+    },
+    {
+     "name": "Samir Quinn",
+     "title": "Co-Founder & CEO",
+     "email": "samir.quinn@prairieskyextracts.example",
+     "phone": "+1 (313) 555-0111"
+    },
+    {
+     "name": "Aisha Okafor",
+     "title": "Purchasing Manager",
+     "email": "aisha.okafor@prairieskyextracts.example",
+     "phone": "+1 (313) 555-0178"
+    }
+   ]
+  },
+  {
+   "company": "Ember Provisions",
+   "domain": "emberprovisions.example",
+   "hq_state": "CA",
+   "employees": 200,
+   "instagram": "@emberprovisions",
+   "contacts": [
+    {
+     "name": "Hannah Young",
+     "title": "Director of Supply Chain",
+     "email": "hannah.young@emberprovisions.example",
+     "phone": "+1 (213) 555-0119"
+    },
+    {
+     "name": "Tessa Kim",
+     "title": "Packaging Manager",
+     "email": "tessa.kim@emberprovisions.example",
+     "phone": "+1 (213) 555-0109"
+    },
+    {
+     "name": "Tyler Underwood",
+     "title": "VP of Operations",
+     "email": "tyler.underwood@emberprovisions.example",
+     "phone": "+1 (213) 555-0173"
+    },
+    {
+     "name": "Lena Okafor",
+     "title": "Director of Procurement",
+     "email": "lena.okafor@emberprovisions.example",
+     "phone": "+1 (213) 555-0167"
+    }
+   ]
+  },
+  {
+   "company": "Bramble Supply",
+   "domain": "bramblesupply.example",
+   "hq_state": "IL",
+   "employees": 60,
+   "instagram": "@bramblesupply",
+   "contacts": [
+    {
+     "name": "Kevin Alvarez",
+     "title": "Director of Supply Chain",
+     "email": "kevin.alvarez@bramblesupply.example",
+     "phone": "+1 (312) 555-0179"
+    },
+    {
+     "name": "Rachel Alvarez",
+     "title": "Purchasing Manager",
+     "email": "rachel.alvarez@bramblesupply.example",
+     "phone": "+1 (312) 555-0101"
+    }
+   ]
+  },
+  {
+   "company": "Golden Coast Gardens",
+   "domain": "goldencoastgardens.example",
+   "hq_state": "MA",
+   "employees": 60,
+   "instagram": "@goldencoastgardens",
+   "contacts": [
+    {
+     "name": "Andre Shah",
+     "title": "Director of Supply Chain",
+     "email": "andre.shah@goldencoastgardens.example",
+     "phone": "+1 (617) 555-0186"
+    },
+    {
+     "name": "Zoe Kim",
+     "title": "COO",
+     "email": "zoe.kim@goldencoastgardens.example",
+     "phone": "+1 (617) 555-0168"
+    },
+    {
+     "name": "Hannah Underwood",
+     "title": "VP of Operations",
+     "email": "hannah.underwood@goldencoastgardens.example",
+     "phone": "+1 (617) 555-0185"
+    }
+   ]
+  },
+  {
+   "company": "Velvet Hills Farms",
+   "domain": "velvethillsfarms.example",
+   "hq_state": "MA",
+   "employees": 40,
+   "instagram": "@velvethillsfarms",
+   "contacts": [
+    {
+     "name": "Grace Zimmerman",
+     "title": "Head of Brand",
+     "email": "grace.zimmerman@velvethillsfarms.example",
+     "phone": "+1 (617) 555-0118"
+    },
+    {
+     "name": "Grace Jensen",
+     "title": "Packaging Manager",
+     "email": "grace.jensen@velvethillsfarms.example",
+     "phone": "+1 (617) 555-0123"
+    },
+    {
+     "name": "Marcus Alvarez",
+     "title": "Purchasing Manager",
+     "email": "marcus.alvarez@velvethillsfarms.example",
+     "phone": "+1 (617) 555-0168"
+    },
+    {
+     "name": "Logan Brooks",
+     "title": "COO",
+     "email": "logan.brooks@velvethillsfarms.example",
+     "phone": "+1 (617) 555-0199"
+    }
+   ]
+  },
+  {
+   "company": "Golden Coast Farms",
+   "domain": "goldencoastfarms.example",
+   "hq_state": "CA",
+   "employees": 12,
+   "instagram": "@goldencoastfarms",
+   "contacts": [
+    {
+     "name": "Andre Vasquez",
+     "title": "Head of Brand",
+     "email": "andre.vasquez@goldencoastfarms.example",
+     "phone": "+1 (213) 555-0126"
+    },
+    {
+     "name": "Grace Jensen",
+     "title": "Co-Founder & CEO",
+     "email": "grace.jensen@goldencoastfarms.example",
+     "phone": "+1 (213) 555-0120"
+    },
+    {
+     "name": "Diego Ibarra",
+     "title": "VP of Operations",
+     "email": "diego.ibarra@goldencoastfarms.example",
+     "phone": "+1 (213) 555-0129"
+    },
+    {
+     "name": "Grace Zimmerman",
+     "title": "Packaging Manager",
+     "email": "grace.zimmerman@goldencoastfarms.example",
+     "phone": "+1 (213) 555-0145"
+    }
+   ]
+  },
+  {
+   "company": "Timberline Gardens",
+   "domain": "timberlinegardens.example",
+   "hq_state": "MI",
+   "employees": 200,
+   "instagram": "@timberlinegardens",
+   "contacts": [
+    {
+     "name": "Rachel Alvarez",
+     "title": "Packaging Manager",
+     "email": "rachel.alvarez@timberlinegardens.example",
+     "phone": "+1 (313) 555-0156"
+    },
+    {
+     "name": "Ryan Young",
+     "title": "Co-Founder & CEO",
+     "email": "ryan.young@timberlinegardens.example",
+     "phone": "+1 (313) 555-0126"
+    }
+   ]
+  },
+  {
+   "company": "Bramble Harvest",
+   "domain": "brambleharvest.example",
+   "hq_state": "MA",
+   "employees": 25,
+   "instagram": "@brambleharvest",
+   "contacts": [
+    {
+     "name": "Rachel Garcia",
+     "title": "Packaging Manager",
+     "email": "rachel.garcia@brambleharvest.example",
+     "phone": "+1 (617) 555-0126"
+    },
+    {
+     "name": "Zoe Mendoza",
+     "title": "Director of Procurement",
+     "email": "zoe.mendoza@brambleharvest.example",
+     "phone": "+1 (617) 555-0175"
+    }
+   ]
+  },
+  {
+   "company": "Fernleaf Provisions",
+   "domain": "fernleafprovisions.example",
+   "hq_state": "NV",
+   "employees": 60,
+   "instagram": "@fernleafprovisions",
+   "contacts": [
+    {
+     "name": "Aisha Young",
+     "title": "VP of Operations",
+     "email": "aisha.young@fernleafprovisions.example",
+     "phone": "+1 (702) 555-0166"
+    },
+    {
+     "name": "Marcus Foster",
+     "title": "Purchasing Manager",
+     "email": "marcus.foster@fernleafprovisions.example",
+     "phone": "+1 (702) 555-0196"
+    }
+   ]
+  },
+  {
+   "company": "Lantern Provisions",
+   "domain": "lanternprovisions.example",
+   "hq_state": "CA",
+   "employees": 60,
+   "instagram": "@lanternprovisions",
+   "contacts": [
+    {
+     "name": "Logan Lopez",
+     "title": "Packaging Manager",
+     "email": "logan.lopez@lanternprovisions.example",
+     "phone": "+1 (213) 555-0195"
+    },
+    {
+     "name": "Lena Novak",
+     "title": "Head of Brand",
+     "email": "lena.novak@lanternprovisions.example",
+     "phone": "+1 (213) 555-0124"
+    }
+   ]
+  },
+  {
+   "company": "Desert Bloom Collective",
+   "domain": "desertbloomcollective.example",
+   "hq_state": "CA",
+   "employees": 200,
+   "instagram": "@desertbloomcollective",
+   "contacts": [
+    {
+     "name": "Sofia Quinn",
+     "title": "Head of Brand",
+     "email": "sofia.quinn@desertbloomcollective.example",
+     "phone": "+1 (213) 555-0114"
+    },
+    {
+     "name": "Hannah Alvarez",
+     "title": "Director of Procurement",
+     "email": "hannah.alvarez@desertbloomcollective.example",
+     "phone": "+1 (213) 555-0100"
+    }
+   ]
+  },
+  {
+   "company": "Stonefruit Supply",
+   "domain": "stonefruitsupply.example",
+   "hq_state": "IL",
+   "employees": 25,
+   "instagram": "@stonefruitsupply",
+   "contacts": [
+    {
+     "name": "Omar Lopez",
+     "title": "Director of Supply Chain",
+     "email": "omar.lopez@stonefruitsupply.example",
+     "phone": "+1 (312) 555-0139"
+    },
+    {
+     "name": "Priya Novak",
+     "title": "Packaging Manager",
+     "email": "priya.novak@stonefruitsupply.example",
+     "phone": "+1 (312) 555-0183"
+    },
+    {
+     "name": "Kevin Hayes",
+     "title": "Co-Founder & CEO",
+     "email": "kevin.hayes@stonefruitsupply.example",
+     "phone": "+1 (312) 555-0189"
+    }
+   ]
+  },
+  {
+   "company": "Prairie Sky Collective",
+   "domain": "prairieskycollective.example",
+   "hq_state": "MA",
+   "employees": 40,
+   "instagram": "@prairieskycollective",
+   "contacts": [
+    {
+     "name": "Ryan Underwood",
+     "title": "Director of Supply Chain",
+     "email": "ryan.underwood@prairieskycollective.example",
+     "phone": "+1 (617) 555-0141"
+    },
+    {
+     "name": "Jordan Ellis",
+     "title": "Director of Procurement",
+     "email": "jordan.ellis@prairieskycollective.example",
+     "phone": "+1 (617) 555-0131"
+    },
+    {
+     "name": "Tyler Shah",
+     "title": "Co-Founder & CEO",
+     "email": "tyler.shah@prairieskycollective.example",
+     "phone": "+1 (617) 555-0101"
+    },
+    {
+     "name": "Elena Quinn",
+     "title": "VP of Operations",
+     "email": "elena.quinn@prairieskycollective.example",
+     "phone": "+1 (617) 555-0119"
+    }
+   ]
+  },
+  {
+   "company": "Stonefruit Harvest",
+   "domain": "stonefruitharvest.example",
+   "hq_state": "CA",
+   "employees": 40,
+   "instagram": "@stonefruitharvest",
+   "contacts": [
+    {
+     "name": "Logan Garcia",
+     "title": "Packaging Manager",
+     "email": "logan.garcia@stonefruitharvest.example",
+     "phone": "+1 (213) 555-0194"
+    },
+    {
+     "name": "Victor Jensen",
+     "title": "Director of Supply Chain",
+     "email": "victor.jensen@stonefruitharvest.example",
+     "phone": "+1 (213) 555-0147"
+    },
+    {
+     "name": "Logan Novak",
+     "title": "Co-Founder & CEO",
+     "email": "logan.novak@stonefruitharvest.example",
+     "phone": "+1 (213) 555-0120"
+    },
+    {
+     "name": "Diego Foster",
+     "title": "Head of Brand",
+     "email": "diego.foster@stonefruitharvest.example",
+     "phone": "+1 (213) 555-0122"
+    }
+   ]
+  },
+  {
+   "company": "Maplewood Harvest",
+   "domain": "maplewoodharvest.example",
+   "hq_state": "MI",
+   "employees": 120,
+   "instagram": "@maplewoodharvest",
+   "contacts": [
+    {
+     "name": "Maya Patel",
+     "title": "VP of Operations",
+     "email": "maya.patel@maplewoodharvest.example",
+     "phone": "+1 (313) 555-0126"
+    },
+    {
+     "name": "Kevin Mendoza",
+     "title": "Packaging Manager",
+     "email": "kevin.mendoza@maplewoodharvest.example",
+     "phone": "+1 (313) 555-0180"
+    },
+    {
+     "name": "Omar Ibarra",
+     "title": "Co-Founder & CEO",
+     "email": "omar.ibarra@maplewoodharvest.example",
+     "phone": "+1 (313) 555-0179"
+    },
+    {
+     "name": "Lena Alvarez",
+     "title": "COO",
+     "email": "lena.alvarez@maplewoodharvest.example",
+     "phone": "+1 (313) 555-0103"
+    }
+   ]
+  },
+  {
+   "company": "Lantern Gardens",
+   "domain": "lanterngardens.example",
+   "hq_state": "CA",
+   "employees": 40,
+   "instagram": "@lanterngardens",
+   "contacts": [
+    {
+     "name": "Ryan Ellis",
+     "title": "Packaging Manager",
+     "email": "ryan.ellis@lanterngardens.example",
+     "phone": "+1 (213) 555-0152"
+    },
+    {
+     "name": "Jordan Reyes",
+     "title": "Co-Founder & CEO",
+     "email": "jordan.reyes@lanterngardens.example",
+     "phone": "+1 (213) 555-0148"
+    }
+   ]
+  },
+  {
+   "company": "Golden Coast Craft Co.",
+   "domain": "goldencoastcraftco.example",
+   "hq_state": "MA",
+   "employees": 350,
+   "instagram": "@goldencoastcraftco",
+   "contacts": [
+    {
+     "name": "Omar Hayes",
+     "title": "COO",
+     "email": "omar.hayes@goldencoastcraftco.example",
+     "phone": "+1 (617) 555-0111"
+    },
+    {
+     "name": "Diego Chen",
+     "title": "Co-Founder & CEO",
+     "email": "diego.chen@goldencoastcraftco.example",
+     "phone": "+1 (617) 555-0114"
+    }
+   ]
+  },
+  {
+   "company": "Oak & Ash Provisions",
+   "domain": "oakashprovisions.example",
+   "hq_state": "CA",
+   "employees": 85,
+   "instagram": "@oakashprovisions",
+   "contacts": [
+    {
+     "name": "Hannah Ellis",
+     "title": "Director of Supply Chain",
+     "email": "hannah.ellis@oakashprovisions.example",
+     "phone": "+1 (213) 555-0177"
+    },
+    {
+     "name": "Samir Underwood",
+     "title": "Packaging Manager",
+     "email": "samir.underwood@oakashprovisions.example",
+     "phone": "+1 (213) 555-0100"
+    },
+    {
+     "name": "Kevin Patel",
+     "title": "Purchasing Manager",
+     "email": "kevin.patel@oakashprovisions.example",
+     "phone": "+1 (213) 555-0160"
+    }
+   ]
+  },
+  {
+   "company": "Cedar Farms",
+   "domain": "cedarfarms.example",
+   "hq_state": "IL",
+   "employees": 350,
+   "instagram": "@cedarfarms",
+   "contacts": [
+    {
+     "name": "Caleb Lopez",
+     "title": "Head of Brand",
+     "email": "caleb.lopez@cedarfarms.example",
+     "phone": "+1 (312) 555-0178"
+    },
+    {
+     "name": "Victor Whitaker",
+     "title": "Packaging Manager",
+     "email": "victor.whitaker@cedarfarms.example",
+     "phone": "+1 (312) 555-0112"
+    }
+   ]
+  },
+  {
+   "company": "Desert Bloom Craft Co.",
+   "domain": "desertbloomcraftco.example",
+   "hq_state": "MI",
+   "employees": 200,
+   "instagram": "@desertbloomcraftco",
+   "contacts": [
+    {
+     "name": "Nina Ellis",
+     "title": "Director of Procurement",
+     "email": "nina.ellis@desertbloomcraftco.example",
+     "phone": "+1 (313) 555-0118"
+    },
+    {
+     "name": "Andre Vasquez",
+     "title": "COO",
+     "email": "andre.vasquez@desertbloomcraftco.example",
+     "phone": "+1 (313) 555-0110"
+    },
+    {
+     "name": "Ryan Delgado",
+     "title": "Director of Supply Chain",
+     "email": "ryan.delgado@desertbloomcraftco.example",
+     "phone": "+1 (313) 555-0191"
+    }
+   ]
+  },
+  {
+   "company": "Timberline Labs",
+   "domain": "timberlinelabs.example",
+   "hq_state": "MA",
+   "employees": 85,
+   "instagram": "@timberlinelabs",
+   "contacts": [
+    {
+     "name": "Sofia Foster",
+     "title": "COO",
+     "email": "sofia.foster@timberlinelabs.example",
+     "phone": "+1 (617) 555-0193"
+    },
+    {
+     "name": "Victor Jensen",
+     "title": "Packaging Manager",
+     "email": "victor.jensen@timberlinelabs.example",
+     "phone": "+1 (617) 555-0142"
+    },
+    {
+     "name": "Mei Okafor",
+     "title": "Director of Supply Chain",
+     "email": "mei.okafor@timberlinelabs.example",
+     "phone": "+1 (617) 555-0185"
+    }
+   ]
+  },
+  {
+   "company": "Riverbend Botanicals",
+   "domain": "riverbendbotanicals.example",
+   "hq_state": "CA",
+   "employees": 200,
+   "instagram": "@riverbendbotanicals",
+   "contacts": [
+    {
+     "name": "Omar Vasquez",
+     "title": "Head of Brand",
+     "email": "omar.vasquez@riverbendbotanicals.example",
+     "phone": "+1 (213) 555-0118"
+    },
+    {
+     "name": "Aisha Young",
+     "title": "Director of Procurement",
+     "email": "aisha.young@riverbendbotanicals.example",
+     "phone": "+1 (213) 555-0104"
+    }
+   ]
+  },
+  {
+   "company": "Lantern Labs",
+   "domain": "lanternlabs.example",
+   "hq_state": "MA",
+   "employees": 120,
+   "instagram": "@lanternlabs",
+   "contacts": [
+    {
+     "name": "Maya Ellis",
+     "title": "Co-Founder & CEO",
+     "email": "maya.ellis@lanternlabs.example",
+     "phone": "+1 (617) 555-0181"
+    },
+    {
+     "name": "Jordan Hayes",
+     "title": "Director of Supply Chain",
+     "email": "jordan.hayes@lanternlabs.example",
+     "phone": "+1 (617) 555-0120"
+    },
+    {
+     "name": "Rachel Kim",
+     "title": "COO",
+     "email": "rachel.kim@lanternlabs.example",
+     "phone": "+1 (617) 555-0101"
+    },
+    {
+     "name": "Aisha Patel",
+     "title": "Head of Brand",
+     "email": "aisha.patel@lanternlabs.example",
+     "phone": "+1 (617) 555-0161"
+    }
+   ]
+  },
+  {
+   "company": "Riverbend Provisions",
+   "domain": "riverbendprovisions.example",
+   "hq_state": "CA",
+   "employees": 25,
+   "instagram": "@riverbendprovisions",
+   "contacts": [
+    {
+     "name": "Grace Okafor",
+     "title": "Director of Supply Chain",
+     "email": "grace.okafor@riverbendprovisions.example",
+     "phone": "+1 (213) 555-0179"
+    },
+    {
+     "name": "Sofia Reyes",
+     "title": "Director of Procurement",
+     "email": "sofia.reyes@riverbendprovisions.example",
+     "phone": "+1 (213) 555-0156"
+    }
+   ]
+  },
+  {
+   "company": "Oak & Ash Collective",
+   "domain": "oakashcollective.example",
+   "hq_state": "CA",
+   "employees": 85,
+   "instagram": "@oakashcollective",
+   "contacts": [
+    {
+     "name": "Lena Foster",
+     "title": "Purchasing Manager",
+     "email": "lena.foster@oakashcollective.example",
+     "phone": "+1 (213) 555-0132"
+    },
+    {
+     "name": "Lena Patel",
+     "title": "Head of Brand",
+     "email": "lena.patel@oakashcollective.example",
+     "phone": "+1 (213) 555-0198"
+    },
+    {
+     "name": "Caleb Okafor",
+     "title": "Packaging Manager",
+     "email": "caleb.okafor@oakashcollective.example",
+     "phone": "+1 (213) 555-0184"
+    },
+    {
+     "name": "Marcus Vasquez",
+     "title": "VP of Operations",
+     "email": "marcus.vasquez@oakashcollective.example",
+     "phone": "+1 (213) 555-0143"
+    }
+   ]
+  },
+  {
+   "company": "Prairie Sky Farms",
+   "domain": "prairieskyfarms.example",
+   "hq_state": "NV",
+   "employees": 350,
+   "instagram": "@prairieskyfarms",
+   "contacts": [
+    {
+     "name": "Tessa Alvarez",
+     "title": "Head of Brand",
+     "email": "tessa.alvarez@prairieskyfarms.example",
+     "phone": "+1 (702) 555-0169"
+    },
+    {
+     "name": "Elena Delgado",
+     "title": "Director of Procurement",
+     "email": "elena.delgado@prairieskyfarms.example",
+     "phone": "+1 (702) 555-0129"
+    }
+   ]
+  },
+  {
+   "company": "Sierra Pine Botanicals",
+   "domain": "sierrapinebotanicals.example",
+   "hq_state": "CO",
+   "employees": 200,
+   "instagram": "@sierrapinebotanicals",
+   "contacts": [
+    {
+     "name": "Mei Jensen",
+     "title": "COO",
+     "email": "mei.jensen@sierrapinebotanicals.example",
+     "phone": "+1 (303) 555-0116"
+    },
+    {
+     "name": "Omar Jensen",
+     "title": "Purchasing Manager",
+     "email": "omar.jensen@sierrapinebotanicals.example",
+     "phone": "+1 (303) 555-0157"
+    }
+   ]
+  },
+  {
+   "company": "Copper Collective",
+   "domain": "coppercollective.example",
+   "hq_state": "CO",
+   "employees": 40,
+   "instagram": "@coppercollective",
+   "contacts": [
+    {
+     "name": "Rachel Quinn",
+     "title": "COO",
+     "email": "rachel.quinn@coppercollective.example",
+     "phone": "+1 (303) 555-0124"
+    },
+    {
+     "name": "Elena Vasquez",
+     "title": "Director of Supply Chain",
+     "email": "elena.vasquez@coppercollective.example",
+     "phone": "+1 (303) 555-0128"
+    },
+    {
+     "name": "Zoe Alvarez",
+     "title": "Purchasing Manager",
+     "email": "zoe.alvarez@coppercollective.example",
+     "phone": "+1 (303) 555-0125"
+    },
+    {
+     "name": "Ryan Young",
+     "title": "Packaging Manager",
+     "email": "ryan.young@coppercollective.example",
+     "phone": "+1 (303) 555-0145"
+    }
+   ]
+  },
+  {
+   "company": "Maplewood Craft Co.",
+   "domain": "maplewoodcraftco.example",
+   "hq_state": "MA",
+   "employees": 60,
+   "instagram": "@maplewoodcraftco",
+   "contacts": [
+    {
+     "name": "Caleb Hayes",
+     "title": "Co-Founder & CEO",
+     "email": "caleb.hayes@maplewoodcraftco.example",
+     "phone": "+1 (617) 555-0188"
+    },
+    {
+     "name": "Nina Foster",
+     "title": "Director of Supply Chain",
+     "email": "nina.foster@maplewoodcraftco.example",
+     "phone": "+1 (617) 555-0147"
+    },
+    {
+     "name": "Tyler Delgado",
+     "title": "Purchasing Manager",
+     "email": "tyler.delgado@maplewoodcraftco.example",
+     "phone": "+1 (617) 555-0187"
+    },
+    {
+     "name": "Tyler Underwood",
+     "title": "VP of Operations",
+     "email": "tyler.underwood@maplewoodcraftco.example",
+     "phone": "+1 (617) 555-0181"
+    }
+   ]
+  },
+  {
+   "company": "Marigold Farms",
+   "domain": "marigoldfarms.example",
+   "hq_state": "MI",
+   "employees": 85,
+   "instagram": "@marigoldfarms",
+   "contacts": [
+    {
+     "name": "Grace Ibarra",
+     "title": "VP of Operations",
+     "email": "grace.ibarra@marigoldfarms.example",
+     "phone": "+1 (313) 555-0106"
+    },
+    {
+     "name": "Rachel Jensen",
+     "title": "Purchasing Manager",
+     "email": "rachel.jensen@marigoldfarms.example",
+     "phone": "+1 (313) 555-0149"
+    },
+    {
+     "name": "Nina Novak",
+     "title": "Director of Supply Chain",
+     "email": "nina.novak@marigoldfarms.example",
+     "phone": "+1 (313) 555-0160"
+    },
+    {
+     "name": "Hannah Kim",
+     "title": "Director of Procurement",
+     "email": "hannah.kim@marigoldfarms.example",
+     "phone": "+1 (313) 555-0117"
+    }
+   ]
+  },
+  {
+   "company": "Stonefruit Collective",
+   "domain": "stonefruitcollective.example",
+   "hq_state": "CA",
+   "employees": 25,
+   "instagram": "@stonefruitcollective",
+   "contacts": [
+    {
+     "name": "Mei Reyes",
+     "title": "COO",
+     "email": "mei.reyes@stonefruitcollective.example",
+     "phone": "+1 (213) 555-0185"
+    },
+    {
+     "name": "Kevin Garcia",
+     "title": "VP of Operations",
+     "email": "kevin.garcia@stonefruitcollective.example",
+     "phone": "+1 (213) 555-0193"
+    }
+   ]
+  },
+  {
+   "company": "Oak & Ash Craft Co.",
+   "domain": "oakashcraftco.example",
+   "hq_state": "IL",
+   "employees": 40,
+   "instagram": "@oakashcraftco",
+   "contacts": [
+    {
+     "name": "Elena Patel",
+     "title": "Director of Supply Chain",
+     "email": "elena.patel@oakashcraftco.example",
+     "phone": "+1 (312) 555-0120"
+    },
+    {
+     "name": "Zoe Hayes",
+     "title": "COO",
+     "email": "zoe.hayes@oakashcraftco.example",
+     "phone": "+1 (312) 555-0150"
+    }
+   ]
+  },
+  {
+   "company": "Oak & Ash Botanicals",
+   "domain": "oakashbotanicals.example",
+   "hq_state": "MI",
+   "employees": 40,
+   "instagram": "@oakashbotanicals",
+   "contacts": [
+    {
+     "name": "Andre Lopez",
+     "title": "Director of Supply Chain",
+     "email": "andre.lopez@oakashbotanicals.example",
+     "phone": "+1 (313) 555-0109"
+    },
+    {
+     "name": "Andre Ibarra",
+     "title": "Director of Procurement",
+     "email": "andre.ibarra@oakashbotanicals.example",
+     "phone": "+1 (313) 555-0117"
+    },
+    {
+     "name": "Rachel Delgado",
+     "title": "Purchasing Manager",
+     "email": "rachel.delgado@oakashbotanicals.example",
+     "phone": "+1 (313) 555-0192"
+    },
+    {
+     "name": "Ryan Shah",
+     "title": "COO",
+     "email": "ryan.shah@oakashbotanicals.example",
+     "phone": "+1 (313) 555-0186"
+    }
+   ]
+  },
+  {
+   "company": "Willowmere Collective",
+   "domain": "willowmerecollective.example",
+   "hq_state": "MI",
+   "employees": 25,
+   "instagram": "@willowmerecollective",
+   "contacts": [
+    {
+     "name": "Victor Ibarra",
+     "title": "Packaging Manager",
+     "email": "victor.ibarra@willowmerecollective.example",
+     "phone": "+1 (313) 555-0197"
+    },
+    {
+     "name": "Lena Alvarez",
+     "title": "COO",
+     "email": "lena.alvarez@willowmerecollective.example",
+     "phone": "+1 (313) 555-0181"
+    }
+   ]
+  },
+  {
+   "company": "Velvet Hills Supply",
+   "domain": "velvethillssupply.example",
+   "hq_state": "IL",
+   "employees": 120,
+   "instagram": "@velvethillssupply",
+   "contacts": [
+    {
+     "name": "Isaac Hayes",
+     "title": "Purchasing Manager",
+     "email": "isaac.hayes@velvethillssupply.example",
+     "phone": "+1 (312) 555-0184"
+    },
+    {
+     "name": "Hannah Jensen",
+     "title": "Packaging Manager",
+     "email": "hannah.jensen@velvethillssupply.example",
+     "phone": "+1 (312) 555-0115"
+    },
+    {
+     "name": "Caleb Young",
+     "title": "Co-Founder & CEO",
+     "email": "caleb.young@velvethillssupply.example",
+     "phone": "+1 (312) 555-0178"
+    },
+    {
+     "name": "Hannah Ellis",
+     "title": "Director of Supply Chain",
+     "email": "hannah.ellis@velvethillssupply.example",
+     "phone": "+1 (312) 555-0109"
+    }
+   ]
+  },
+  {
+   "company": "Riverbend Extracts",
+   "domain": "riverbendextracts.example",
+   "hq_state": "CA",
+   "employees": 85,
+   "instagram": "@riverbendextracts",
+   "contacts": [
+    {
+     "name": "Marcus Underwood",
+     "title": "Co-Founder & CEO",
+     "email": "marcus.underwood@riverbendextracts.example",
+     "phone": "+1 (213) 555-0159"
+    },
+    {
+     "name": "Diego Shah",
+     "title": "Director of Procurement",
+     "email": "diego.shah@riverbendextracts.example",
+     "phone": "+1 (213) 555-0121"
+    },
+    {
+     "name": "Mei Whitaker",
+     "title": "VP of Operations",
+     "email": "mei.whitaker@riverbendextracts.example",
+     "phone": "+1 (213) 555-0162"
+    }
+   ]
+  },
+  {
+   "company": "Desert Bloom Gardens",
+   "domain": "desertbloomgardens.example",
+   "hq_state": "CA",
+   "employees": 350,
+   "instagram": "@desertbloomgardens",
+   "contacts": [
+    {
+     "name": "Ryan Turner",
+     "title": "COO",
+     "email": "ryan.turner@desertbloomgardens.example",
+     "phone": "+1 (213) 555-0176"
+    },
+    {
+     "name": "Omar Hayes",
+     "title": "Co-Founder & CEO",
+     "email": "omar.hayes@desertbloomgardens.example",
+     "phone": "+1 (213) 555-0185"
+    }
+   ]
+  },
+  {
+   "company": "Prairie Sky Supply",
+   "domain": "prairieskysupply.example",
+   "hq_state": "CA",
+   "employees": 120,
+   "instagram": "@prairieskysupply",
+   "contacts": [
+    {
+     "name": "Zoe Ibarra",
+     "title": "Director of Supply Chain",
+     "email": "zoe.ibarra@prairieskysupply.example",
+     "phone": "+1 (213) 555-0192"
+    },
+    {
+     "name": "Ryan Ibarra",
+     "title": "Director of Procurement",
+     "email": "ryan.ibarra@prairieskysupply.example",
+     "phone": "+1 (213) 555-0132"
+    },
+    {
+     "name": "Tessa Quinn",
+     "title": "Co-Founder & CEO",
+     "email": "tessa.quinn@prairieskysupply.example",
+     "phone": "+1 (213) 555-0142"
+    },
+    {
+     "name": "Diego Vasquez",
+     "title": "Head of Brand",
+     "email": "diego.vasquez@prairieskysupply.example",
+     "phone": "+1 (213) 555-0132"
+    }
+   ]
+  },
+  {
+   "company": "Bramble Farms",
+   "domain": "bramblefarms.example",
+   "hq_state": "MI",
+   "employees": 200,
+   "instagram": "@bramblefarms",
+   "contacts": [
+    {
+     "name": "Mei Patel",
+     "title": "Co-Founder & CEO",
+     "email": "mei.patel@bramblefarms.example",
+     "phone": "+1 (313) 555-0131"
+    },
+    {
+     "name": "Aisha Patel",
+     "title": "Packaging Manager",
+     "email": "aisha.patel@bramblefarms.example",
+     "phone": "+1 (313) 555-0128"
+    }
+   ]
+  },
+  {
+   "company": "Riverbend Gardens",
+   "domain": "riverbendgardens.example",
+   "hq_state": "IL",
+   "employees": 25,
+   "instagram": "@riverbendgardens",
+   "contacts": [
+    {
+     "name": "Caleb Turner",
+     "title": "Purchasing Manager",
+     "email": "caleb.turner@riverbendgardens.example",
+     "phone": "+1 (312) 555-0172"
+    },
+    {
+     "name": "Rachel Turner",
+     "title": "Co-Founder & CEO",
+     "email": "rachel.turner@riverbendgardens.example",
+     "phone": "+1 (312) 555-0166"
+    },
+    {
+     "name": "Victor Mendoza",
+     "title": "Head of Brand",
+     "email": "victor.mendoza@riverbendgardens.example",
+     "phone": "+1 (312) 555-0105"
+    },
+    {
+     "name": "Logan Delgado",
+     "title": "Director of Procurement",
+     "email": "logan.delgado@riverbendgardens.example",
+     "phone": "+1 (312) 555-0175"
+    }
+   ]
+  },
+  {
+   "company": "North Fork Farms",
+   "domain": "northforkfarms.example",
+   "hq_state": "CO",
+   "employees": 350,
+   "instagram": "@northforkfarms",
+   "contacts": [
+    {
+     "name": "Aisha Vasquez",
+     "title": "COO",
+     "email": "aisha.vasquez@northforkfarms.example",
+     "phone": "+1 (303) 555-0190"
+    },
+    {
+     "name": "Logan Novak",
+     "title": "Co-Founder & CEO",
+     "email": "logan.novak@northforkfarms.example",
+     "phone": "+1 (303) 555-0150"
+    },
+    {
+     "name": "Mei Young",
+     "title": "Packaging Manager",
+     "email": "mei.young@northforkfarms.example",
+     "phone": "+1 (303) 555-0105"
+    },
+    {
+     "name": "Omar Underwood",
+     "title": "VP of Operations",
+     "email": "omar.underwood@northforkfarms.example",
+     "phone": "+1 (303) 555-0156"
+    }
+   ]
+  },
+  {
+   "company": "Copper Gardens",
+   "domain": "coppergardens.example",
+   "hq_state": "CA",
+   "employees": 350,
+   "instagram": "@coppergardens",
+   "contacts": [
+    {
+     "name": "Victor Alvarez",
+     "title": "Co-Founder & CEO",
+     "email": "victor.alvarez@coppergardens.example",
+     "phone": "+1 (213) 555-0127"
+    },
+    {
+     "name": "Aisha Foster",
+     "title": "Director of Procurement",
+     "email": "aisha.foster@coppergardens.example",
+     "phone": "+1 (213) 555-0103"
+    },
+    {
+     "name": "Tessa Kim",
+     "title": "Head of Brand",
+     "email": "tessa.kim@coppergardens.example",
+     "phone": "+1 (213) 555-0112"
+    },
+    {
+     "name": "Kevin Novak",
+     "title": "Director of Supply Chain",
+     "email": "kevin.novak@coppergardens.example",
+     "phone": "+1 (213) 555-0103"
+    }
+   ]
+  },
+  {
+   "company": "Yarrow Collective",
+   "domain": "yarrowcollective.example",
+   "hq_state": "MA",
+   "employees": 85,
+   "instagram": "@yarrowcollective",
+   "contacts": [
+    {
+     "name": "Omar Lopez",
+     "title": "Head of Brand",
+     "email": "omar.lopez@yarrowcollective.example",
+     "phone": "+1 (617) 555-0131"
+    },
+    {
+     "name": "Sofia Okafor",
+     "title": "Director of Supply Chain",
+     "email": "sofia.okafor@yarrowcollective.example",
+     "phone": "+1 (617) 555-0106"
+    },
+    {
+     "name": "Lena Okafor",
+     "title": "Packaging Manager",
+     "email": "lena.okafor@yarrowcollective.example",
+     "phone": "+1 (617) 555-0189"
+    }
+   ]
+  },
+  {
+   "company": "Golden Coast Harvest",
+   "domain": "goldencoastharvest.example",
+   "hq_state": "CO",
+   "employees": 120,
+   "instagram": "@goldencoastharvest",
+   "contacts": [
+    {
+     "name": "Zoe Reyes",
+     "title": "Director of Procurement",
+     "email": "zoe.reyes@goldencoastharvest.example",
+     "phone": "+1 (303) 555-0182"
+    },
+    {
+     "name": "Lena Young",
+     "title": "Purchasing Manager",
+     "email": "lena.young@goldencoastharvest.example",
+     "phone": "+1 (303) 555-0151"
+    }
+   ]
+  },
+  {
+   "company": "Cedar Botanicals",
+   "domain": "cedarbotanicals.example",
+   "hq_state": "CA",
+   "employees": 60,
+   "instagram": "@cedarbotanicals",
+   "contacts": [
+    {
+     "name": "Priya Kim",
+     "title": "Packaging Manager",
+     "email": "priya.kim@cedarbotanicals.example",
+     "phone": "+1 (213) 555-0145"
+    },
+    {
+     "name": "Logan Reyes",
+     "title": "Director of Supply Chain",
+     "email": "logan.reyes@cedarbotanicals.example",
+     "phone": "+1 (213) 555-0194"
+    }
+   ]
+  },
+  {
+   "company": "Velvet Hills Botanicals",
+   "domain": "velvethillsbotanicals.example",
+   "hq_state": "CA",
+   "employees": 200,
+   "instagram": "@velvethillsbotanicals",
+   "contacts": [
+    {
+     "name": "Priya Underwood",
+     "title": "Purchasing Manager",
+     "email": "priya.underwood@velvethillsbotanicals.example",
+     "phone": "+1 (213) 555-0151"
+    },
+    {
+     "name": "Lena Turner",
+     "title": "Co-Founder & CEO",
+     "email": "lena.turner@velvethillsbotanicals.example",
+     "phone": "+1 (213) 555-0163"
+    },
+    {
+     "name": "Tessa Foster",
+     "title": "Head of Brand",
+     "email": "tessa.foster@velvethillsbotanicals.example",
+     "phone": "+1 (213) 555-0196"
+    }
+   ]
+  },
+  {
+   "company": "Thistle Supply",
+   "domain": "thistlesupply.example",
+   "hq_state": "CA",
+   "employees": 40,
+   "instagram": "@thistlesupply",
+   "contacts": [
+    {
+     "name": "Mei Patel",
+     "title": "Purchasing Manager",
+     "email": "mei.patel@thistlesupply.example",
+     "phone": "+1 (213) 555-0144"
+    },
+    {
+     "name": "Lena Okafor",
+     "title": "Director of Supply Chain",
+     "email": "lena.okafor@thistlesupply.example",
+     "phone": "+1 (213) 555-0146"
+    }
+   ]
+  },
+  {
+   "company": "Desert Bloom Provisions",
+   "domain": "desertbloomprovisions.example",
+   "hq_state": "CA",
+   "employees": 85,
+   "instagram": "@desertbloomprovisions",
+   "contacts": [
+    {
+     "name": "Marcus Garcia",
+     "title": "Head of Brand",
+     "email": "marcus.garcia@desertbloomprovisions.example",
+     "phone": "+1 (213) 555-0174"
+    },
+    {
+     "name": "Kevin Quinn",
+     "title": "Co-Founder & CEO",
+     "email": "kevin.quinn@desertbloomprovisions.example",
+     "phone": "+1 (213) 555-0189"
+    }
+   ]
+  },
+  {
+   "company": "Prairie Sky Craft Co.",
+   "domain": "prairieskycraftco.example",
+   "hq_state": "MI",
+   "employees": 120,
+   "instagram": "@prairieskycraftco",
+   "contacts": [
+    {
+     "name": "Grace Chen",
+     "title": "VP of Operations",
+     "email": "grace.chen@prairieskycraftco.example",
+     "phone": "+1 (313) 555-0111"
+    },
+    {
+     "name": "Mei Turner",
+     "title": "Director of Procurement",
+     "email": "mei.turner@prairieskycraftco.example",
+     "phone": "+1 (313) 555-0184"
+    },
+    {
+     "name": "Rachel Ibarra",
+     "title": "Purchasing Manager",
+     "email": "rachel.ibarra@prairieskycraftco.example",
+     "phone": "+1 (313) 555-0118"
+    },
+    {
+     "name": "Mei Kim",
+     "title": "Co-Founder & CEO",
+     "email": "mei.kim@prairieskycraftco.example",
+     "phone": "+1 (313) 555-0168"
+    }
+   ]
+  },
+  {
+   "company": "Granite Supply",
+   "domain": "granitesupply.example",
+   "hq_state": "CA",
+   "employees": 60,
+   "instagram": "@granitesupply",
+   "contacts": [
+    {
+     "name": "Ryan Jensen",
+     "title": "VP of Operations",
+     "email": "ryan.jensen@granitesupply.example",
+     "phone": "+1 (213) 555-0178"
+    },
+    {
+     "name": "Aisha Chen",
+     "title": "Director of Procurement",
+     "email": "aisha.chen@granitesupply.example",
+     "phone": "+1 (213) 555-0141"
+    },
+    {
+     "name": "Andre Okafor",
+     "title": "Co-Founder & CEO",
+     "email": "andre.okafor@granitesupply.example",
+     "phone": "+1 (213) 555-0105"
+    }
+   ]
+  },
+  {
+   "company": "Willowmere Harvest",
+   "domain": "willowmereharvest.example",
+   "hq_state": "CA",
+   "employees": 60,
+   "instagram": "@willowmereharvest",
+   "contacts": [
+    {
+     "name": "Isaac Hayes",
+     "title": "VP of Operations",
+     "email": "isaac.hayes@willowmereharvest.example",
+     "phone": "+1 (213) 555-0188"
+    },
+    {
+     "name": "Andre Hayes",
+     "title": "Head of Brand",
+     "email": "andre.hayes@willowmereharvest.example",
+     "phone": "+1 (213) 555-0128"
+    },
+    {
+     "name": "Hannah Underwood",
+     "title": "Packaging Manager",
+     "email": "hannah.underwood@willowmereharvest.example",
+     "phone": "+1 (213) 555-0127"
+    },
+    {
+     "name": "Elena Alvarez",
+     "title": "Co-Founder & CEO",
+     "email": "elena.alvarez@willowmereharvest.example",
+     "phone": "+1 (213) 555-0137"
+    }
+   ]
+  },
+  {
+   "company": "Thistle Extracts",
+   "domain": "thistleextracts.example",
+   "hq_state": "CA",
+   "employees": 200,
+   "instagram": "@thistleextracts",
+   "contacts": [
+    {
+     "name": "Hannah Novak",
+     "title": "Packaging Manager",
+     "email": "hannah.novak@thistleextracts.example",
+     "phone": "+1 (213) 555-0171"
+    },
+    {
+     "name": "Caleb Shah",
+     "title": "Director of Supply Chain",
+     "email": "caleb.shah@thistleextracts.example",
+     "phone": "+1 (213) 555-0124"
+    }
+   ]
+  },
+  {
+   "company": "Silver Creek Collective",
+   "domain": "silvercreekcollective.example",
+   "hq_state": "MA",
+   "employees": 85,
+   "instagram": "@silvercreekcollective",
+   "contacts": [
+    {
+     "name": "Aisha Mendoza",
+     "title": "Director of Supply Chain",
+     "email": "aisha.mendoza@silvercreekcollective.example",
+     "phone": "+1 (617) 555-0195"
+    },
+    {
+     "name": "Sofia Whitaker",
+     "title": "Head of Brand",
+     "email": "sofia.whitaker@silvercreekcollective.example",
+     "phone": "+1 (617) 555-0146"
+    }
+   ]
+  },
+  {
+   "company": "Marigold Supply",
+   "domain": "marigoldsupply.example",
+   "hq_state": "CO",
+   "employees": 40,
+   "instagram": "@marigoldsupply",
+   "contacts": [
+    {
+     "name": "Lena Reyes",
+     "title": "Head of Brand",
+     "email": "lena.reyes@marigoldsupply.example",
+     "phone": "+1 (303) 555-0145"
+    },
+    {
+     "name": "Priya Whitaker",
+     "title": "VP of Operations",
+     "email": "priya.whitaker@marigoldsupply.example",
+     "phone": "+1 (303) 555-0117"
+    },
+    {
+     "name": "Lena Whitaker",
+     "title": "COO",
+     "email": "lena.whitaker@marigoldsupply.example",
+     "phone": "+1 (303) 555-0131"
+    }
+   ]
+  },
+  {
+   "company": "Marigold Botanicals",
+   "domain": "marigoldbotanicals.example",
+   "hq_state": "MI",
+   "employees": 60,
+   "instagram": "@marigoldbotanicals",
+   "contacts": [
+    {
+     "name": "Lena Delgado",
+     "title": "Packaging Manager",
+     "email": "lena.delgado@marigoldbotanicals.example",
+     "phone": "+1 (313) 555-0177"
+    },
+    {
+     "name": "Andre Young",
+     "title": "Purchasing Manager",
+     "email": "andre.young@marigoldbotanicals.example",
+     "phone": "+1 (313) 555-0144"
+    }
+   ]
+  },
+  {
+   "company": "Cedar Gardens",
+   "domain": "cedargardens.example",
+   "hq_state": "CO",
+   "employees": 350,
+   "instagram": "@cedargardens",
+   "contacts": [
+    {
+     "name": "Hannah Turner",
+     "title": "Purchasing Manager",
+     "email": "hannah.turner@cedargardens.example",
+     "phone": "+1 (303) 555-0156"
+    },
+    {
+     "name": "Isaac Shah",
+     "title": "Packaging Manager",
+     "email": "isaac.shah@cedargardens.example",
+     "phone": "+1 (303) 555-0155"
+    },
+    {
+     "name": "Priya Foster",
+     "title": "Co-Founder & CEO",
+     "email": "priya.foster@cedargardens.example",
+     "phone": "+1 (303) 555-0102"
+    }
+   ]
+  },
+  {
+   "company": "Amber Harvest",
+   "domain": "amberharvest.example",
+   "hq_state": "CA",
+   "employees": 350,
+   "instagram": "@amberharvest",
+   "contacts": [
+    {
+     "name": "Priya Vasquez",
+     "title": "Co-Founder & CEO",
+     "email": "priya.vasquez@amberharvest.example",
+     "phone": "+1 (213) 555-0145"
+    },
+    {
+     "name": "Priya Young",
+     "title": "VP of Operations",
+     "email": "priya.young@amberharvest.example",
+     "phone": "+1 (213) 555-0135"
+    },
+    {
+     "name": "Aisha Ibarra",
+     "title": "Director of Procurement",
+     "email": "aisha.ibarra@amberharvest.example",
+     "phone": "+1 (213) 555-0193"
+    },
+    {
+     "name": "Maya Whitaker",
+     "title": "COO",
+     "email": "maya.whitaker@amberharvest.example",
+     "phone": "+1 (213) 555-0176"
+    }
+   ]
+  },
+  {
+   "company": "Silver Creek Farms",
+   "domain": "silvercreekfarms.example",
+   "hq_state": "IL",
+   "employees": 200,
+   "instagram": "@silvercreekfarms",
+   "contacts": [
+    {
+     "name": "Victor Okafor",
+     "title": "VP of Operations",
+     "email": "victor.okafor@silvercreekfarms.example",
+     "phone": "+1 (312) 555-0139"
+    },
+    {
+     "name": "Caleb Whitaker",
+     "title": "Director of Procurement",
+     "email": "caleb.whitaker@silvercreekfarms.example",
+     "phone": "+1 (312) 555-0186"
+    },
+    {
+     "name": "Kevin Kim",
+     "title": "COO",
+     "email": "kevin.kim@silvercreekfarms.example",
+     "phone": "+1 (312) 555-0129"
+    }
+   ]
+  },
+  {
+   "company": "Golden Coast Botanicals",
+   "domain": "goldencoastbotanicals.example",
+   "hq_state": "CO",
+   "employees": 25,
+   "instagram": "@goldencoastbotanicals",
+   "contacts": [
+    {
+     "name": "Maya Turner",
+     "title": "Head of Brand",
+     "email": "maya.turner@goldencoastbotanicals.example",
+     "phone": "+1 (303) 555-0106"
+    },
+    {
+     "name": "Mei Zimmerman",
+     "title": "Director of Supply Chain",
+     "email": "mei.zimmerman@goldencoastbotanicals.example",
+     "phone": "+1 (303) 555-0145"
+    }
+   ]
+  },
+  {
+   "company": "Yarrow Farms",
+   "domain": "yarrowfarms.example",
+   "hq_state": "CA",
+   "employees": 40,
+   "instagram": "@yarrowfarms",
+   "contacts": [
+    {
+     "name": "Diego Young",
+     "title": "COO",
+     "email": "diego.young@yarrowfarms.example",
+     "phone": "+1 (213) 555-0120"
+    },
+    {
+     "name": "Ryan Garcia",
+     "title": "Purchasing Manager",
+     "email": "ryan.garcia@yarrowfarms.example",
+     "phone": "+1 (213) 555-0131"
+    }
+   ]
+  },
+  {
+   "company": "Willowmere Gardens",
+   "domain": "willowmeregardens.example",
+   "hq_state": "MI",
+   "employees": 200,
+   "instagram": "@willowmeregardens",
+   "contacts": [
+    {
+     "name": "Marcus Kim",
+     "title": "Packaging Manager",
+     "email": "marcus.kim@willowmeregardens.example",
+     "phone": "+1 (313) 555-0111"
+    },
+    {
+     "name": "Marcus Mendoza",
+     "title": "Head of Brand",
+     "email": "marcus.mendoza@willowmeregardens.example",
+     "phone": "+1 (313) 555-0173"
+    }
+   ]
+  },
+  {
+   "company": "Golden Coast Collective",
+   "domain": "goldencoastcollective.example",
+   "hq_state": "CA",
+   "employees": 85,
+   "instagram": "@goldencoastcollective",
+   "contacts": [
+    {
+     "name": "Elena Kim",
+     "title": "Director of Supply Chain",
+     "email": "elena.kim@goldencoastcollective.example",
+     "phone": "+1 (213) 555-0123"
+    },
+    {
+     "name": "Marcus Jensen",
+     "title": "Head of Brand",
+     "email": "marcus.jensen@goldencoastcollective.example",
+     "phone": "+1 (213) 555-0145"
+    },
+    {
+     "name": "Tyler Whitaker",
+     "title": "Director of Procurement",
+     "email": "tyler.whitaker@goldencoastcollective.example",
+     "phone": "+1 (213) 555-0155"
+    }
+   ]
+  },
+  {
+   "company": "Sierra Pine Provisions",
+   "domain": "sierrapineprovisions.example",
+   "hq_state": "CA",
+   "employees": 25,
+   "instagram": "@sierrapineprovisions",
+   "contacts": [
+    {
+     "name": "Rachel Garcia",
+     "title": "COO",
+     "email": "rachel.garcia@sierrapineprovisions.example",
+     "phone": "+1 (213) 555-0129"
+    },
+    {
+     "name": "Omar Underwood",
+     "title": "Packaging Manager",
+     "email": "omar.underwood@sierrapineprovisions.example",
+     "phone": "+1 (213) 555-0181"
+    },
+    {
+     "name": "Priya Kim",
+     "title": "VP of Operations",
+     "email": "priya.kim@sierrapineprovisions.example",
+     "phone": "+1 (213) 555-0157"
+    }
+   ]
+  },
+  {
+   "company": "Desert Bloom Harvest",
+   "domain": "desertbloomharvest.example",
+   "hq_state": "CA",
+   "employees": 85,
+   "instagram": "@desertbloomharvest",
+   "contacts": [
+    {
+     "name": "Caleb Brooks",
+     "title": "Purchasing Manager",
+     "email": "caleb.brooks@desertbloomharvest.example",
+     "phone": "+1 (213) 555-0187"
+    },
+    {
+     "name": "Omar Delgado",
+     "title": "Co-Founder & CEO",
+     "email": "omar.delgado@desertbloomharvest.example",
+     "phone": "+1 (213) 555-0121"
+    },
+    {
+     "name": "Maya Quinn",
+     "title": "Packaging Manager",
+     "email": "maya.quinn@desertbloomharvest.example",
+     "phone": "+1 (213) 555-0101"
+    },
+    {
+     "name": "Maya Kim",
+     "title": "Director of Supply Chain",
+     "email": "maya.kim@desertbloomharvest.example",
+     "phone": "+1 (213) 555-0149"
+    }
+   ]
+  },
+  {
+   "company": "Quartz Provisions",
+   "domain": "quartzprovisions.example",
+   "hq_state": "CA",
+   "employees": 40,
+   "instagram": "@quartzprovisions",
+   "contacts": [
+    {
+     "name": "Priya Foster",
+     "title": "Head of Brand",
+     "email": "priya.foster@quartzprovisions.example",
+     "phone": "+1 (213) 555-0124"
+    },
+    {
+     "name": "Tessa Turner",
+     "title": "Director of Supply Chain",
+     "email": "tessa.turner@quartzprovisions.example",
+     "phone": "+1 (213) 555-0163"
+    }
+   ]
+  },
+  {
+   "company": "Golden Coast Provisions",
+   "domain": "goldencoastprovisions.example",
+   "hq_state": "NV",
+   "employees": 12,
+   "instagram": "@goldencoastprovisions",
+   "contacts": [
+    {
+     "name": "Logan Lopez",
+     "title": "Director of Procurement",
+     "email": "logan.lopez@goldencoastprovisions.example",
+     "phone": "+1 (702) 555-0173"
+    },
+    {
+     "name": "Tyler Okafor",
+     "title": "VP of Operations",
+     "email": "tyler.okafor@goldencoastprovisions.example",
+     "phone": "+1 (702) 555-0190"
+    },
+    {
+     "name": "Zoe Foster",
+     "title": "Co-Founder & CEO",
+     "email": "zoe.foster@goldencoastprovisions.example",
+     "phone": "+1 (702) 555-0164"
+    },
+    {
+     "name": "Elena Okafor",
+     "title": "COO",
+     "email": "elena.okafor@goldencoastprovisions.example",
+     "phone": "+1 (702) 555-0103"
+    }
+   ]
+  },
+  {
+   "company": "Fernleaf Botanicals",
+   "domain": "fernleafbotanicals.example",
+   "hq_state": "MI",
+   "employees": 120,
+   "instagram": "@fernleafbotanicals",
+   "contacts": [
+    {
+     "name": "Marcus Lopez",
+     "title": "COO",
+     "email": "marcus.lopez@fernleafbotanicals.example",
+     "phone": "+1 (313) 555-0187"
+    },
+    {
+     "name": "Tyler Shah",
+     "title": "Director of Supply Chain",
+     "email": "tyler.shah@fernleafbotanicals.example",
+     "phone": "+1 (313) 555-0166"
+    },
+    {
+     "name": "Tyler Delgado",
+     "title": "VP of Operations",
+     "email": "tyler.delgado@fernleafbotanicals.example",
+     "phone": "+1 (313) 555-0163"
+    },
+    {
+     "name": "Grace Turner",
+     "title": "Head of Brand",
+     "email": "grace.turner@fernleafbotanicals.example",
+     "phone": "+1 (313) 555-0119"
+    }
+   ]
+  },
+  {
+   "company": "Copper Labs",
+   "domain": "copperlabs.example",
+   "hq_state": "MI",
+   "employees": 350,
+   "instagram": "@copperlabs",
+   "contacts": [
+    {
+     "name": "Marcus Vasquez",
+     "title": "Director of Supply Chain",
+     "email": "marcus.vasquez@copperlabs.example",
+     "phone": "+1 (313) 555-0170"
+    },
+    {
+     "name": "Priya Kim",
+     "title": "Packaging Manager",
+     "email": "priya.kim@copperlabs.example",
+     "phone": "+1 (313) 555-0131"
+    },
+    {
+     "name": "Omar Ellis",
+     "title": "Director of Procurement",
+     "email": "omar.ellis@copperlabs.example",
+     "phone": "+1 (313) 555-0130"
+    }
+   ]
+  },
+  {
+   "company": "Lakeshore Labs",
+   "domain": "lakeshorelabs.example",
+   "hq_state": "MI",
+   "employees": 25,
+   "instagram": "@lakeshorelabs",
+   "contacts": [
+    {
+     "name": "Omar Brooks",
+     "title": "Director of Supply Chain",
+     "email": "omar.brooks@lakeshorelabs.example",
+     "phone": "+1 (313) 555-0161"
+    },
+    {
+     "name": "Samir Vasquez",
+     "title": "Co-Founder & CEO",
+     "email": "samir.vasquez@lakeshorelabs.example",
+     "phone": "+1 (313) 555-0190"
+    }
+   ]
+  },
+  {
+   "company": "Maplewood Provisions",
+   "domain": "maplewoodprovisions.example",
+   "hq_state": "MA",
+   "employees": 120,
+   "instagram": "@maplewoodprovisions",
+   "contacts": [
+    {
+     "name": "Nina Shah",
+     "title": "COO",
+     "email": "nina.shah@maplewoodprovisions.example",
+     "phone": "+1 (617) 555-0173"
+    },
+    {
+     "name": "Mei Reyes",
+     "title": "Head of Brand",
+     "email": "mei.reyes@maplewoodprovisions.example",
+     "phone": "+1 (617) 555-0166"
+    },
+    {
+     "name": "Rachel Zimmerman",
+     "title": "Director of Supply Chain",
+     "email": "rachel.zimmerman@maplewoodprovisions.example",
+     "phone": "+1 (617) 555-0169"
+    },
+    {
+     "name": "Tessa Garcia",
+     "title": "VP of Operations",
+     "email": "tessa.garcia@maplewoodprovisions.example",
+     "phone": "+1 (617) 555-0136"
+    }
+   ]
+  },
+  {
+   "company": "Willowmere Farms",
+   "domain": "willowmerefarms.example",
+   "hq_state": "MI",
+   "employees": 200,
+   "instagram": "@willowmerefarms",
+   "contacts": [
+    {
+     "name": "Grace Jensen",
+     "title": "Packaging Manager",
+     "email": "grace.jensen@willowmerefarms.example",
+     "phone": "+1 (313) 555-0180"
+    },
+    {
+     "name": "Diego Mendoza",
+     "title": "Director of Supply Chain",
+     "email": "diego.mendoza@willowmerefarms.example",
+     "phone": "+1 (313) 555-0155"
+    }
+   ]
+  },
+  {
+   "company": "Blue Heron Labs",
+   "domain": "blueheronlabs.example",
+   "hq_state": "MI",
+   "employees": 200,
+   "instagram": "@blueheronlabs",
+   "contacts": [
+    {
+     "name": "Isaac Delgado",
+     "title": "Packaging Manager",
+     "email": "isaac.delgado@blueheronlabs.example",
+     "phone": "+1 (313) 555-0141"
+    },
+    {
+     "name": "Caleb Patel",
+     "title": "Co-Founder & CEO",
+     "email": "caleb.patel@blueheronlabs.example",
+     "phone": "+1 (313) 555-0178"
+    }
+   ]
+  },
+  {
+   "company": "Stonefruit Gardens",
+   "domain": "stonefruitgardens.example",
+   "hq_state": "MA",
+   "employees": 40,
+   "instagram": "@stonefruitgardens",
+   "contacts": [
+    {
+     "name": "Zoe Vasquez",
+     "title": "Packaging Manager",
+     "email": "zoe.vasquez@stonefruitgardens.example",
+     "phone": "+1 (617) 555-0189"
+    },
+    {
+     "name": "Jordan Quinn",
+     "title": "Director of Supply Chain",
+     "email": "jordan.quinn@stonefruitgardens.example",
+     "phone": "+1 (617) 555-0105"
+    },
+    {
+     "name": "Grace Chen",
+     "title": "VP of Operations",
+     "email": "grace.chen@stonefruitgardens.example",
+     "phone": "+1 (617) 555-0139"
+    }
+   ]
+  },
+  {
+   "company": "Timberline Botanicals",
+   "domain": "timberlinebotanicals.example",
+   "hq_state": "MI",
+   "employees": 40,
+   "instagram": "@timberlinebotanicals",
+   "contacts": [
+    {
+     "name": "Maya Brooks",
+     "title": "Head of Brand",
+     "email": "maya.brooks@timberlinebotanicals.example",
+     "phone": "+1 (313) 555-0138"
+    },
+    {
+     "name": "Rachel Garcia",
+     "title": "Packaging Manager",
+     "email": "rachel.garcia@timberlinebotanicals.example",
+     "phone": "+1 (313) 555-0145"
+    },
+    {
+     "name": "Caleb Brooks",
+     "title": "Co-Founder & CEO",
+     "email": "caleb.brooks@timberlinebotanicals.example",
+     "phone": "+1 (313) 555-0187"
+    },
+    {
+     "name": "Diego Young",
+     "title": "Purchasing Manager",
+     "email": "diego.young@timberlinebotanicals.example",
+     "phone": "+1 (313) 555-0165"
+    }
+   ]
+  },
+  {
+   "company": "Marigold Craft Co.",
+   "domain": "marigoldcraftco.example",
+   "hq_state": "IL",
+   "employees": 12,
+   "instagram": "@marigoldcraftco",
+   "contacts": [
+    {
+     "name": "Grace Delgado",
+     "title": "Head of Brand",
+     "email": "grace.delgado@marigoldcraftco.example",
+     "phone": "+1 (312) 555-0158"
+    },
+    {
+     "name": "Tyler Hayes",
+     "title": "Packaging Manager",
+     "email": "tyler.hayes@marigoldcraftco.example",
+     "phone": "+1 (312) 555-0191"
+    },
+    {
+     "name": "Lena Chen",
+     "title": "Director of Supply Chain",
+     "email": "lena.chen@marigoldcraftco.example",
+     "phone": "+1 (312) 555-0191"
+    },
+    {
+     "name": "Grace Patel",
+     "title": "Co-Founder & CEO",
+     "email": "grace.patel@marigoldcraftco.example",
+     "phone": "+1 (312) 555-0126"
+    }
+   ]
+  },
+  {
+   "company": "Granite Provisions",
+   "domain": "graniteprovisions.example",
+   "hq_state": "MI",
+   "employees": 120,
+   "instagram": "@graniteprovisions",
+   "contacts": [
+    {
+     "name": "Mei Delgado",
+     "title": "Director of Supply Chain",
+     "email": "mei.delgado@graniteprovisions.example",
+     "phone": "+1 (313) 555-0137"
+    },
+    {
+     "name": "Maya Hayes",
+     "title": "COO",
+     "email": "maya.hayes@graniteprovisions.example",
+     "phone": "+1 (313) 555-0184"
+    }
+   ]
+  },
+  {
+   "company": "Copper Farms",
+   "domain": "copperfarms.example",
+   "hq_state": "IL",
+   "employees": 60,
+   "instagram": "@copperfarms",
+   "contacts": [
+    {
+     "name": "Andre Lopez",
+     "title": "Director of Supply Chain",
+     "email": "andre.lopez@copperfarms.example",
+     "phone": "+1 (312) 555-0151"
+    },
+    {
+     "name": "Jordan Ellis",
+     "title": "Packaging Manager",
+     "email": "jordan.ellis@copperfarms.example",
+     "phone": "+1 (312) 555-0118"
+    }
+   ]
+  },
+  {
+   "company": "Saltwater Supply",
+   "domain": "saltwatersupply.example",
+   "hq_state": "MI",
+   "employees": 200,
+   "instagram": "@saltwatersupply",
+   "contacts": [
+    {
+     "name": "Mei Underwood",
+     "title": "Purchasing Manager",
+     "email": "mei.underwood@saltwatersupply.example",
+     "phone": "+1 (313) 555-0139"
+    },
+    {
+     "name": "Grace Underwood",
+     "title": "Director of Procurement",
+     "email": "grace.underwood@saltwatersupply.example",
+     "phone": "+1 (313) 555-0194"
+    },
+    {
+     "name": "Sofia Novak",
+     "title": "Head of Brand",
+     "email": "sofia.novak@saltwatersupply.example",
+     "phone": "+1 (313) 555-0188"
+    },
+    {
+     "name": "Maya Novak",
+     "title": "Packaging Manager",
+     "email": "maya.novak@saltwatersupply.example",
+     "phone": "+1 (313) 555-0152"
+    }
+   ]
+  },
+  {
+   "company": "Ember Labs",
+   "domain": "emberlabs.example",
+   "hq_state": "CA",
+   "employees": 350,
+   "instagram": "@emberlabs",
+   "contacts": [
+    {
+     "name": "Sofia Turner",
+     "title": "Director of Procurement",
+     "email": "sofia.turner@emberlabs.example",
+     "phone": "+1 (213) 555-0101"
+    },
+    {
+     "name": "Tessa Whitaker",
+     "title": "Director of Supply Chain",
+     "email": "tessa.whitaker@emberlabs.example",
+     "phone": "+1 (213) 555-0150"
+    },
+    {
+     "name": "Jordan Whitaker",
+     "title": "Packaging Manager",
+     "email": "jordan.whitaker@emberlabs.example",
+     "phone": "+1 (213) 555-0198"
+    }
+   ]
+  },
+  {
+   "company": "North Fork Provisions",
+   "domain": "northforkprovisions.example",
+   "hq_state": "CA",
+   "employees": 40,
+   "instagram": "@northforkprovisions",
+   "contacts": [
+    {
+     "name": "Tessa Delgado",
+     "title": "Director of Procurement",
+     "email": "tessa.delgado@northforkprovisions.example",
+     "phone": "+1 (213) 555-0114"
+    },
+    {
+     "name": "Tyler Patel",
+     "title": "Co-Founder & CEO",
+     "email": "tyler.patel@northforkprovisions.example",
+     "phone": "+1 (213) 555-0108"
+    }
+   ]
+  },
+  {
+   "company": "Fernleaf Labs",
+   "domain": "fernleaflabs.example",
+   "hq_state": "IL",
+   "employees": 25,
+   "instagram": "@fernleaflabs",
+   "contacts": [
+    {
+     "name": "Victor Whitaker",
+     "title": "Head of Brand",
+     "email": "victor.whitaker@fernleaflabs.example",
+     "phone": "+1 (312) 555-0188"
+    },
+    {
+     "name": "Rachel Jensen",
+     "title": "COO",
+     "email": "rachel.jensen@fernleaflabs.example",
+     "phone": "+1 (312) 555-0168"
+    },
+    {
+     "name": "Kevin Jensen",
+     "title": "Packaging Manager",
+     "email": "kevin.jensen@fernleaflabs.example",
+     "phone": "+1 (312) 555-0172"
+    },
+    {
+     "name": "Sofia Delgado",
+     "title": "VP of Operations",
+     "email": "sofia.delgado@fernleaflabs.example",
+     "phone": "+1 (312) 555-0197"
+    }
+   ]
+  },
+  {
+   "company": "Amber Labs",
+   "domain": "amberlabs.example",
+   "hq_state": "CO",
+   "employees": 60,
+   "instagram": "@amberlabs",
+   "contacts": [
+    {
+     "name": "Isaac Garcia",
+     "title": "Director of Procurement",
+     "email": "isaac.garcia@amberlabs.example",
+     "phone": "+1 (303) 555-0116"
+    },
+    {
+     "name": "Nina Brooks",
+     "title": "Co-Founder & CEO",
+     "email": "nina.brooks@amberlabs.example",
+     "phone": "+1 (303) 555-0160"
+    },
+    {
+     "name": "Isaac Delgado",
+     "title": "Purchasing Manager",
+     "email": "isaac.delgado@amberlabs.example",
+     "phone": "+1 (303) 555-0114"
+    }
+   ]
+  },
+  {
+   "company": "Harborlight Labs",
+   "domain": "harborlightlabs.example",
+   "hq_state": "MA",
+   "employees": 200,
+   "instagram": "@harborlightlabs",
+   "contacts": [
+    {
+     "name": "Priya Zimmerman",
+     "title": "Director of Supply Chain",
+     "email": "priya.zimmerman@harborlightlabs.example",
+     "phone": "+1 (617) 555-0188"
+    },
+    {
+     "name": "Samir Chen",
+     "title": "COO",
+     "email": "samir.chen@harborlightlabs.example",
+     "phone": "+1 (617) 555-0130"
+    }
+   ]
+  },
+  {
+   "company": "Silver Creek Supply",
+   "domain": "silvercreeksupply.example",
+   "hq_state": "CO",
+   "employees": 12,
+   "instagram": "@silvercreeksupply",
+   "contacts": [
+    {
+     "name": "Hannah Turner",
+     "title": "Head of Brand",
+     "email": "hannah.turner@silvercreeksupply.example",
+     "phone": "+1 (303) 555-0198"
+    },
+    {
+     "name": "Jordan Vasquez",
+     "title": "Director of Procurement",
+     "email": "jordan.vasquez@silvercreeksupply.example",
+     "phone": "+1 (303) 555-0164"
+    },
+    {
+     "name": "Zoe Garcia",
+     "title": "Packaging Manager",
+     "email": "zoe.garcia@silvercreeksupply.example",
+     "phone": "+1 (303) 555-0198"
+    },
+    {
+     "name": "Grace Young",
+     "title": "COO",
+     "email": "grace.young@silvercreeksupply.example",
+     "phone": "+1 (303) 555-0140"
+    }
+   ]
+  },
+  {
+   "company": "Harborlight Extracts",
+   "domain": "harborlightextracts.example",
+   "hq_state": "CO",
+   "employees": 12,
+   "instagram": "@harborlightextracts",
+   "contacts": [
+    {
+     "name": "Sofia Foster",
+     "title": "VP of Operations",
+     "email": "sofia.foster@harborlightextracts.example",
+     "phone": "+1 (303) 555-0144"
+    },
+    {
+     "name": "Hannah Garcia",
+     "title": "Packaging Manager",
+     "email": "hannah.garcia@harborlightextracts.example",
+     "phone": "+1 (303) 555-0182"
+    }
+   ]
+  },
+  {
+   "company": "Blue Heron Harvest",
+   "domain": "blueheronharvest.example",
+   "hq_state": "MI",
+   "employees": 350,
+   "instagram": "@blueheronharvest",
+   "contacts": [
+    {
+     "name": "Nina Chen",
+     "title": "Director of Supply Chain",
+     "email": "nina.chen@blueheronharvest.example",
+     "phone": "+1 (313) 555-0128"
+    },
+    {
+     "name": "Tyler Underwood",
+     "title": "COO",
+     "email": "tyler.underwood@blueheronharvest.example",
+     "phone": "+1 (313) 555-0124"
+    },
+    {
+     "name": "Lena Vasquez",
+     "title": "VP of Operations",
+     "email": "lena.vasquez@blueheronharvest.example",
+     "phone": "+1 (313) 555-0192"
+    }
+   ]
+  },
+  {
+   "company": "Blue Heron Gardens",
+   "domain": "blueherongardens.example",
+   "hq_state": "CA",
+   "employees": 25,
+   "instagram": "@blueherongardens",
+   "contacts": [
+    {
+     "name": "Logan Quinn",
+     "title": "COO",
+     "email": "logan.quinn@blueherongardens.example",
+     "phone": "+1 (213) 555-0136"
+    },
+    {
+     "name": "Caleb Foster",
+     "title": "Director of Supply Chain",
+     "email": "caleb.foster@blueherongardens.example",
+     "phone": "+1 (213) 555-0118"
+    },
+    {
+     "name": "Caleb Kim",
+     "title": "Packaging Manager",
+     "email": "caleb.kim@blueherongardens.example",
+     "phone": "+1 (213) 555-0107"
+    }
+   ]
+  },
+  {
+   "company": "Blue Heron Farms",
+   "domain": "blueheronfarms.example",
+   "hq_state": "CA",
+   "employees": 12,
+   "instagram": "@blueheronfarms",
+   "contacts": [
+    {
+     "name": "Maya Turner",
+     "title": "COO",
+     "email": "maya.turner@blueheronfarms.example",
+     "phone": "+1 (213) 555-0192"
+    },
+    {
+     "name": "Tyler Young",
+     "title": "Director of Procurement",
+     "email": "tyler.young@blueheronfarms.example",
+     "phone": "+1 (213) 555-0141"
+    },
+    {
+     "name": "Omar Brooks",
+     "title": "Purchasing Manager",
+     "email": "omar.brooks@blueheronfarms.example",
+     "phone": "+1 (213) 555-0118"
+    },
+    {
+     "name": "Marcus Vasquez",
+     "title": "Head of Brand",
+     "email": "marcus.vasquez@blueheronfarms.example",
+     "phone": "+1 (213) 555-0129"
+    }
+   ]
+  },
+  {
+   "company": "Oak & Ash Supply",
+   "domain": "oakashsupply.example",
+   "hq_state": "CA",
+   "employees": 25,
+   "instagram": "@oakashsupply",
+   "contacts": [
+    {
+     "name": "Rachel Zimmerman",
+     "title": "Co-Founder & CEO",
+     "email": "rachel.zimmerman@oakashsupply.example",
+     "phone": "+1 (213) 555-0172"
+    },
+    {
+     "name": "Marcus Hayes",
+     "title": "Purchasing Manager",
+     "email": "marcus.hayes@oakashsupply.example",
+     "phone": "+1 (213) 555-0197"
+    },
+    {
+     "name": "Tessa Brooks",
+     "title": "Packaging Manager",
+     "email": "tessa.brooks@oakashsupply.example",
+     "phone": "+1 (213) 555-0172"
+    }
+   ]
+  },
+  {
+   "company": "Ember Farms",
+   "domain": "emberfarms.example",
+   "hq_state": "CO",
+   "employees": 350,
+   "instagram": "@emberfarms",
+   "contacts": [
+    {
+     "name": "Tessa Mendoza",
+     "title": "Packaging Manager",
+     "email": "tessa.mendoza@emberfarms.example",
+     "phone": "+1 (303) 555-0136"
+    },
+    {
+     "name": "Victor Turner",
+     "title": "Purchasing Manager",
+     "email": "victor.turner@emberfarms.example",
+     "phone": "+1 (303) 555-0149"
+    }
+   ]
+  },
+  {
+   "company": "Willowmere Craft Co.",
+   "domain": "willowmerecraftco.example",
+   "hq_state": "CA",
+   "employees": 40,
+   "instagram": "@willowmerecraftco",
+   "contacts": [
+    {
+     "name": "Sofia Lopez",
+     "title": "Director of Procurement",
+     "email": "sofia.lopez@willowmerecraftco.example",
+     "phone": "+1 (213) 555-0181"
+    },
+    {
+     "name": "Hannah Patel",
+     "title": "Head of Brand",
+     "email": "hannah.patel@willowmerecraftco.example",
+     "phone": "+1 (213) 555-0119"
+    },
+    {
+     "name": "Hannah Reyes",
+     "title": "Packaging Manager",
+     "email": "hannah.reyes@willowmerecraftco.example",
+     "phone": "+1 (213) 555-0146"
+    },
+    {
+     "name": "Andre Ellis",
+     "title": "Purchasing Manager",
+     "email": "andre.ellis@willowmerecraftco.example",
+     "phone": "+1 (213) 555-0136"
+    }
+   ]
+  },
+  {
+   "company": "Yarrow Harvest",
+   "domain": "yarrowharvest.example",
+   "hq_state": "MI",
+   "employees": 60,
+   "instagram": "@yarrowharvest",
+   "contacts": [
+    {
+     "name": "Ryan Alvarez",
+     "title": "Purchasing Manager",
+     "email": "ryan.alvarez@yarrowharvest.example",
+     "phone": "+1 (313) 555-0155"
+    },
+    {
+     "name": "Samir Jensen",
+     "title": "COO",
+     "email": "samir.jensen@yarrowharvest.example",
+     "phone": "+1 (313) 555-0118"
+    },
+    {
+     "name": "Jordan Okafor",
+     "title": "VP of Operations",
+     "email": "jordan.okafor@yarrowharvest.example",
+     "phone": "+1 (313) 555-0152"
+    }
+   ]
+  },
+  {
+   "company": "Riverbend Farms",
+   "domain": "riverbendfarms.example",
+   "hq_state": "CO",
+   "employees": 200,
+   "instagram": "@riverbendfarms",
+   "contacts": [
+    {
+     "name": "Omar Garcia",
+     "title": "VP of Operations",
+     "email": "omar.garcia@riverbendfarms.example",
+     "phone": "+1 (303) 555-0151"
+    },
+    {
+     "name": "Diego Novak",
+     "title": "Director of Supply Chain",
+     "email": "diego.novak@riverbendfarms.example",
+     "phone": "+1 (303) 555-0158"
+    },
+    {
+     "name": "Ryan Okafor",
+     "title": "Head of Brand",
+     "email": "ryan.okafor@riverbendfarms.example",
+     "phone": "+1 (303) 555-0156"
+    }
+   ]
+  },
+  {
+   "company": "Quartz Supply",
+   "domain": "quartzsupply.example",
+   "hq_state": "MI",
+   "employees": 60,
+   "instagram": "@quartzsupply",
+   "contacts": [
+    {
+     "name": "Victor Mendoza",
+     "title": "Head of Brand",
+     "email": "victor.mendoza@quartzsupply.example",
+     "phone": "+1 (313) 555-0117"
+    },
+    {
+     "name": "Ryan Quinn",
+     "title": "VP of Operations",
+     "email": "ryan.quinn@quartzsupply.example",
+     "phone": "+1 (313) 555-0126"
+    },
+    {
+     "name": "Andre Garcia",
+     "title": "Director of Supply Chain",
+     "email": "andre.garcia@quartzsupply.example",
+     "phone": "+1 (313) 555-0191"
+    }
+   ]
+  },
+  {
+   "company": "Fernleaf Gardens",
+   "domain": "fernleafgardens.example",
+   "hq_state": "CA",
+   "employees": 25,
+   "instagram": "@fernleafgardens",
+   "contacts": [
+    {
+     "name": "Omar Okafor",
+     "title": "Director of Procurement",
+     "email": "omar.okafor@fernleafgardens.example",
+     "phone": "+1 (213) 555-0170"
+    },
+    {
+     "name": "Zoe Novak",
+     "title": "Director of Supply Chain",
+     "email": "zoe.novak@fernleafgardens.example",
+     "phone": "+1 (213) 555-0147"
+    },
+    {
+     "name": "Tessa Jensen",
+     "title": "Head of Brand",
+     "email": "tessa.jensen@fernleafgardens.example",
+     "phone": "+1 (213) 555-0127"
+    },
+    {
+     "name": "Rachel Ellis",
+     "title": "Purchasing Manager",
+     "email": "rachel.ellis@fernleafgardens.example",
+     "phone": "+1 (213) 555-0160"
+    }
+   ]
+  },
+  {
+   "company": "Lantern Craft Co.",
+   "domain": "lanterncraftco.example",
+   "hq_state": "CA",
+   "employees": 12,
+   "instagram": "@lanterncraftco",
+   "contacts": [
+    {
+     "name": "Jordan Garcia",
+     "title": "Packaging Manager",
+     "email": "jordan.garcia@lanterncraftco.example",
+     "phone": "+1 (213) 555-0127"
+    },
+    {
+     "name": "Lena Reyes",
+     "title": "VP of Operations",
+     "email": "lena.reyes@lanterncraftco.example",
+     "phone": "+1 (213) 555-0120"
+    },
+    {
+     "name": "Victor Mendoza",
+     "title": "Purchasing Manager",
+     "email": "victor.mendoza@lanterncraftco.example",
+     "phone": "+1 (213) 555-0166"
+    },
+    {
+     "name": "Diego Foster",
+     "title": "Director of Procurement",
+     "email": "diego.foster@lanterncraftco.example",
+     "phone": "+1 (213) 555-0156"
+    }
+   ]
+  },
+  {
+   "company": "Bramble Botanicals",
+   "domain": "bramblebotanicals.example",
+   "hq_state": "CA",
+   "employees": 200,
+   "instagram": "@bramblebotanicals",
+   "contacts": [
+    {
+     "name": "Sofia Young",
+     "title": "Director of Procurement",
+     "email": "sofia.young@bramblebotanicals.example",
+     "phone": "+1 (213) 555-0187"
+    },
+    {
+     "name": "Aisha Zimmerman",
+     "title": "Packaging Manager",
+     "email": "aisha.zimmerman@bramblebotanicals.example",
+     "phone": "+1 (213) 555-0119"
+    },
+    {
+     "name": "Tessa Mendoza",
+     "title": "Purchasing Manager",
+     "email": "tessa.mendoza@bramblebotanicals.example",
+     "phone": "+1 (213) 555-0173"
+    },
+    {
+     "name": "Samir Garcia",
+     "title": "COO",
+     "email": "samir.garcia@bramblebotanicals.example",
+     "phone": "+1 (213) 555-0119"
+    }
+   ]
+  }
+ ]
+}

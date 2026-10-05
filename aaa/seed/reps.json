@@ -1,0 +1,35 @@
+[
+ {
+  "rep_id": "alice",
+  "name": "Alice Moreno",
+  "role": "rep",
+  "territory": [
+   "CA",
+   "NV"
+  ]
+ },
+ {
+  "rep_id": "ben",
+  "name": "Ben Okafor",
+  "role": "rep",
+  "territory": [
+   "MI",
+   "IL"
+  ]
+ },
+ {
+  "rep_id": "carla",
+  "name": "Carla Jensen",
+  "role": "rep",
+  "territory": [
+   "CO",
+   "MA"
+  ]
+ },
+ {
+  "rep_id": "dana",
+  "name": "Dana Whitfield",
+  "role": "manager",
+  "territory": []
+ }
+]
