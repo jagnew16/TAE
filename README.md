@@ -9,6 +9,7 @@ This repo has a working prototype of the agents, built on the
 
 ## Where things are
 
+- [`AGENTS.md`](AGENTS.md): how to use and change the agents. AI assistants working in this repo should read this first.
 - [`docs/business-requirements.md`](docs/business-requirements.md): what we're building. Start here.
 - [`docs/agent-design.md`](docs/agent-design.md): how the agents are split up, what each one does,
   which rules are enforced in code, and the path to production.
